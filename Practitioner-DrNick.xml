@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="DrNick"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>name</b>: Nick Riviera </p><p><b>gender</b>: male</p></div>
+  </text>
+  <name>
+    <family value="Riviera"/>
+    <given value="Nick"/>
+  </name>
+  <gender value="male"/>
+</Practitioner>

@@ -1,0 +1,12 @@
+{
+  "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree",
+  "name": "GA4GHPedigreeIG",
+  "package-id": "ga4gh.fhir.pedigree",
+  "ig-ver": "0.1.0",
+  "date": "Fri, 16 Apr, 2021 14:37:32 +1000",
+  "errs": 0,
+  "warnings": 0,
+  "hints": 3,
+  "version": "4.0.1",
+  "tool": "4.5.0 (3)"
+}

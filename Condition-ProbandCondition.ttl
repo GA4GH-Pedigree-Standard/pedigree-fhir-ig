@@ -1,0 +1,33 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/ProbandCondition> a fhir:Condition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ProbandCondition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/hp.fhir HP:0007240}\">HP:0007240</span></p><p><b>subject</b>: <a href=\"Patient-Proband.html\">Generated Summary: id: 3; gender: female</a></p></div>"
+  ];
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/hp.fhir" ];
+       fhir:Coding.code [ fhir:value "HP:0007240" ]
+     ]
+  ];
+  fhir:Condition.subject [
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+     fhir:Reference.reference [ fhir:value "Patient/Proband" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/ProbandCondition.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

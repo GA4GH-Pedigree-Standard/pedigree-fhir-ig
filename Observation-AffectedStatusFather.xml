@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="AffectedStatusFather"/>
+  <meta>
+    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 103309006}">Patient affected</span></p><p><b>subject</b>: <a href="Patient-Father.html">Generated Summary: id: 2; gender: male</a></p><p><b>value</b>: true</p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="103309006"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/Father"/>
+  </subject>
+  <valueBoolean value="true"/>
+</Observation>

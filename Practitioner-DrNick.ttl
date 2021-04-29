@@ -1,0 +1,31 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick> a fhir:Practitioner;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "DrNick"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Nick Riviera </p><p><b>gender</b>: male</p></div>"
+  ];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Riviera" ];
+     fhir:HumanName.given [
+       fhir:value "Nick";
+       fhir:index 0
+     ]
+  ];
+  fhir:Practitioner.gender [ fhir:value "male"] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

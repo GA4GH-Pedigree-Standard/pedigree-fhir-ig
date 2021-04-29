@@ -1,0 +1,146 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/TrioPedigree> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "TrioPedigree"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree";
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 422432008}\">Family history section</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href=\"Organization-MelbourneGenomics.html\">Generated Summary: name: Melbourne Genomics</a></p><p><b>title</b>: Pedigree</p></div>"
+  ];
+  fhir:Composition.status [ fhir:value "final"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:422432008;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "422432008" ]
+     ]
+  ];
+  fhir:Composition.subject [
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+     fhir:Reference.reference [ fhir:value "Patient/Proband" ]
+  ];
+  fhir:Composition.date [ fhir:value "2021-02-10"^^xsd:date];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/MelbourneGenomics>;
+     fhir:Reference.reference [ fhir:value "Organization/MelbourneGenomics" ]
+  ];
+  fhir:Composition.title [ fhir:value "Pedigree"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Proband" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "proband" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+       fhir:Reference.reference [ fhir:value "Patient/Proband" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Reason" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "reason" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/ProbandCondition>;
+       fhir:Reference.reference [ fhir:value "Condition/ProbandCondition" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Composition.section.title [ fhir:value "Individuals" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "individuals" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+       fhir:Reference.reference [ fhir:value "Patient/Proband" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Mother>;
+       fhir:Reference.reference [ fhir:value "Patient/Mother" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Father>;
+       fhir:Reference.reference [ fhir:value "Patient/Father" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Composition.section.title [ fhir:value "Relationships" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "relationships" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/ProbandFatherRelationship>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/ProbandFatherRelationship" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/ProbandMotherRelationship>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/ProbandMotherRelationship" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Composition.section.title [ fhir:value "Other" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "other" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/FatherFirstCondition>;
+       fhir:Reference.reference [ fhir:value "Condition/FatherFirstCondition" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/FatherSecondCondition>;
+       fhir:Reference.reference [ fhir:value "Condition/FatherSecondCondition" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/MelbourneGenomics>;
+       fhir:Reference.reference [ fhir:value "Organization/MelbourneGenomics" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/TrioPedigree.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

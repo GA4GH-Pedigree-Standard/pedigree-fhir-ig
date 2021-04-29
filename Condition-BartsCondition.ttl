@@ -1,0 +1,35 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/BartsCondition> a fhir:Condition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BartsCondition"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 406506008}\">Attention deficit hyperactivity disorder</span></p><p><b>subject</b>: <a href=\"Patient-Bart.html\">Generated Summary: id: 1; gender: male; </a></p></div>"
+  ];
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:406506008;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "406506008" ]
+     ]
+  ];
+  fhir:Condition.subject [
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+     fhir:Reference.reference [ fhir:value "Patient/Bart" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/BartsCondition.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

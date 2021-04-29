@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "SectionType"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">proband<a name=\"SectionType-proband\"> </a></td><td>Proband</td></tr><tr><td style=\"white-space:nowrap\">reason<a name=\"SectionType-reason\"> </a></td><td>Reason</td></tr><tr><td style=\"white-space:nowrap\">individuals<a name=\"SectionType-individuals\"> </a></td><td>Individuals</td></tr><tr><td style=\"white-space:nowrap\">relationships<a name=\"SectionType-relationships\"> </a></td><td>Relationships</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"SectionType-other\"> </a></td><td>Other</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "SectionType"];
+  fhir:CodeSystem.title [ fhir:value "Section Type"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-04-16T14:37:32+10:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Represents the different types of sections in a pedigree."];
+  fhir:CodeSystem.copyright [ fhir:value "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "proband" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Proband" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "reason" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reason" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "individuals" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Individuals" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "relationships" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Relationships" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

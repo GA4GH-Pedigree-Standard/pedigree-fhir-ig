@@ -1,0 +1,26 @@
+{
+  "resourceType": "Observation",
+  "id": "AffectedStatusMother",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 103309006}\">Patient affected</span></p><p><b>subject</b>: <a href=\"Patient-Mother.html\">Generated Summary: id: 1; gender: female</a></p><p><b>value</b>: false</p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "103309006"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Mother"
+  },
+  "valueBoolean": false
+}

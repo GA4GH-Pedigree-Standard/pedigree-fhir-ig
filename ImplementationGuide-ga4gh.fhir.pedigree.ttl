@@ -1,0 +1,852 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree> a fhir:ImplementationGuide;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ga4gh.fhir.pedigree"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>GA4GHPedigreeIG</h2><p>The official URL for this implementation guide is: </p><pre>http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree</pre><div><p>FHIR implementation guide for the Global Alliance for Genomics and Health Pedigree standard.</p>\n</div></div>"
+  ];
+  fhir:ImplementationGuide.url [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree"];
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.name [ fhir:value "GA4GHPedigreeIG"];
+  fhir:ImplementationGuide.title [ fhir:value "GA4GH Pedigree FHIR Implementation Guide"];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-16T14:37:32+10:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
+  fhir:ImplementationGuide.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/" ]
+     ]
+  ];
+  fhir:ImplementationGuide.description [ fhir:value "FHIR implementation guide for the Global Alliance for Genomics and Health Pedigree standard."];
+  fhir:ImplementationGuide.copyright [ fhir:value "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"];
+  fhir:ImplementationGuide.packageId [ fhir:value "ga4gh.fhir.pedigree"];
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1";
+     fhir:index 0
+  ];
+  fhir:ImplementationGuide.definition [
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "copyrightyear" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "2021+" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "releaselabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-qa" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/qa" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-temp" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/pages" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-output" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "output" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-suppressed-warnings" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-history" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/history.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-html" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-md" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page-md.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-context" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-license" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-publisher" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-version" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "active-tables" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ];
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/AffectedStatus" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Affected Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Whether or not the individual is affected by the condition being investigated in this pedigree; included for PED backwards compatibility." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Pedigree" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Pedigree is collection of selected information about a family, including the individuals, relationships between them, and relevant health conditions." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PedigreeIndividual" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree Individual" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Represents and individual in a pedigree." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PedigreeRelationship" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree Relationship" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Represents a relationship between individuals in a pedigree." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/patient-unborn" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Unborn" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Indicates if an individual in a pedigree hasn't been born yet." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes>;
+         fhir:Reference.reference [ fhir:value "ValueSet/PedigreeRelationshipTypes" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree Relationship Types" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The types of relationships between individuals in a pedigree." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SectionType" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Section Type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Represents the different types of sections in a pedigree." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Abe>;
+         fhir:Reference.reference [ fhir:value "Patient/Abe" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Abe" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Abe is Homer's father." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Observation/AffectedStatusFather>;
+         fhir:Reference.reference [ fhir:value "Observation/AffectedStatusFather" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Affected Status Father" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The affected status of the father." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus>
+       ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Observation/AffectedStatusMother>;
+         fhir:Reference.reference [ fhir:value "Observation/AffectedStatusMother" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Affected Status Mother" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The affected status of the mother." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus>
+       ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Observation/AffectedStatusProband>;
+         fhir:Reference.reference [ fhir:value "Observation/AffectedStatusProband" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Affected Status Proband" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The affected status of the proband." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus>
+       ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+         fhir:Reference.reference [ fhir:value "Patient/Bart" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bart" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bart is the proband and consultand." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/BartHomerRelationship>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/BartHomerRelationship" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bart-Homer Relationship" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The relationship between Bart and his father." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/BartMargeRelationship>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/BartMargeRelationship" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bart-Marge Relationship" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The relationship between Bart and his mother." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/BartsCondition>;
+         fhir:Reference.reference [ fhir:value "Condition/BartsCondition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bart's condition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Attention deficit hyperactivity disorder, the condition that triggered the collection of this pedigree." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick>;
+         fhir:Reference.reference [ fhir:value "Practitioner/DrNick" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dr Nick" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dr Nick, author of this pedigree." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Father>;
+         fhir:Reference.reference [ fhir:value "Patient/Father" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Father" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The father in the trio." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/FatherFirstCondition>;
+         fhir:Reference.reference [ fhir:value "Condition/FatherFirstCondition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Father First Condition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Cardiomegaly, the first condition suffered by the father." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/FatherSecondCondition>;
+         fhir:Reference.reference [ fhir:value "Condition/FatherSecondCondition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Father Second Condition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Shuffling gait, the second condition suffered by the father." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Homer>;
+         fhir:Reference.reference [ fhir:value "Patient/Homer" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Homer" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Homer is Bart's father and Marge's husband." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/HomerAbeRelationship>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/HomerAbeRelationship" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Homer-Abe Relationship" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The relationship between Homer and his father." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Marge>;
+         fhir:Reference.reference [ fhir:value "Patient/Marge" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Marge" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marge is Bart's mother and Homer's wife." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/MargeHomerRelationship>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/MargeHomerRelationship" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Marge-Homer Relationship" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The relationship between Marge and her husband." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/MelbourneGenomics>;
+         fhir:Reference.reference [ fhir:value "Organization/MelbourneGenomics" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Melbourne Genomics" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Melbourne Genomics organisation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Mother>;
+         fhir:Reference.reference [ fhir:value "Patient/Mother" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mother" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The mother in the trio." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+         fhir:Reference.reference [ fhir:value "Patient/Proband" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Proband" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The proband in the trio." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/ProbandCondition>;
+         fhir:Reference.reference [ fhir:value "Condition/ProbandCondition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Proband Condition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Progressive gait ataxia, the condition suffered by the proband." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/ProbandFatherRelationship>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/ProbandFatherRelationship" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Proband Father Relationship" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The relationship between the proband and her father." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/ProbandMotherRelationship>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/ProbandMotherRelationship" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Proband Mother Relationship" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The relationship between the proband and her mother." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/SimpsonsPedigree>;
+         fhir:Reference.reference [ fhir:value "Composition/SimpsonsPedigree" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Simpson's pedigree" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A pedigree of the Simpson's family." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>
+       ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/TrioPedigree>;
+         fhir:Reference.reference [ fhir:value "Composition/TrioPedigree" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "The trio's pedigree" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A pedigree of the trio." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>
+       ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/PedigreeRelationships" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree Relationships" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Code system for pedigree realtionship types." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ];
+     fhir:ImplementationGuide.definition.page [
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+       fhir:ImplementationGuide.definition.page.page [
+         fhir:index 0;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ]
+     ];
+     fhir:ImplementationGuide.definition.parameter [
+       fhir:index 0;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+     ], [
+       fhir:index 1;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+     ], [
+       fhir:index 2;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+     ], [
+       fhir:index 3;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+     ], [
+       fhir:index 4;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+     ], [
+       fhir:index 5;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+     ], [
+       fhir:index 6;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+     ], [
+       fhir:index 7;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+     ], [
+       fhir:index 8;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
+     ], [
+       fhir:index 9;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/testing" ]
+     ], [
+       fhir:index 10;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/history" ]
+     ], [
+       fhir:index 11;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "fsh-generated/resources" ]
+     ], [
+       fhir:index 12;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+     ], [
+       fhir:index 13;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index 14;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

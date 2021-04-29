@@ -1,0 +1,52 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SectionType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">proband<a name=\"SectionType-proband\"> </a></td><td>Proband</td></tr><tr><td style=\"white-space:nowrap\">reason<a name=\"SectionType-reason\"> </a></td><td>Reason</td></tr><tr><td style=\"white-space:nowrap\">individuals<a name=\"SectionType-individuals\"> </a></td><td>Individuals</td></tr><tr><td style=\"white-space:nowrap\">relationships<a name=\"SectionType-relationships\"> </a></td><td>Relationships</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"SectionType-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+  "version": "0.1.0",
+  "name": "SectionType",
+  "title": "Section Type",
+  "status": "active",
+  "date": "2021-04-16T14:37:32+10:00",
+  "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+  "contact": [
+    {
+      "name": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
+        }
+      ]
+    }
+  ],
+  "description": "Represents the different types of sections in a pedigree.",
+  "copyright": "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "proband",
+      "display": "Proband"
+    },
+    {
+      "code": "reason",
+      "display": "Reason"
+    },
+    {
+      "code": "individuals",
+      "display": "Individuals"
+    },
+    {
+      "code": "relationships",
+      "display": "Relationships"
+    },
+    {
+      "code": "other",
+      "display": "Other"
+    }
+  ]
+}

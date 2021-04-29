@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Observation/AffectedStatusFather> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "AffectedStatusFather"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus";
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 103309006}\">Patient affected</span></p><p><b>subject</b>: <a href=\"Patient-Father.html\">Generated Summary: id: 2; gender: male</a></p><p><b>value</b>: true</p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:103309006;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "103309006" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Father>;
+     fhir:Reference.reference [ fhir:value "Patient/Father" ]
+  ];
+  fhir:Observation.valueBoolean [ fhir:value "true"^^xsd:boolean] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Observation/AffectedStatusFather.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

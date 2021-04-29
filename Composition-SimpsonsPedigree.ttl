@@ -1,0 +1,146 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/SimpsonsPedigree> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "SimpsonsPedigree"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree";
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 422432008}\">Family history section</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href=\"Practitioner-DrNick.html\">Generated Summary: Nick Riviera ; gender: male</a></p><p><b>title</b>: Pedigree</p></div>"
+  ];
+  fhir:Composition.status [ fhir:value "final"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:422432008;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "422432008" ]
+     ]
+  ];
+  fhir:Composition.subject [
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+     fhir:Reference.reference [ fhir:value "Patient/Bart" ]
+  ];
+  fhir:Composition.date [ fhir:value "2021-02-10"^^xsd:date];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick>;
+     fhir:Reference.reference [ fhir:value "Practitioner/DrNick" ]
+  ];
+  fhir:Composition.title [ fhir:value "Pedigree"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Proband" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "proband" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+       fhir:Reference.reference [ fhir:value "Patient/Bart" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Reason" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "reason" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/BartsCondition>;
+       fhir:Reference.reference [ fhir:value "Condition/BartsCondition" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Composition.section.title [ fhir:value "Individuals" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "individuals" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+       fhir:Reference.reference [ fhir:value "Patient/Bart" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Marge>;
+       fhir:Reference.reference [ fhir:value "Patient/Marge" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Homer>;
+       fhir:Reference.reference [ fhir:value "Patient/Homer" ]
+     ], [
+       fhir:index 3;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Abe>;
+       fhir:Reference.reference [ fhir:value "Patient/Abe" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Composition.section.title [ fhir:value "Relationships" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "relationships" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/BartMargeRelationship>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/BartMargeRelationship" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/BartHomerRelationship>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/BartHomerRelationship" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/HomerAbeRelationship>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/HomerAbeRelationship" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Composition.section.title [ fhir:value "Other" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "other" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick>;
+       fhir:Reference.reference [ fhir:value "Practitioner/DrNick" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/SimpsonsPedigree.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

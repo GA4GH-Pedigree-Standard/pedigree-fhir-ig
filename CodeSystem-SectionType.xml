@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SectionType"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">proband<a name="SectionType-proband"> </a></td><td>Proband</td></tr><tr><td style="white-space:nowrap">reason<a name="SectionType-reason"> </a></td><td>Reason</td></tr><tr><td style="white-space:nowrap">individuals<a name="SectionType-individuals"> </a></td><td>Individuals</td></tr><tr><td style="white-space:nowrap">relationships<a name="SectionType-relationships"> </a></td><td>Relationships</td></tr><tr><td style="white-space:nowrap">other<a name="SectionType-other"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+  <version value="0.1.0"/>
+  <name value="SectionType"/>
+  <title value="Section Type"/>
+  <status value="active"/>
+  <date value="2021-04-16T14:37:32+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+  <contact>
+    <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+    </telecom>
+  </contact>
+  <description value="Represents the different types of sections in a pedigree."/>
+  <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="proband"/>
+    <display value="Proband"/>
+  </concept>
+  <concept>
+    <code value="reason"/>
+    <display value="Reason"/>
+  </concept>
+  <concept>
+    <code value="individuals"/>
+    <display value="Individuals"/>
+  </concept>
+  <concept>
+    <code value="relationships"/>
+    <display value="Relationships"/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

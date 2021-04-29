@@ -1,0 +1,20 @@
+{
+  "resourceType": "Patient",
+  "id": "Mother",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 1</p><p><b>gender</b>: female</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:fdc:labtec.genovic.org.au:2018:id/patient",
+      "value": "1"
+    }
+  ],
+  "gender": "female"
+}

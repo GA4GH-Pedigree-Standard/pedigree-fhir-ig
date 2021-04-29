@@ -1,0 +1,129 @@
+{
+  "resourceType": "Composition",
+  "id": "TrioPedigree",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 422432008}\">Family history section</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href=\"Organization-MelbourneGenomics.html\">Generated Summary: name: Melbourne Genomics</a></p><p><b>title</b>: Pedigree</p></div>"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "422432008"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Proband"
+  },
+  "date": "2021-02-10",
+  "author": [
+    {
+      "reference": "Organization/MelbourneGenomics"
+    }
+  ],
+  "title": "Pedigree",
+  "section": [
+    {
+      "title": "Proband",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "proband"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Patient/Proband"
+        }
+      ]
+    },
+    {
+      "title": "Reason",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "reason"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Condition/ProbandCondition"
+        }
+      ]
+    },
+    {
+      "title": "Individuals",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "individuals"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Patient/Proband"
+        },
+        {
+          "reference": "Patient/Mother"
+        },
+        {
+          "reference": "Patient/Father"
+        }
+      ]
+    },
+    {
+      "title": "Relationships",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "relationships"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "FamilyMemberHistory/ProbandFatherRelationship"
+        },
+        {
+          "reference": "FamilyMemberHistory/ProbandMotherRelationship"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "other"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Condition/FatherFirstCondition"
+        },
+        {
+          "reference": "Condition/FatherSecondCondition"
+        },
+        {
+          "reference": "Organization/MelbourneGenomics"
+        }
+      ]
+    }
+  ]
+}

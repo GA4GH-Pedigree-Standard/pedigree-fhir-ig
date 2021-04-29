@@ -1,0 +1,112 @@
+﻿GA4GHPedigreeIG : Validation Results
+=========================================
+
+err = 0, warn = 0, info = 3
+IG Publisher Version: 1.1.66
+Generated Fri Apr 16 14:37:47 AEST 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigree#0.1.0 (canonical = http://ga4gh-cp.github.io/pedigree-fhir-ig)
+
+ Build Errors : 0 / 0 / 0
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/ImplementationGuide-ga4gh.fhir.pedigree : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/codesystem-SectionType : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/composition-SimpsonsPedigree : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/composition-TrioPedigree : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/condition-BartsCondition : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/condition-FatherFirstCondition : 0 / 0 / 2
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/condition-FatherSecondCondition : 0 / 0 / 2
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/condition-ProbandCondition : 0 / 0 / 2
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/familymemberhistory-BartHomerRelationship : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/familymemberhistory-BartMargeRelationship : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/familymemberhistory-HomerAbeRelationship : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/familymemberhistory-MargeHomerRelationship : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/familymemberhistory-ProbandFatherRelationship : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/familymemberhistory-ProbandMotherRelationship : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/observation-AffectedStatusFather : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/observation-AffectedStatusMother : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/observation-AffectedStatusProband : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/organization-MelbourneGenomics : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/patient-Abe : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/patient-Bart : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/patient-Father : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/patient-Homer : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/patient-Marge : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/patient-Mother : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/patient-Proband : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/practitioner-DrNick : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/structuredefinition-AffectedStatus : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/structuredefinition-Pedigree : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/structuredefinition-PedigreeIndividual : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/structuredefinition-PedigreeRelationship : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/structuredefinition-patient-unborn : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/valueset-PedigreeRelationshipTypes : 0 / 0 / 1
+ /Users/met045/IdeaProjects/pedigree-fhir-ig/input/vocabulary/codesystem-PedigreeRelationships : 0 / 0 / 1
+</table>
+== n/a ==
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/ImplementationGuide-ga4gh.fhir.pedigree.json ==
+INFORMATION: ImplementationGuide/ga4gh.fhir.pedigree: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/CodeSystem-SectionType.json ==
+INFORMATION: CodeSystem/SectionType: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Composition-SimpsonsPedigree.json ==
+INFORMATION: Composition/SimpsonsPedigree: Composition: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Composition-TrioPedigree.json ==
+INFORMATION: Composition/TrioPedigree: Composition: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Condition-BartsCondition.json ==
+INFORMATION: Condition/BartsCondition: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Condition-FatherFirstCondition.json ==
+INFORMATION: Condition/FatherFirstCondition: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+INFORMATION: Condition/FatherFirstCondition: Condition.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.fhir' is unknown so the code cannot be validated
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Condition-FatherSecondCondition.json ==
+INFORMATION: Condition/FatherSecondCondition: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+INFORMATION: Condition/FatherSecondCondition: Condition.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.fhir' is unknown so the code cannot be validated
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Condition-ProbandCondition.json ==
+INFORMATION: Condition/ProbandCondition: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+INFORMATION: Condition/ProbandCondition: Condition.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.fhir' is unknown so the code cannot be validated
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartHomerRelationship.json ==
+INFORMATION: FamilyMemberHistory/BartHomerRelationship: FamilyMemberHistory: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartMargeRelationship.json ==
+INFORMATION: FamilyMemberHistory/BartMargeRelationship: FamilyMemberHistory: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-HomerAbeRelationship.json ==
+INFORMATION: FamilyMemberHistory/HomerAbeRelationship: FamilyMemberHistory: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-MargeHomerRelationship.json ==
+INFORMATION: FamilyMemberHistory/MargeHomerRelationship: FamilyMemberHistory: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-ProbandFatherRelationship.json ==
+INFORMATION: FamilyMemberHistory/ProbandFatherRelationship: FamilyMemberHistory: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-ProbandMotherRelationship.json ==
+INFORMATION: FamilyMemberHistory/ProbandMotherRelationship: FamilyMemberHistory: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Observation-AffectedStatusFather.json ==
+INFORMATION: Observation/AffectedStatusFather: Observation: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Observation-AffectedStatusMother.json ==
+INFORMATION: Observation/AffectedStatusMother: Observation: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Observation-AffectedStatusProband.json ==
+INFORMATION: Observation/AffectedStatusProband: Observation: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Organization-MelbourneGenomics.json ==
+INFORMATION: Organization/MelbourneGenomics: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Patient-Abe.json ==
+INFORMATION: Patient/Abe: Patient: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Patient-Bart.json ==
+INFORMATION: Patient/Bart: Patient: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Patient-Father.json ==
+INFORMATION: Patient/Father: Patient: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Patient-Homer.json ==
+INFORMATION: Patient/Homer: Patient: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Patient-Marge.json ==
+INFORMATION: Patient/Marge: Patient: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Patient-Mother.json ==
+INFORMATION: Patient/Mother: Patient: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Patient-Proband.json ==
+INFORMATION: Patient/Proband: Patient: Validate resource against profile http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/Practitioner-DrNick.json ==
+INFORMATION: Practitioner/DrNick: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-AffectedStatus.json ==
+INFORMATION: StructureDefinition/AffectedStatus: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-Pedigree.json ==
+INFORMATION: StructureDefinition/Pedigree: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-PedigreeIndividual.json ==
+INFORMATION: StructureDefinition/PedigreeIndividual: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-PedigreeRelationship.json ==
+INFORMATION: StructureDefinition/PedigreeRelationship: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-patient-unborn.json ==
+INFORMATION: StructureDefinition/patient-unborn: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/fsh-generated/resources/ValueSet-PedigreeRelationshipTypes.json ==
+INFORMATION: ValueSet/PedigreeRelationshipTypes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/IdeaProjects/pedigree-fhir-ig/input/vocabulary/CodeSystem-PedigreeRelationships.json ==
+INFORMATION: CodeSystem/PedigreeRelationships: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem

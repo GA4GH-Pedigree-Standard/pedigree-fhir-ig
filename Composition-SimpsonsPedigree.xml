@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="SimpsonsPedigree"/>
+  <meta>
+    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 422432008}">Family history section</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href="Practitioner-DrNick.html">Generated Summary: Nick Riviera ; gender: male</a></p><p><b>title</b>: Pedigree</p></div>
+  </text>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="422432008"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/Bart"/>
+  </subject>
+  <date value="2021-02-10"/>
+  <author>
+    <reference value="Practitioner/DrNick"/>
+  </author>
+  <title value="Pedigree"/>
+  <section>
+    <title value="Proband"/>
+    <code>
+      <coding>
+        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <code value="proband"/>
+      </coding>
+    </code>
+    <entry>
+      <reference value="Patient/Bart"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Reason"/>
+    <code>
+      <coding>
+        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <code value="reason"/>
+      </coding>
+    </code>
+    <entry>
+      <reference value="Condition/BartsCondition"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Individuals"/>
+    <code>
+      <coding>
+        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <code value="individuals"/>
+      </coding>
+    </code>
+    <entry>
+      <reference value="Patient/Bart"/>
+    </entry>
+    <entry>
+      <reference value="Patient/Marge"/>
+    </entry>
+    <entry>
+      <reference value="Patient/Homer"/>
+    </entry>
+    <entry>
+      <reference value="Patient/Abe"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Relationships"/>
+    <code>
+      <coding>
+        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <code value="relationships"/>
+      </coding>
+    </code>
+    <entry>
+      <reference value="FamilyMemberHistory/BartMargeRelationship"/>
+    </entry>
+    <entry>
+      <reference value="FamilyMemberHistory/BartHomerRelationship"/>
+    </entry>
+    <entry>
+      <reference value="FamilyMemberHistory/HomerAbeRelationship"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Other"/>
+    <code>
+      <coding>
+        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <code value="other"/>
+      </coding>
+    </code>
+    <entry>
+      <reference value="Practitioner/DrNick"/>
+    </entry>
+  </section>
+</Composition>

@@ -1,0 +1,17 @@
+{
+  "resourceType": "Practitioner",
+  "id": "DrNick",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Nick Riviera </p><p><b>gender</b>: male</p></div>"
+  },
+  "name": [
+    {
+      "family": "Riviera",
+      "given": [
+        "Nick"
+      ]
+    }
+  ],
+  "gender": "male"
+}

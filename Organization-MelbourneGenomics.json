@@ -1,0 +1,9 @@
+{
+  "resourceType": "Organization",
+  "id": "MelbourneGenomics",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Melbourne Genomics</p></div>"
+  },
+  "name": "Melbourne Genomics"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="Proband"/>
+  <meta>
+    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 3</p><p><b>gender</b>: female</p></div>
+  </text>
+  <identifier>
+    <system value="urn:fdc:labtec.genovic.org.au:2018:id/patient"/>
+    <value value="3"/>
+  </identifier>
+  <gender value="female"/>
+</Patient>

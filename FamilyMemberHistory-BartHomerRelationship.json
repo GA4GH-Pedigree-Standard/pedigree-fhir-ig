@@ -1,0 +1,39 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "BartHomerRelationship",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-Homer.html\">Generated Summary: id: 2; gender: male; </a></p><p><b>identifier</b>: id: bart_homer</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-Bart.html\">Generated Summary: id: 1; gender: male; </a></p><p><b>relationship</b>: <span title=\"Codes: {http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record",
+      "valueReference": {
+        "reference": "Patient/Homer"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "urn:fdc:sprinfieldlab.net:2021:id/relationship",
+      "value": "bart_homer"
+    }
+  ],
+  "status": "completed",
+  "patient": {
+    "reference": "Patient/Bart"
+  },
+  "relationship": {
+    "coding": [
+      {
+        "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+        "code": "REL:003"
+      }
+    ]
+  }
+}

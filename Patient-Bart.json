@@ -1,0 +1,27 @@
+{
+  "resourceType": "Patient",
+  "id": "Bart",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Unborn</b>: false</p><p><b>identifier</b>: id: 1</p><p><b>gender</b>: male</p><p><b>deceased</b>: false</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn",
+      "valueBoolean": false
+    }
+  ],
+  "identifier": [
+    {
+      "system": "urn:fdc:sprinfieldlab.net:2021:id/patient",
+      "value": "1"
+    }
+  ],
+  "gender": "male",
+  "deceasedBoolean": false
+}

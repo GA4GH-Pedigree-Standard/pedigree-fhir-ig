@@ -1,0 +1,129 @@
+{
+  "resourceType": "Composition",
+  "id": "SimpsonsPedigree",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 422432008}\">Family history section</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href=\"Practitioner-DrNick.html\">Generated Summary: Nick Riviera ; gender: male</a></p><p><b>title</b>: Pedigree</p></div>"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "422432008"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Bart"
+  },
+  "date": "2021-02-10",
+  "author": [
+    {
+      "reference": "Practitioner/DrNick"
+    }
+  ],
+  "title": "Pedigree",
+  "section": [
+    {
+      "title": "Proband",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "proband"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Patient/Bart"
+        }
+      ]
+    },
+    {
+      "title": "Reason",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "reason"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Condition/BartsCondition"
+        }
+      ]
+    },
+    {
+      "title": "Individuals",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "individuals"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Patient/Bart"
+        },
+        {
+          "reference": "Patient/Marge"
+        },
+        {
+          "reference": "Patient/Homer"
+        },
+        {
+          "reference": "Patient/Abe"
+        }
+      ]
+    },
+    {
+      "title": "Relationships",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "relationships"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "FamilyMemberHistory/BartMargeRelationship"
+        },
+        {
+          "reference": "FamilyMemberHistory/BartHomerRelationship"
+        },
+        {
+          "reference": "FamilyMemberHistory/HomerAbeRelationship"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "other"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Practitioner/DrNick"
+        }
+      ]
+    }
+  ]
+}

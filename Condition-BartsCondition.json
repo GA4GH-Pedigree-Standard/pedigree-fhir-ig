@@ -1,0 +1,19 @@
+{
+  "resourceType": "Condition",
+  "id": "BartsCondition",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 406506008}\">Attention deficit hyperactivity disorder</span></p><p><b>subject</b>: <a href=\"Patient-Bart.html\">Generated Summary: id: 1; gender: male; </a></p></div>"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "406506008"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Bart"
+  }
+}

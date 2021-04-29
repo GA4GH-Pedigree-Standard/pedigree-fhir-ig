@@ -1,0 +1,527 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "PedigreeRelationships"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">REL:001</td><td>Relative</td></tr><tr><td style=\"white-space:nowrap\">REL:002</td><td>Biological relative</td></tr><tr><td style=\"white-space:nowrap\">REL:003</td><td>Biological parent</td></tr><tr><td style=\"white-space:nowrap\">REL:004</td><td>Sperm / ovum donor</td></tr><tr><td style=\"white-space:nowrap\">REL:005</td><td>Gestational carrier</td></tr><tr><td style=\"white-space:nowrap\">REL:006</td><td>Surrogate ovum donor</td></tr><tr><td style=\"white-space:nowrap\">REL:007</td><td>Biological sibling</td></tr><tr><td style=\"white-space:nowrap\">REL:008</td><td>Full sibling</td></tr><tr><td style=\"white-space:nowrap\">REL:009</td><td>Twin</td></tr><tr><td style=\"white-space:nowrap\">REL:010</td><td>Monozygotic twin</td></tr><tr><td style=\"white-space:nowrap\">REL:011</td><td>Polyzygotic twin</td></tr><tr><td style=\"white-space:nowrap\">REL:012</td><td>Half-sibling</td></tr><tr><td style=\"white-space:nowrap\">REL:013</td><td>Uncle</td></tr><tr><td style=\"white-space:nowrap\">REL:014</td><td>Cousin</td></tr><tr><td style=\"white-space:nowrap\">REL:015</td><td>Maternal cousin</td></tr><tr><td style=\"white-space:nowrap\">REL:016</td><td>Paternal cousin</td></tr><tr><td style=\"white-space:nowrap\">REL:017</td><td>Grandparent</td></tr><tr><td style=\"white-space:nowrap\">REL:018</td><td>Great-grandparent</td></tr><tr><td style=\"white-space:nowrap\">REL:019</td><td>Social / legal relative</td></tr><tr><td style=\"white-space:nowrap\">REL:020</td><td>Parent figure</td></tr><tr><td style=\"white-space:nowrap\">REL:021</td><td>Foster parent</td></tr><tr><td style=\"white-space:nowrap\">REL:022</td><td>Adoptive parent</td></tr><tr><td style=\"white-space:nowrap\">REL:023</td><td>Step-parent</td></tr><tr><td style=\"white-space:nowrap\">REL:024</td><td>Sibling figure</td></tr><tr><td style=\"white-space:nowrap\">REL:025</td><td>Step-sibling</td></tr><tr><td style=\"white-space:nowrap\">REL:026</td><td>Significant other</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "PedigreeRelationships"];
+  fhir:CodeSystem.title [ fhir:value "Pedigree Relationships"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2021-02-09T09:53:53+10:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Code system for pedigree realtionship types."];
+  fhir:CodeSystem.copyright [ fhir:value "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.valueSet [
+     fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships?vs";
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships?vs>
+  ];
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"];
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.versionNeeded [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "26"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.filter [
+     fhir:index 0;
+     fhir:CodeSystem.filter.code [ fhir:value "root" ];
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=";
+       fhir:index 0
+     ];
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.filter.code [ fhir:value "deprecated" ];
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=";
+       fhir:index 0
+     ];
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ];
+  fhir:CodeSystem.property [
+     fhir:index 0;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ];
+     fhir:CodeSystem.property.description [ fhir:value "Parent codes." ];
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.property.code [ fhir:value "root" ];
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)" ];
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.property.code [ fhir:value "deprecated" ];
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if this concept is deprecated." ];
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:001" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Relative" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:002" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Biological relative" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:001" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Biological parent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:002" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:004" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sperm / ovum donor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:003" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:005" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gestational carrier" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:003" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:006" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Surrogate ovum donor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:004" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:005" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:007" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Biological sibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:002" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:008" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Full sibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:007" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:009" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Twin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:008" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:010" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Monozygotic twin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:009" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:011" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Polyzygotic twin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:009" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:012" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Half-sibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:007" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:013" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Uncle" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:002" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:014" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cousin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:002" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:015" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Maternal cousin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:014" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:016" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Paternal cousin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:014" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:017" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Grandparent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:002" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:018" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Great-grandparent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:002" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:019" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social / legal relative" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:001" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:020" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Parent figure" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:019" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:021" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Foster parent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:020" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:022" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Adoptive parent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:020" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:023" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Step-parent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:020" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:024" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sibling figure" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:019" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:025" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Step-sibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:024" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "REL:026" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Significant other" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "REL:019" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

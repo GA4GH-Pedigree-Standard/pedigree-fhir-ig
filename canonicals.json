@@ -1,0 +1,65 @@
+[
+  {
+    "id": "PedigreeRelationships",
+    "type": "CodeSystem",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+    "version": "0.1.0",
+    "name": "PedigreeRelationships"
+  },
+  {
+    "id": "SectionType",
+    "type": "CodeSystem",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+    "version": "0.1.0",
+    "name": "SectionType"
+  },
+  {
+    "id": "ga4gh.fhir.pedigree",
+    "type": "ImplementationGuide",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree",
+    "version": "0.1.0",
+    "name": "GA4GHPedigreeIG"
+  },
+  {
+    "id": "AffectedStatus",
+    "type": "StructureDefinition",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus",
+    "version": "0.1.0",
+    "name": "AffectedStatus"
+  },
+  {
+    "id": "Pedigree",
+    "type": "StructureDefinition",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree",
+    "version": "0.1.0",
+    "name": "Pedigree"
+  },
+  {
+    "id": "PedigreeIndividual",
+    "type": "StructureDefinition",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual",
+    "version": "0.1.0",
+    "name": "PedigreeIndividual"
+  },
+  {
+    "id": "PedigreeRelationship",
+    "type": "StructureDefinition",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship",
+    "version": "0.1.0",
+    "name": "PedigreeRelationship"
+  },
+  {
+    "id": "patient-unborn",
+    "type": "StructureDefinition",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn",
+    "version": "0.1.0",
+    "name": "Unborn"
+  },
+  {
+    "id": "PedigreeRelationshipTypes",
+    "type": "ValueSet",
+    "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes",
+    "version": "0.1.0",
+    "name": "PedigreeRelationshipTypes"
+  }
+]

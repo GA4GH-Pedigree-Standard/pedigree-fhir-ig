@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FamilyMemberHistory xmlns="http://hl7.org/fhir">
+  <id value="ProbandMotherRelationship"/>
+  <meta>
+    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href="Patient-Mother.html">Generated Summary: id: 1; gender: female</a></p><p><b>identifier</b>: id: proband_mother</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-Proband.html">Generated Summary: id: 3; gender: female</a></p><p><b>relationship</b>: <span title="Codes: {http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}">Biological parent</span></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record">
+    <valueReference>
+      <reference value="Patient/Mother"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <system value="urn:fdc:labtec.genovic.org.au:2018:id/relationship"/>
+    <value value="proband_mother"/>
+  </identifier>
+  <status value="completed"/>
+  <patient>
+    <reference value="Patient/Proband"/>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+      <code value="REL:003"/>
+    </coding>
+  </relationship>
+</FamilyMemberHistory>

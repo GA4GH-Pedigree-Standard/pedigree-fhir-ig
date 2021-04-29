@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PedigreeRelationshipTypes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-PedigreeRelationships.html"><code>http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships</code></a></li></ul></div>
+  </text>
+  <url value="http://ga4gh-cp.github.io/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes"/>
+  <version value="0.1.0"/>
+  <name value="PedigreeRelationshipTypes"/>
+  <title value="Pedigree Relationship Types"/>
+  <status value="active"/>
+  <date value="2021-04-16T14:37:32+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+  <contact>
+    <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+    </telecom>
+  </contact>
+  <description value="The types of relationships between individuals in a pedigree."/>
+  <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+  <compose>
+    <include>
+      <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+    </include>
+  </compose>
+</ValueSet>

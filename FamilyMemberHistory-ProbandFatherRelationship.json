@@ -1,0 +1,39 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "ProbandFatherRelationship",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-Father.html\">Generated Summary: id: 2; gender: male</a></p><p><b>identifier</b>: id: proband_father</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-Proband.html\">Generated Summary: id: 3; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record",
+      "valueReference": {
+        "reference": "Patient/Father"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "urn:fdc:labtec.genovic.org.au:2018:id/relationship",
+      "value": "proband_father"
+    }
+  ],
+  "status": "completed",
+  "patient": {
+    "reference": "Patient/Proband"
+  },
+  "relationship": {
+    "coding": [
+      {
+        "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+        "code": "REL:003"
+      }
+    ]
+  }
+}

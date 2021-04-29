@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="Homer"/>
+  <meta>
+    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Unborn</b>: false</p><p><b>identifier</b>: id: 2</p><p><b>gender</b>: male</p><p><b>deceased</b>: false</p></div>
+  </text>
+  <extension url="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn">
+    <valueBoolean value="false"/>
+  </extension>
+  <identifier>
+    <system value="urn:fdc:sprinfieldlab.net:2021:id/patient"/>
+    <value value="2"/>
+  </identifier>
+  <gender value="male"/>
+  <deceasedBoolean value="false"/>
+</Patient>
