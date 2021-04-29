@@ -14,7 +14,6 @@
     <sch:rule context="f:FamilyMemberHistory">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:name) &lt;= 0">name: maximum cardinality of 'name' is 0</sch:assert>
       <sch:assert test="count(f:sex) &lt;= 0">sex: maximum cardinality of 'sex' is 0</sch:assert>
       <sch:assert test="count(f:born[x]) &lt;= 0">born[x]: maximum cardinality of 'born[x]' is 0</sch:assert>

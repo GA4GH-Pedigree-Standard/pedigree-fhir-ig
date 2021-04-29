@@ -3,7 +3,7 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="BartsCondition"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 406506008}">Attention deficit hyperactivity disorder</span></p><p><b>subject</b>: <a href="Patient-Bart.html">Generated Summary: id: 1; gender: male; </a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 406506008}">Attention deficit hyperactivity disorder (disorder)</span></p><p><b>subject</b>: <a href="Patient-Bart.html">Generated Summary: id: 1; gender: male; </a></p></div>
   </text>
   <code>
     <coding>

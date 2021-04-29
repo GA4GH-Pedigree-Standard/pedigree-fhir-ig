@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PedigreeIndividual"];
   fhir:StructureDefinition.title [ fhir:value "Pedigree Individual"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-16T14:37:32+10:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-29T06:32:18+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
