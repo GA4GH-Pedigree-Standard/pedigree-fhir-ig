@@ -1,0 +1,224 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/pedigree-1-pedigree-example-1> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pedigree-1-pedigree-example-1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree";
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 422432008}\">Family history section</span></p><p><b>date</b>: 2021-06-15</p><p><b>author</b>: <a href=\"Organization-pedigree-1-organization-example-1.html\">Generated Summary: id: pedigree-1-1; active; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}\">Hospital</span>; name: Amazing Children's Hospital</a></p><p><b>title</b>: Pedigree</p></div>"
+  ];
+  fhir:Composition.identifier [
+     fhir:Identifier.system [ fhir:value "urn:pedigree-fhir-ig:unique-string/pedigree" ];
+     fhir:Identifier.value [ fhir:value "pedigree-1-1" ]
+  ];
+  fhir:Composition.status [ fhir:value "final"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:422432008;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "422432008" ];
+       fhir:Coding.display [ fhir:value "Family history section" ]
+     ]
+  ];
+  fhir:Composition.subject [
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1>;
+     fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-1" ]
+  ];
+  fhir:Composition.date [ fhir:value "2021-06-15"^^xsd:date];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/pedigree-1-organization-example-1>;
+     fhir:Reference.reference [ fhir:value "Organization/pedigree-1-organization-example-1" ]
+  ];
+  fhir:Composition.title [ fhir:value "Pedigree"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Proband" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "proband" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-1" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Reason" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "reason" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/pedigree-1-condition-example-1>;
+       fhir:Reference.reference [ fhir:value "Condition/pedigree-1-condition-example-1" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Composition.section.title [ fhir:value "Individuals" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "individuals" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-1" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-2>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-2" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-3>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-3" ]
+     ], [
+       fhir:index 3;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-4>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-4" ]
+     ], [
+       fhir:index 4;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-5>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-5" ]
+     ], [
+       fhir:index 5;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-6>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-6" ]
+     ], [
+       fhir:index 6;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-7>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-7" ]
+     ], [
+       fhir:index 7;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-8>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-8" ]
+     ], [
+       fhir:index 8;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-9>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-9" ]
+     ], [
+       fhir:index 9;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-10>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-10" ]
+     ], [
+       fhir:index 10;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-11>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-11" ]
+     ], [
+       fhir:index 11;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-12>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-12" ]
+     ], [
+       fhir:index 12;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-13>;
+       fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-13" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Composition.section.title [ fhir:value "Relationships" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.code [ fhir:value "relationships" ]
+       ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-1>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-1" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-2>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-2" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-3>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-3" ]
+     ], [
+       fhir:index 3;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-4>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-4" ]
+     ], [
+       fhir:index 4;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-5>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-5" ]
+     ], [
+       fhir:index 5;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-6>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-6" ]
+     ], [
+       fhir:index 6;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-7>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-7" ]
+     ], [
+       fhir:index 7;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-8>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-8" ]
+     ], [
+       fhir:index 8;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-9>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-9" ]
+     ], [
+       fhir:index 9;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-10>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-10" ]
+     ], [
+       fhir:index 10;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-11>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-11" ]
+     ], [
+       fhir:index 11;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-12>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-12" ]
+     ], [
+       fhir:index 12;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-13>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-13" ]
+     ], [
+       fhir:index 13;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-14>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-14" ]
+     ], [
+       fhir:index 14;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-15>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-15" ]
+     ], [
+       fhir:index 15;
+       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-16>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-16" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/pedigree-1-pedigree-example-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

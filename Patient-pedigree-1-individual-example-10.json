@@ -1,0 +1,32 @@
+{
+  "resourceType": "Patient",
+  "id": "pedigree-1-individual-example-10",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>genderIdentity</b>: <span title=\"Codes: \">male</span></p><p><b>identifier</b>: id: pedigree-1-10</p><p><b>gender</b>: male</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "male"
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "urn:pedigree-fhir-ig:unique-string/individual",
+      "value": "pedigree-1-10"
+    }
+  ],
+  "gender": "male"
+}

@@ -168,7 +168,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Composition.event.detail","","","",0,*,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Resource]]}
 ","The event(s) being documented","The description and/or reference of the event(s) being documented. For example, this could be used to document such a colonoscopy or an appendectomy.","","","","","","","","","",,,,,"",,,,"Composition.event.detail",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=""SUBJ""].target","n/a"
-"Composition.section","","","",5,*,"","","","BackboneElement {[]} {[]}
+"Composition.section","","","",4,*,"","","","BackboneElement {[]} {[]}
 ","Composition is broken into sections","The root of the sections that make up the composition.","","","","","","","","","",,,,,"","value:code}
 ","",Y,"closed","Composition.section",0,*,"","cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}
 cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","./outboundRelationship[typeCode=""COMP"" and isNormalActRelationship()]/target[moodCode=""EVN"" and classCode=""DOCSECT"" and isNormalAct]",".component.structuredBody.component.section"
@@ -444,7 +444,7 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section.section","","","",0,*,"","","","","Nested Section","A nested sub-section within this section.","Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"Composition.section.section",0,*,"cmp-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./outboundRelationship[typeCode=""COMP"" and isNormalActRelationship()]/target[moodCode=""EVN"" and classCode=""DOCSECT"" and isNormalAct]",".component.section"
-"Composition.section","other","","",1,1,"","","","BackboneElement {[]} {[]}
+"Composition.section","other","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Composition is broken into sections","The root of the sections that make up the composition.","","","","","","","","","",,,,,"",,,,"Composition.section",0,*,"","cmp-1:A section must contain at least one of text, entries, or sub-sections {text.exists() or entry.exists() or section.exists()}
 cmp-2:A section can only have an emptyReason if it is empty {emptyReason.empty() or entry.empty()}ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}","./outboundRelationship[typeCode=""COMP"" and isNormalActRelationship()]/target[moodCode=""EVN"" and classCode=""DOCSECT"" and isNormalAct]",".component.structuredBody.component.section"
 "Composition.section.id","","","",0,1,"","","","string {[]} {[]}

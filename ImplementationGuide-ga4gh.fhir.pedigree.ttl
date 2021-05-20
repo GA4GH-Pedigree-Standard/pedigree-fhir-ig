@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GA4GHPedigreeIG"];
   fhir:ImplementationGuide.title [ fhir:value "GA4GH Pedigree FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-29T06:35:14+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-05-20T22:05:16+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -756,6 +756,528 @@
        ]
      ], [
        fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Observation/pedigree-1-affected-status-example-1>;
+         fhir:Reference.reference [ fhir:value "Observation/pedigree-1-affected-status-example-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Affected Status Example 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus>
+       ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/pedigree-1-condition-example-1>;
+         fhir:Reference.reference [ fhir:value "Condition/pedigree-1-condition-example-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Condition Example 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-10>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-10" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 10" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-11>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-11" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 11" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-12>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-12" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 12" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-13>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-13" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 13" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-2>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 2" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-3>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-3" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 3" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-4>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-4" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 4" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-5>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-5" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 5" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-6>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-6" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 6" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 43;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-7>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-7" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 7" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-8>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-8" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 8" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-9>;
+         fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-9" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Individual Example 9" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/pedigree-1-organization-example-1>;
+         fhir:Reference.reference [ fhir:value "Organization/pedigree-1-organization-example-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Organization Example 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/pedigree-1-pedigree-example-1>;
+         fhir:Reference.reference [ fhir:value "Composition/pedigree-1-pedigree-example-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Pedigree Example 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>
+       ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-1>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 1" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-10>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-10" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 10" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 50;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-11>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-11" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 11" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 51;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-12>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-12" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 12" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 52;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-13>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-13" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 13" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 53;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-14>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-14" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 14" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 54;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-15>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-15" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 15" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 55;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-16>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-16" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 16" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 56;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-2>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 2" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 57;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-3>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-3" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 3" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 58;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-4>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-4" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 4" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 59;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-5>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-5" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 5" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 60;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-6>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-6" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 6" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 61;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-7>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-7" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 7" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 62;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-8>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-8" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 8" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 63;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "FamilyMemberHistory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-9>;
+         fhir:Reference.reference [ fhir:value "FamilyMemberHistory/pedigree-1-relationship-example-9" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree 1 Relationship Example 9" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+         fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       ]
+     ], [
+       fhir:index 64;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

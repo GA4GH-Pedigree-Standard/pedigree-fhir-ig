@@ -10,7 +10,7 @@
   "name": "GA4GHPedigreeIG",
   "title": "GA4GH Pedigree FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-04-29T06:35:14+00:00",
+  "date": "2021-05-20T22:05:16+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -714,6 +714,435 @@
         "name": "The trio's pedigree",
         "description": "A pedigree of the trio.",
         "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/pedigree-1-affected-status-example-1"
+        },
+        "name": "Pedigree 1 Affected Status Example 1",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/pedigree-1-condition-example-1"
+        },
+        "name": "Pedigree 1 Condition Example 1",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-1"
+        },
+        "name": "Pedigree 1 Individual Example 1",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-10"
+        },
+        "name": "Pedigree 1 Individual Example 10",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-11"
+        },
+        "name": "Pedigree 1 Individual Example 11",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-12"
+        },
+        "name": "Pedigree 1 Individual Example 12",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-13"
+        },
+        "name": "Pedigree 1 Individual Example 13",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-2"
+        },
+        "name": "Pedigree 1 Individual Example 2",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-3"
+        },
+        "name": "Pedigree 1 Individual Example 3",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-4"
+        },
+        "name": "Pedigree 1 Individual Example 4",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-5"
+        },
+        "name": "Pedigree 1 Individual Example 5",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-6"
+        },
+        "name": "Pedigree 1 Individual Example 6",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-7"
+        },
+        "name": "Pedigree 1 Individual Example 7",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-8"
+        },
+        "name": "Pedigree 1 Individual Example 8",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/pedigree-1-individual-example-9"
+        },
+        "name": "Pedigree 1 Individual Example 9",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/pedigree-1-organization-example-1"
+        },
+        "name": "Pedigree 1 Organization Example 1",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Composition"
+          }
+        ],
+        "reference": {
+          "reference": "Composition/pedigree-1-pedigree-example-1"
+        },
+        "name": "Pedigree 1 Pedigree Example 1",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-1"
+        },
+        "name": "Pedigree 1 Relationship Example 1",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-10"
+        },
+        "name": "Pedigree 1 Relationship Example 10",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-11"
+        },
+        "name": "Pedigree 1 Relationship Example 11",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-12"
+        },
+        "name": "Pedigree 1 Relationship Example 12",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-13"
+        },
+        "name": "Pedigree 1 Relationship Example 13",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-14"
+        },
+        "name": "Pedigree 1 Relationship Example 14",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-15"
+        },
+        "name": "Pedigree 1 Relationship Example 15",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-16"
+        },
+        "name": "Pedigree 1 Relationship Example 16",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-2"
+        },
+        "name": "Pedigree 1 Relationship Example 2",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-3"
+        },
+        "name": "Pedigree 1 Relationship Example 3",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-4"
+        },
+        "name": "Pedigree 1 Relationship Example 4",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-5"
+        },
+        "name": "Pedigree 1 Relationship Example 5",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-6"
+        },
+        "name": "Pedigree 1 Relationship Example 6",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-7"
+        },
+        "name": "Pedigree 1 Relationship Example 7",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-8"
+        },
+        "name": "Pedigree 1 Relationship Example 8",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "FamilyMemberHistory"
+          }
+        ],
+        "reference": {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-9"
+        },
+        "name": "Pedigree 1 Relationship Example 9",
+        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [

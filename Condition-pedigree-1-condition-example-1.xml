@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="pedigree-1-condition-example-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>clinicalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical recurrence}">Recurrence</span></p><p><b>verificationStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>code</b>: <span title="Codes: {http://purl.obolibrary.org/obo/hp.fhir HP:0003002}">Recurrent breast cancer</span></p><p><b>bodySite</b>: <span title="Codes: {http://purl.obolibrary.org/obo/uberon.owl UBERON:0000310}">Breast</span></p><p><b>subject</b>: <a href="Patient-pedigree-1-individual-example-1.html">Generated Summary: id: pedigree-1-1; gender: female; birthDate: 2019-06-15</a></p></div>
+  </text>
+  <identifier>
+    <system value="urn:pedigree-fhir-ig:unique-string/condition"/>
+    <value value="pedigree-1-1"/>
+  </identifier>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="recurrence"/>
+      <display value="Recurrence"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+      <display value="Confirmed"/>
+    </coding>
+  </verificationStatus>
+  <code>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/hp.fhir"/>
+      <code value="HP:0003002"/>
+      <display value="Breast carcinoma"/>
+    </coding>
+    <text value="Recurrent breast cancer"/>
+  </code>
+  <bodySite>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/uberon.owl"/>
+      <code value="UBERON:0000310"/>
+      <display value="breast"/>
+    </coding>
+    <text value="Breast"/>
+  </bodySite>
+  <subject>
+    <reference value="Patient/pedigree-1-individual-example-1"/>
+  </subject>
+</Condition>

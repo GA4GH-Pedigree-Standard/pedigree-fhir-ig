@@ -1,0 +1,66 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/pedigree-1-condition-example-1> a fhir:Condition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pedigree-1-condition-example-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>clinicalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical recurrence}\">Recurrence</span></p><p><b>verificationStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>code</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/hp.fhir HP:0003002}\">Recurrent breast cancer</span></p><p><b>bodySite</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/uberon.owl UBERON:0000310}\">Breast</span></p><p><b>subject</b>: <a href=\"Patient-pedigree-1-individual-example-1.html\">Generated Summary: id: pedigree-1-1; gender: female; birthDate: 2019-06-15</a></p></div>"
+  ];
+  fhir:Condition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:pedigree-fhir-ig:unique-string/condition" ];
+     fhir:Identifier.value [ fhir:value "pedigree-1-1" ]
+  ];
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ];
+       fhir:Coding.code [ fhir:value "recurrence" ];
+       fhir:Coding.display [ fhir:value "Recurrence" ]
+     ]
+  ];
+  fhir:Condition.verificationStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-ver-status" ];
+       fhir:Coding.code [ fhir:value "confirmed" ];
+       fhir:Coding.display [ fhir:value "Confirmed" ]
+     ]
+  ];
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/hp.fhir" ];
+       fhir:Coding.code [ fhir:value "HP:0003002" ];
+       fhir:Coding.display [ fhir:value "Breast carcinoma" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Recurrent breast cancer" ]
+  ];
+  fhir:Condition.bodySite [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/uberon.owl" ];
+       fhir:Coding.code [ fhir:value "UBERON:0000310" ];
+       fhir:Coding.display [ fhir:value "breast" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Breast" ]
+  ];
+  fhir:Condition.subject [
+     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1>;
+     fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-1" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/pedigree-1-condition-example-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

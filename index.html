@@ -11,7 +11,6 @@
     <link href="fhir.css" rel="stylesheet"/>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
     <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
     <!-- Project extras -->
@@ -75,6 +74,9 @@
     <a href="index.html">Home</a>
   </li>
   <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
@@ -85,15 +87,18 @@
       </div>  <!-- /container -->
     </div>  <!-- /segment-navbar -->
     <!--status-bar-->
+
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
           <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
 
-    <div id="segment-content">  <!-- segment-content -->
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
       <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
@@ -121,31 +126,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#ga4gh-pedigree-fhir-implementation-guide" id="markdown-toc-ga4gh-pedigree-fhir-implementation-guide">GA4GH Pedigree FHIR Implementation Guide</a>    <ul>
-      <li><a href="#scope" id="markdown-toc-scope">Scope</a></li>
-      <li><a href="#understanding-fhir" id="markdown-toc-understanding-fhir">Understanding FHIR</a></li>
-      <li><a href="#mappings" id="markdown-toc-mappings">Mappings</a>        <ul>
-          <li><a href="#individual" id="markdown-toc-individual">Individual</a></li>
-          <li><a href="#relationship" id="markdown-toc-relationship">Relationship</a></li>
-          <li><a href="#pedigree" id="markdown-toc-pedigree">Pedigree</a></li>
-        </ul>
-      </li>
-      <li><a href="#examples" id="markdown-toc-examples">Examples</a>        <ul>
-          <li><a href="#the-simpsons-family" id="markdown-toc-the-simpsons-family">The Simpsons family</a></li>
-          <li><a href="#trio" id="markdown-toc-trio">Trio</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+  <li><a href="#scope" id="markdown-toc-scope">Scope</a></li>
+  <li><a href="#understanding-fhir-prerequisite" id="markdown-toc-understanding-fhir-prerequisite">Understanding FHIR (Prerequisite)</a></li>
+  <li><a href="#mappings" id="markdown-toc-mappings">Mappings</a></li>
+  <li><a href="#examples" id="markdown-toc-examples">Examples</a></li>
 </ul>
 
 </div>
-<h1 id="ga4gh-pedigree-fhir-implementation-guide">GA4GH Pedigree FHIR Implementation Guide</h1>
+<h3 id="scope">Scope</h3>
 
-<h2 id="scope">Scope</h2>
 <p>Family health history is an important aspect in both genomic research and patient care. The Global Alliance for Genomics and Health is working on a pedigree standard that will allow sharing family history data in a way that is accurate, easy to analyse and transferable between systems. The group has created a <a href="https://github.com/ga4gh-cp/pedigree/blob/2021-01/model.md">conceptual model</a> and a <a href="https://docs.google.com/document/d/1UAtSLBEQ_7ePRLvDPRpoFpiXnl6VQEJXL2eQByEmfGY/">minimal data set document</a> that have been used as the basis for this FHIR implementation guide.</p>
 
-<h2 id="understanding-fhir">Understanding FHIR</h2>
+<h3 id="understanding-fhir-prerequisite">Understanding FHIR (Prerequisite)</h3>
+
 <p>This implementation guide uses terminology, notations and design principles that are specific to FHIR. Before reading this implementation guide, its important to be familiar with some of the basic principles of FHIR as well as general guidance on how to read FHIR specifications. Readers who are unfamiliar with FHIR are encouraged to read (or at least skim) the following prior to reading the rest of this implementation guide.</p>
 
 <ul>
@@ -161,7 +154,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>This implementation guide builds on FHIR v4.0.1: R4.</p>
 
-<h2 id="mappings">Mappings</h2>
+<h3 id="mappings">Mappings</h3>
+
 <p>This section describes how the elements in the conceptual model were mapped to FHIR.</p>
 
 <p>The main classes in the conceptual model are shown in the following diagram:</p>
@@ -174,11 +168,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>The following sections describe how each element was mapped to FHIR.</p>
 
-<h3 id="individual">Individual</h3>
+<h4 id="individual">Individual</h4>
 
 <p>The individual class is mapped to the <a href="https://www.hl7.org/fhir/patient.html">Patient</a> resource through the <a href="StructureDefinition-PedigreeIndividual.html">PedigreeIndividual profile</a>.</p>
 
-<h4 id="properties">properties</h4>
+<h5 id="properties">Properties</h5>
 
 <table>
   <thead>
@@ -251,11 +245,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h3 id="relationship">Relationship</h3>
+<h4 id="relationship">Relationship</h4>
 
 <p>The relationship class is mapped to the <a href="https://www.hl7.org/fhir/familymemberhistory.html">FamilyMemberHistory</a> resource. This class, along with the official HL7 <a href="https://www.hl7.org/fhir/extension-familymemberhistory-patient-record.html">patient-record</a> extension, can be used as a relationship in a graph model. The main source of confusion when using this class for this purpose is that it includes redundant information about the individuals, which is needed when a proper graph model is not implemented. Therefore, in the <a href="StructureDefinition-PedigreeRelationship.html">PedigreeRelationship profile</a>, the elements that capture redundant information are forbidden, thus making it clear that the intention is for this resource to be used just as a relationship.</p>
 
-<h4 id="properties-1">properties</h4>
+<h5 id="properties-1">Properties</h5>
 
 <table>
   <thead>
@@ -304,15 +298,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h4 id="relationship-terminology">Relationship Terminology</h4>
+<h5 id="relationship-terminology">Relationship Terminology</h5>
 
 <p>The relationship terminology is specified <a href="https://docs.google.com/spreadsheets/d/1V5i-pbOPgg9_F52lYkQpqYbk3u4MIAc9TNw8aglvLL4/edit?usp=sharing">here</a>. A FHIR code system that implements this terminology has been developed as part of the implementation guide and can be browsed <a href="https://ontoserver.csiro.au/shrimp/?system=http%3A%2F%2Fga4gh-cp.github.io%2Fpedigree-fhir-ig%2FCodeSystem%2FPedigreeRelationships&amp;concept=REL%3A001&amp;version=0.1.0&amp;valueset=http%3A%2F%2Fga4gh-cp.github.io%2Fpedigree-fhir-ig%2FCodeSystem%2FPedigreeRelationships%3Fvs">here</a>.</p>
 
-<h3 id="pedigree">Pedigree</h3>
+<h4 id="pedigree">Pedigree</h4>
 
 <p>There is no resource in FHIR that represents an entire pedigree. Therefore, this class is mapped to the <a href="https://www.hl7.org/fhir/composition.html">Composition</a> resource, which provides a generic mechanism to package a set of related resources, through the <a href="StructureDefinition-Pedigree.html">Pedigree profile</a>.</p>
 
-<h4 id="properties-2">properties</h4>
+<h5 id="properties-2">Properties</h5>
 
 <table>
   <thead>
@@ -361,17 +355,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h2 id="examples">Examples</h2>
+<h3 id="examples">Examples</h3>
 
 <p>Currently, there are two examples in the implementation guide.</p>
 
-<h3 id="the-simpsons-family">The Simpsons family</h3>
+<h4 id="the-simpsons-family">The Simpsons Family</h4>
 
 <p>This is a simple example that shows how the profiles and other resources can be used to build a simple family history graph. The following figure shows what the model looks like:</p>
 
 <p><img src="simpsons_example.png" alt="Simpsons example" style="float:none" /></p>
 
 <p>The following instances are used to implement this example:</p>
+
 <ul>
   <li><a href="Patient-Bart.html">Bart</a></li>
   <li><a href="Patient-Marge.html">Marge</a></li>
@@ -386,7 +381,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><a href="Composition-SimpsonsPedigree.html">Simpsons Pedigree</a></li>
 </ul>
 
-<h3 id="trio">Trio</h3>
+<h4 id="a-geric-trio">A Geric Trio</h4>
 
 <p>An example trio from the testing suite of the <a href="https://doi.org/10.1016/j.pathol.2018.12.345">GenoVic system</a>.</p>
 
@@ -404,6 +399,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><a href="Organization-MelbourneGenomics.html">Melbourne Genomics</a></li>
   <li><a href="Composition-TrioPedigree.html">Trio Pedigree</a></li>
 </ul>
+
+<h4 id="connectathon">Connectathon</h4>
+
+<h5 id="pedigree-1">Pedigree 1</h5>
+
+<p><img src="pedigree-1.png" alt="pedigree 1" style="float:none" /></p>
 
 
 
@@ -424,11 +425,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
+
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</a>.  Package ga4gh.fhir.pedigree#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 29, 2021 06:35+0000">2021-04-29</span>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</a>.  Package ga4gh.fhir.pedigree#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 20, 2021 22:05+0000">2021-05-20</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,32 @@
+{
+  "resourceType": "Patient",
+  "id": "pedigree-1-individual-example-9",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>genderIdentity</b>: <span title=\"Codes: \">female</span></p><p><b>identifier</b>: id: pedigree-1-9</p><p><b>gender</b>: female</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "female"
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "urn:pedigree-fhir-ig:unique-string/individual",
+      "value": "pedigree-1-9"
+    }
+  ],
+  "gender": "female"
+}

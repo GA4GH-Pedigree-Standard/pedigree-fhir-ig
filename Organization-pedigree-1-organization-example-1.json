@@ -1,0 +1,28 @@
+{
+  "resourceType": "Organization",
+  "id": "pedigree-1-organization-example-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}\">Hospital</span></p><p><b>name</b>: Amazing Children's Hospital</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:pedigree-fhir-ig:unique-string/organization",
+      "value": "pedigree-1-1"
+    }
+  ],
+  "active": true,
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        }
+      ],
+      "text": "Hospital"
+    }
+  ],
+  "name": "Amazing Children's Hospital"
+}

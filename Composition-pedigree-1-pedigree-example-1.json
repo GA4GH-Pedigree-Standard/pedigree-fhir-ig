@@ -1,0 +1,184 @@
+{
+  "resourceType": "Composition",
+  "id": "pedigree-1-pedigree-example-1",
+  "meta": {
+    "profile": [
+      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 422432008}\">Family history section</span></p><p><b>date</b>: 2021-06-15</p><p><b>author</b>: <a href=\"Organization-pedigree-1-organization-example-1.html\">Generated Summary: id: pedigree-1-1; active; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}\">Hospital</span>; name: Amazing Children's Hospital</a></p><p><b>title</b>: Pedigree</p></div>"
+  },
+  "identifier": {
+    "system": "urn:pedigree-fhir-ig:unique-string/pedigree",
+    "value": "pedigree-1-1"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "422432008",
+        "display": "Family history section"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/pedigree-1-individual-example-1"
+  },
+  "date": "2021-06-15",
+  "author": [
+    {
+      "reference": "Organization/pedigree-1-organization-example-1"
+    }
+  ],
+  "title": "Pedigree",
+  "section": [
+    {
+      "title": "Proband",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "proband"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Patient/pedigree-1-individual-example-1"
+        }
+      ]
+    },
+    {
+      "title": "Reason",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "reason"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Condition/pedigree-1-condition-example-1"
+        }
+      ]
+    },
+    {
+      "title": "Individuals",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "individuals"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Patient/pedigree-1-individual-example-1"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-2"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-3"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-4"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-5"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-6"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-7"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-8"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-9"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-10"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-11"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-12"
+        },
+        {
+          "reference": "Patient/pedigree-1-individual-example-13"
+        }
+      ]
+    },
+    {
+      "title": "Relationships",
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "code": "relationships"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-1"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-2"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-3"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-4"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-5"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-6"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-7"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-8"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-9"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-10"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-11"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-12"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-13"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-14"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-15"
+        },
+        {
+          "reference": "FamilyMemberHistory/pedigree-1-relationship-example-16"
+        }
+      ]
+    }
+  ]
+}
