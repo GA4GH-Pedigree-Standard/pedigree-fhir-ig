@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/MelbourneGenomics> a fhir:Organization;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Organization/MelbourneGenomics> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "MelbourneGenomics"];
   fhir:DomainResource.text [
@@ -16,7 +16,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/MelbourneGenomics.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Organization/MelbourneGenomics.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/pedigree-1-organization-example-1> a fhir:Organization;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Organization/pedigree-1-organization-example-1> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "pedigree-1-organization-example-1"];
   fhir:DomainResource.text [
@@ -32,7 +32,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/pedigree-1-organization-example-1.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Organization/pedigree-1-organization-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

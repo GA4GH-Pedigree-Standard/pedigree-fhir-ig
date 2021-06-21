@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/TrioPedigree> a fhir:Composition;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Composition/TrioPedigree> a fhir:Composition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "TrioPedigree"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree";
+       fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree";
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree>
      ]
   ];
   fhir:DomainResource.text [
@@ -30,13 +30,13 @@
      ]
   ];
   fhir:Composition.subject [
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Proband>;
      fhir:Reference.reference [ fhir:value "Patient/Proband" ]
   ];
   fhir:Composition.date [ fhir:value "2021-02-10"^^xsd:date];
   fhir:Composition.author [
      fhir:index 0;
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/MelbourneGenomics>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Organization/MelbourneGenomics>;
      fhir:Reference.reference [ fhir:value "Organization/MelbourneGenomics" ]
   ];
   fhir:Composition.title [ fhir:value "Pedigree"];
@@ -46,13 +46,13 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "proband" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Proband>;
        fhir:Reference.reference [ fhir:value "Patient/Proband" ]
      ]
   ], [
@@ -61,13 +61,13 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "reason" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/ProbandCondition>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Condition/ProbandCondition>;
        fhir:Reference.reference [ fhir:value "Condition/ProbandCondition" ]
      ]
   ], [
@@ -76,21 +76,21 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "individuals" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Proband>;
        fhir:Reference.reference [ fhir:value "Patient/Proband" ]
      ], [
        fhir:index 1;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Mother>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Mother>;
        fhir:Reference.reference [ fhir:value "Patient/Mother" ]
      ], [
        fhir:index 2;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Father>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Father>;
        fhir:Reference.reference [ fhir:value "Patient/Father" ]
      ]
   ], [
@@ -99,17 +99,17 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "relationships" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/ProbandFatherRelationship>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/ProbandFatherRelationship>;
        fhir:Reference.reference [ fhir:value "FamilyMemberHistory/ProbandFatherRelationship" ]
      ], [
        fhir:index 1;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/ProbandMotherRelationship>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/ProbandMotherRelationship>;
        fhir:Reference.reference [ fhir:value "FamilyMemberHistory/ProbandMotherRelationship" ]
      ]
   ], [
@@ -118,28 +118,28 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "other" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/FatherFirstCondition>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Condition/FatherFirstCondition>;
        fhir:Reference.reference [ fhir:value "Condition/FatherFirstCondition" ]
      ], [
        fhir:index 1;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/FatherSecondCondition>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Condition/FatherSecondCondition>;
        fhir:Reference.reference [ fhir:value "Condition/FatherSecondCondition" ]
      ], [
        fhir:index 2;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Organization/MelbourneGenomics>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Organization/MelbourneGenomics>;
        fhir:Reference.reference [ fhir:value "Organization/MelbourneGenomics" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/TrioPedigree.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Composition/TrioPedigree.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

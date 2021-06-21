@@ -4,7 +4,7 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn",
+      "url": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/patient-unborn",
       "title": "Unborn",
       "types": [
         "boolean"
@@ -14,33 +14,30 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus",
+        "url": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus",
         "title": "Affected Status"
       }
     ],
     "Composition": [
       {
-        "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree",
+        "url": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree",
         "title": "Pedigree"
       }
     ],
     "Patient": [
       {
-        "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual",
+        "url": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual",
         "title": "Pedigree Individual"
       }
     ],
     "FamilyMemberHistory": [
       {
-        "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship",
+        "url": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship",
         "title": "Pedigree Relationship"
       }
     ]
   },
   "usage": {
-    "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn": [
-      "Patient"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -91,6 +88,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/patient-unborn": [
+      "Patient"
     ]
   }
 }

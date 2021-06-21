@@ -3,7 +3,7 @@
 <Composition xmlns="http://hl7.org/fhir">
   <id value="pedigree-1-pedigree-example-1"/>
   <meta>
-    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
+    <profile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 422432008}">Family history section</span></p><p><b>date</b>: 2021-06-15</p><p><b>author</b>: <a href="Organization-pedigree-1-organization-example-1.html">Generated Summary: id: pedigree-1-1; active; <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Hospital</span>; name: Amazing Children's Hospital</a></p><p><b>title</b>: Pedigree</p></div>
@@ -32,7 +32,7 @@
     <title value="Proband"/>
     <code>
       <coding>
-        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType"/>
         <code value="proband"/>
       </coding>
     </code>
@@ -44,7 +44,7 @@
     <title value="Reason"/>
     <code>
       <coding>
-        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType"/>
         <code value="reason"/>
       </coding>
     </code>
@@ -56,7 +56,7 @@
     <title value="Individuals"/>
     <code>
       <coding>
-        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType"/>
         <code value="individuals"/>
       </coding>
     </code>
@@ -104,7 +104,7 @@
     <title value="Relationships"/>
     <code>
       <coding>
-        <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+        <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType"/>
         <code value="relationships"/>
       </coding>
     </code>

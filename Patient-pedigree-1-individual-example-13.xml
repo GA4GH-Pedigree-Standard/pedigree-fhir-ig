@@ -3,7 +3,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="pedigree-1-individual-example-13"/>
   <meta>
-    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+    <profile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>genderIdentity</b>: <span title="Codes: ">female</span></p><p><b>identifier</b>: id: pedigree-1-13</p><p><b>gender</b>: female</p></div>

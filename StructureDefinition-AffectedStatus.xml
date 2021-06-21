@@ -19,12 +19,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
+  <url value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
   <version value="0.1.0"/>
   <name value="AffectedStatus"/>
   <title value="Affected Status"/>
   <status value="active"/>
-  <date value="2021-05-20T22:05:16+00:00"/>
+  <date value="2021-06-21T22:34:31+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -742,7 +742,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+        <targetProfile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2229,7 +2229,7 @@
       <min value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+        <targetProfile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
       </type>
     </element>
     <element id="Observation.value[x]">

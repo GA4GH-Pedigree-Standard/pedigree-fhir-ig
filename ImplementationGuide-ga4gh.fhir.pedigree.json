@@ -3,14 +3,14 @@
   "id": "ga4gh.fhir.pedigree",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>GA4GHPedigreeIG</h2><p>The official URL for this implementation guide is: </p><pre>http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree</pre><div><p>FHIR implementation guide for the Global Alliance for Genomics and Health Pedigree standard.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>GA4GHPedigreeIG</h2><p>The official URL for this implementation guide is: </p><pre>http://purl.org/ga4gh/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree</pre><div><p>FHIR implementation guide for the Global Alliance for Genomics and Health Pedigree standard.</p>\n</div></div>"
   },
-  "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree",
+  "url": "http://purl.org/ga4gh/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree",
   "version": "0.1.0",
   "name": "GA4GHPedigreeIG",
   "title": "GA4GH Pedigree FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-05-20T22:05:16+00:00",
+  "date": "2021-06-21T22:34:31+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -144,7 +144,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://ga4gh-cp.github.io/pedigree-fhir-ig/history.html"
+            "valueString": "http://purl.org/ga4gh/pedigree-fhir-ig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -391,7 +391,7 @@
         },
         "name": "Abe",
         "description": "Abe is Homer's father.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -405,7 +405,7 @@
         },
         "name": "Affected Status Father",
         "description": "The affected status of the father.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
       },
       {
         "extension": [
@@ -419,7 +419,7 @@
         },
         "name": "Affected Status Mother",
         "description": "The affected status of the mother.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
       },
       {
         "extension": [
@@ -433,7 +433,7 @@
         },
         "name": "Affected Status Proband",
         "description": "The affected status of the proband.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
       },
       {
         "extension": [
@@ -447,7 +447,7 @@
         },
         "name": "Bart",
         "description": "Bart is the proband and consultand.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -461,7 +461,7 @@
         },
         "name": "Bart-Homer Relationship",
         "description": "The relationship between Bart and his father.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -475,7 +475,7 @@
         },
         "name": "Bart-Marge Relationship",
         "description": "The relationship between Bart and his mother.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -517,7 +517,7 @@
         },
         "name": "Father",
         "description": "The father in the trio.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -559,7 +559,7 @@
         },
         "name": "Homer",
         "description": "Homer is Bart's father and Marge's husband.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -573,7 +573,7 @@
         },
         "name": "Homer-Abe Relationship",
         "description": "The relationship between Homer and his father.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -587,7 +587,7 @@
         },
         "name": "Marge",
         "description": "Marge is Bart's mother and Homer's wife.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -601,7 +601,7 @@
         },
         "name": "Marge-Homer Relationship",
         "description": "The relationship between Marge and her husband.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -629,7 +629,7 @@
         },
         "name": "Mother",
         "description": "The mother in the trio.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -643,7 +643,7 @@
         },
         "name": "Proband",
         "description": "The proband in the trio.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -671,7 +671,7 @@
         },
         "name": "Proband Father Relationship",
         "description": "The relationship between the proband and her father.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -685,7 +685,7 @@
         },
         "name": "Proband Mother Relationship",
         "description": "The relationship between the proband and her mother.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -699,7 +699,7 @@
         },
         "name": "Simpson's pedigree",
         "description": "A pedigree of the Simpson's family.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"
       },
       {
         "extension": [
@@ -713,7 +713,7 @@
         },
         "name": "The trio's pedigree",
         "description": "A pedigree of the trio.",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"
       },
       {
         "extension": [
@@ -726,7 +726,7 @@
           "reference": "Observation/pedigree-1-affected-status-example-1"
         },
         "name": "Pedigree 1 Affected Status Example 1",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
       },
       {
         "extension": [
@@ -752,7 +752,7 @@
           "reference": "Patient/pedigree-1-individual-example-1"
         },
         "name": "Pedigree 1 Individual Example 1",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -765,7 +765,7 @@
           "reference": "Patient/pedigree-1-individual-example-10"
         },
         "name": "Pedigree 1 Individual Example 10",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -778,7 +778,7 @@
           "reference": "Patient/pedigree-1-individual-example-11"
         },
         "name": "Pedigree 1 Individual Example 11",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -791,7 +791,7 @@
           "reference": "Patient/pedigree-1-individual-example-12"
         },
         "name": "Pedigree 1 Individual Example 12",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -804,7 +804,7 @@
           "reference": "Patient/pedigree-1-individual-example-13"
         },
         "name": "Pedigree 1 Individual Example 13",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -817,7 +817,7 @@
           "reference": "Patient/pedigree-1-individual-example-2"
         },
         "name": "Pedigree 1 Individual Example 2",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -830,7 +830,7 @@
           "reference": "Patient/pedigree-1-individual-example-3"
         },
         "name": "Pedigree 1 Individual Example 3",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -843,7 +843,7 @@
           "reference": "Patient/pedigree-1-individual-example-4"
         },
         "name": "Pedigree 1 Individual Example 4",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -856,7 +856,7 @@
           "reference": "Patient/pedigree-1-individual-example-5"
         },
         "name": "Pedigree 1 Individual Example 5",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -869,7 +869,7 @@
           "reference": "Patient/pedigree-1-individual-example-6"
         },
         "name": "Pedigree 1 Individual Example 6",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -882,7 +882,7 @@
           "reference": "Patient/pedigree-1-individual-example-7"
         },
         "name": "Pedigree 1 Individual Example 7",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -895,7 +895,7 @@
           "reference": "Patient/pedigree-1-individual-example-8"
         },
         "name": "Pedigree 1 Individual Example 8",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -908,7 +908,7 @@
           "reference": "Patient/pedigree-1-individual-example-9"
         },
         "name": "Pedigree 1 Individual Example 9",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
       },
       {
         "extension": [
@@ -934,7 +934,7 @@
           "reference": "Composition/pedigree-1-pedigree-example-1"
         },
         "name": "Pedigree 1 Pedigree Example 1",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"
       },
       {
         "extension": [
@@ -947,7 +947,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-1"
         },
         "name": "Pedigree 1 Relationship Example 1",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -960,7 +960,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-10"
         },
         "name": "Pedigree 1 Relationship Example 10",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -973,7 +973,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-11"
         },
         "name": "Pedigree 1 Relationship Example 11",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -986,7 +986,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-12"
         },
         "name": "Pedigree 1 Relationship Example 12",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -999,7 +999,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-13"
         },
         "name": "Pedigree 1 Relationship Example 13",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1012,7 +1012,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-14"
         },
         "name": "Pedigree 1 Relationship Example 14",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1025,7 +1025,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-15"
         },
         "name": "Pedigree 1 Relationship Example 15",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1038,7 +1038,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-16"
         },
         "name": "Pedigree 1 Relationship Example 16",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1051,7 +1051,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-2"
         },
         "name": "Pedigree 1 Relationship Example 2",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1064,7 +1064,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-3"
         },
         "name": "Pedigree 1 Relationship Example 3",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1077,7 +1077,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-4"
         },
         "name": "Pedigree 1 Relationship Example 4",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1090,7 +1090,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-5"
         },
         "name": "Pedigree 1 Relationship Example 5",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1103,7 +1103,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-6"
         },
         "name": "Pedigree 1 Relationship Example 6",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1116,7 +1116,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-7"
         },
         "name": "Pedigree 1 Relationship Example 7",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1129,7 +1129,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-8"
         },
         "name": "Pedigree 1 Relationship Example 8",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [
@@ -1142,7 +1142,7 @@
           "reference": "FamilyMemberHistory/pedigree-1-relationship-example-9"
         },
         "name": "Pedigree 1 Relationship Example 9",
-        "exampleCanonical": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+        "exampleCanonical": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
       },
       {
         "extension": [

@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus> a fhir:StructureDefinition;
+<http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "AffectedStatus"];
   fhir:DomainResource.text [
@@ -22,12 +22,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"];
+  fhir:StructureDefinition.url [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "AffectedStatus"];
   fhir:StructureDefinition.title [ fhir:value "Affected Status"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-20T22:05:16+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-21T22:34:31+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -987,9 +987,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+           fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
            fhir:index 0;
-           fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+           fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2914,9 +2914,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+           fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
            fhir:index 0;
-           fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+           fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
          ]
        ]
      ], [
@@ -2937,7 +2937,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

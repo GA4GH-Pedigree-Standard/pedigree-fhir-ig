@@ -3,7 +3,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="Father"/>
   <meta>
-    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+    <profile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 2</p><p><b>gender</b>: male</p></div>

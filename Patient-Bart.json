@@ -3,7 +3,7 @@
   "id": "Bart",
   "meta": {
     "profile": [
-      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
     ]
   },
   "text": {
@@ -12,7 +12,7 @@
   },
   "extension": [
     {
-      "url": "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn",
+      "url": "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/patient-unborn",
       "valueBoolean": false
     }
   ],

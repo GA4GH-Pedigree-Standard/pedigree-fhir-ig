@@ -3,10 +3,10 @@
 <FamilyMemberHistory xmlns="http://hl7.org/fhir">
   <id value="pedigree-1-relationship-example-7"/>
   <meta>
-    <profile value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+    <profile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href="Patient-pedigree-1-individual-example-9.html">Generated Summary: id: pedigree-1-9; gender: female</a></p><p><b>identifier</b>: id: pedigree-1-7</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-pedigree-1-individual-example-5.html">Generated Summary: id: pedigree-1-5; gender: female</a></p><p><b>relationship</b>: <span title="Codes: {http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}">Biological parent</span></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href="Patient-pedigree-1-individual-example-9.html">Generated Summary: id: pedigree-1-9; gender: female</a></p><p><b>identifier</b>: id: pedigree-1-7</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-pedigree-1-individual-example-5.html">Generated Summary: id: pedigree-1-5; gender: female</a></p><p><b>relationship</b>: <span title="Codes: {http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}">Biological parent</span></p></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record">
     <valueReference>
@@ -23,7 +23,7 @@
   </patient>
   <relationship>
     <coding>
-      <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+      <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
       <code value="REL:003"/>
       <display value="Biological parent"/>
     </coding>

@@ -13,7 +13,7 @@
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/patient-genderIdentity']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/patient-genderIdentity': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn']) &lt;= 1">extension with URL = 'http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/patient-unborn']) &lt;= 1">extension with URL = 'http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/patient-unborn': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

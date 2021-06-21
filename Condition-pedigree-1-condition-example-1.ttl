@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/pedigree-1-condition-example-1> a fhir:Condition;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Condition/pedigree-1-condition-example-1> a fhir:Condition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "pedigree-1-condition-example-1"];
   fhir:DomainResource.text [
@@ -53,13 +53,13 @@
      fhir:CodeableConcept.text [ fhir:value "Breast" ]
   ];
   fhir:Condition.subject [
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1>;
      fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-1" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/pedigree-1-condition-example-1.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Condition/pedigree-1-condition-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

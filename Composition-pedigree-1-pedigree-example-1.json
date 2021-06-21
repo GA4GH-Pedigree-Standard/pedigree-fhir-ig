@@ -3,7 +3,7 @@
   "id": "pedigree-1-pedigree-example-1",
   "meta": {
     "profile": [
-      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"
+      "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"
     ]
   },
   "text": {
@@ -40,7 +40,7 @@
       "code": {
         "coding": [
           {
-            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "system": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType",
             "code": "proband"
           }
         ]
@@ -56,7 +56,7 @@
       "code": {
         "coding": [
           {
-            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "system": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType",
             "code": "reason"
           }
         ]
@@ -72,7 +72,7 @@
       "code": {
         "coding": [
           {
-            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "system": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType",
             "code": "individuals"
           }
         ]
@@ -124,7 +124,7 @@
       "code": {
         "coding": [
           {
-            "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType",
+            "system": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType",
             "code": "relationships"
           }
         ]

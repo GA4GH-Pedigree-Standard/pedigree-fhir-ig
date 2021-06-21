@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick> a fhir:Practitioner;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Practitioner/DrNick> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "DrNick"];
   fhir:DomainResource.text [
@@ -24,7 +24,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Practitioner/DrNick.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

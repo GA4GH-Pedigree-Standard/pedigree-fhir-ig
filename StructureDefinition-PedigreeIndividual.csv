@@ -28,7 +28,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","The patient's gender identity","The gender the patient identifies with. The Patient's gender identity is used as guidance (e.g. for staff) about how to interact with the patient.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.extension","unborn","","",0,1,"Y","","","Extension {[CanonicalType[http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/patient-unborn]]} {[]}
+"Patient.extension","unborn","","",0,1,"Y","","","Extension {[CanonicalType[http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/patient-unborn]]} {[]}
 ","Unborn","Indicates if an individual in a pedigree hasn't been born yet.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

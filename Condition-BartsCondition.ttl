@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/BartsCondition> a fhir:Condition;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Condition/BartsCondition> a fhir:Condition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BartsCondition"];
   fhir:DomainResource.text [
@@ -22,13 +22,13 @@
      ]
   ];
   fhir:Condition.subject [
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Bart>;
      fhir:Reference.reference [ fhir:value "Patient/Bart" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/BartsCondition.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Condition/BartsCondition.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

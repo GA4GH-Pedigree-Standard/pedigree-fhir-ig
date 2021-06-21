@@ -3,7 +3,7 @@
   "id": "pedigree-1-individual-example-7",
   "meta": {
     "profile": [
-      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
+      "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"
     ]
   },
   "text": {

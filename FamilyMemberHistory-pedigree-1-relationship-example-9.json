@@ -3,12 +3,12 @@
   "id": "pedigree-1-relationship-example-9",
   "meta": {
     "profile": [
-      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
+      "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"
     ]
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-pedigree-1-individual-example-9.html\">Generated Summary: id: pedigree-1-9; gender: female</a></p><p><b>identifier</b>: id: pedigree-1-9</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-pedigree-1-individual-example-4.html\">Generated Summary: id: pedigree-1-4; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-pedigree-1-individual-example-9.html\">Generated Summary: id: pedigree-1-9; gender: female</a></p><p><b>identifier</b>: id: pedigree-1-9</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-pedigree-1-individual-example-4.html\">Generated Summary: id: pedigree-1-4; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
   },
   "extension": [
     {
@@ -31,7 +31,7 @@
   "relationship": {
     "coding": [
       {
-        "system": "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+        "system": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
         "code": "REL:003",
         "display": "Biological parent"
       }

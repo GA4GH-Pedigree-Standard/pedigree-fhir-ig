@@ -3,7 +3,7 @@
   "id": "AffectedStatusMother",
   "meta": {
     "profile": [
-      "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
+      "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"
     ]
   },
   "text": {

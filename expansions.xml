@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="7865c78c-2fe4-4ffd-80f7-7c779b920f55"/>
+  <id value="031cf817-7725-4252-94a8-f8721df76f37"/>
   <meta>
-    <lastUpdated value="2021-05-20T22:05:16.174+00:00"/>
+    <lastUpdated value="2021-06-21T22:34:31.548+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://ga4gh-cp.github.io/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes"/>
+    <fullUrl value="http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes"/>
     <resource>
       <ValueSet>
         <id value="PedigreeRelationshipTypes"/>
@@ -20,7 +20,7 @@
             </p>
             <p>All codes from system 
               <a href="CodeSystem-PedigreeRelationships.html">
-                <code>http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships</code>
+                <code>http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships</code>
               </a>
             </p>
             <table class="codes">
@@ -37,7 +37,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-001"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-001"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58001">REL:001</a>
                 </td>
                 <td>Relative</td>
@@ -45,7 +45,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-002"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-002"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58002">REL:002</a>
                 </td>
                 <td>Biological relative</td>
@@ -53,7 +53,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-003"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-003"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58003">REL:003</a>
                 </td>
                 <td>Biological parent</td>
@@ -61,7 +61,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-004"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-004"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58004">REL:004</a>
                 </td>
                 <td>Sperm / ovum donor</td>
@@ -69,7 +69,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-005"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-005"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58005">REL:005</a>
                 </td>
                 <td>Gestational carrier</td>
@@ -77,7 +77,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-006"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-006"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58006">REL:006</a>
                 </td>
                 <td>Surrogate ovum donor</td>
@@ -85,7 +85,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-007"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-007"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58007">REL:007</a>
                 </td>
                 <td>Biological sibling</td>
@@ -93,7 +93,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-008"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-008"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58008">REL:008</a>
                 </td>
                 <td>Full sibling</td>
@@ -101,7 +101,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-009"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-009"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58009">REL:009</a>
                 </td>
                 <td>Twin</td>
@@ -109,7 +109,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-010"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-010"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58010">REL:010</a>
                 </td>
                 <td>Monozygotic twin</td>
@@ -117,7 +117,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-011"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-011"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58011">REL:011</a>
                 </td>
                 <td>Polyzygotic twin</td>
@@ -125,7 +125,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-012"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-012"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58012">REL:012</a>
                 </td>
                 <td>Half-sibling</td>
@@ -133,7 +133,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-013"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-013"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58013">REL:013</a>
                 </td>
                 <td>Uncle</td>
@@ -141,7 +141,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-014"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-014"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58014">REL:014</a>
                 </td>
                 <td>Cousin</td>
@@ -149,7 +149,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-015"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-015"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58015">REL:015</a>
                 </td>
                 <td>Maternal cousin</td>
@@ -157,7 +157,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-016"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-016"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58016">REL:016</a>
                 </td>
                 <td>Paternal cousin</td>
@@ -165,7 +165,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-017"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-017"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58017">REL:017</a>
                 </td>
                 <td>Grandparent</td>
@@ -173,7 +173,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-018"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-018"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58018">REL:018</a>
                 </td>
                 <td>Great-grandparent</td>
@@ -181,7 +181,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-019"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-019"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58019">REL:019</a>
                 </td>
                 <td>Social / legal relative</td>
@@ -189,7 +189,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-020"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-020"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58020">REL:020</a>
                 </td>
                 <td>Parent figure</td>
@@ -197,7 +197,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-021"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-021"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58021">REL:021</a>
                 </td>
                 <td>Foster parent</td>
@@ -205,7 +205,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-022"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-022"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58022">REL:022</a>
                 </td>
                 <td>Adoptive parent</td>
@@ -213,7 +213,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-023"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-023"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58023">REL:023</a>
                 </td>
                 <td>Step-parent</td>
@@ -221,7 +221,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-024"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-024"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58024">REL:024</a>
                 </td>
                 <td>Sibling figure</td>
@@ -229,7 +229,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-025"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-025"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58025">REL:025</a>
                 </td>
                 <td>Step-sibling</td>
@@ -237,7 +237,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-026"> </a>
+                  <a name="http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-026"> </a>
                   <a href="CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58026">REL:026</a>
                 </td>
                 <td>Significant other</td>
@@ -246,12 +246,12 @@
             </table>
           </div>
         </text>
-        <url value="http://ga4gh-cp.github.io/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes"/>
+        <url value="http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes"/>
         <version value="0.1.0"/>
         <name value="PedigreeRelationshipTypes"/>
         <title value="Pedigree Relationship Types"/>
         <status value="active"/>
-        <date value="2021-05-20T22:05:16+00:00"/>
+        <date value="2021-06-21T22:34:31+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -263,8 +263,8 @@
         <description value="The types of relationships between individuals in a pedigree."/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:0cda8e57-1536-4321-9fd3-87dcf0df4436"/>
-          <timestamp value="2021-05-20T22:05:29+00:00"/>
+          <identifier value="urn:uuid:8016f717-3207-40d8-a49f-1fe8c7bb73d5"/>
+          <timestamp value="2021-06-21T22:34:45+00:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -272,135 +272,135 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships|0.1.0"/>
+            <valueUri value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:001"/>
             <display value="Relative"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:002"/>
             <display value="Biological relative"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:003"/>
             <display value="Biological parent"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:004"/>
             <display value="Sperm / ovum donor"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:005"/>
             <display value="Gestational carrier"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:006"/>
             <display value="Surrogate ovum donor"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:007"/>
             <display value="Biological sibling"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:008"/>
             <display value="Full sibling"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:009"/>
             <display value="Twin"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:010"/>
             <display value="Monozygotic twin"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:011"/>
             <display value="Polyzygotic twin"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:012"/>
             <display value="Half-sibling"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:013"/>
             <display value="Uncle"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:014"/>
             <display value="Cousin"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:015"/>
             <display value="Maternal cousin"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:016"/>
             <display value="Paternal cousin"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:017"/>
             <display value="Grandparent"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:018"/>
             <display value="Great-grandparent"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:019"/>
             <display value="Social / legal relative"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:020"/>
             <display value="Parent figure"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:021"/>
             <display value="Foster parent"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:022"/>
             <display value="Adoptive parent"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:023"/>
             <display value="Step-parent"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:024"/>
             <display value="Sibling figure"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:025"/>
             <display value="Step-sibling"/>
           </contains>
           <contains>
-            <system value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
+            <system value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"/>
             <code value="REL:026"/>
             <display value="Significant other"/>
           </contains>

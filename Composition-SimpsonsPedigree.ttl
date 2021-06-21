@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/SimpsonsPedigree> a fhir:Composition;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Composition/SimpsonsPedigree> a fhir:Composition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "SimpsonsPedigree"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree";
+       fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree";
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree>
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree>
      ]
   ];
   fhir:DomainResource.text [
@@ -30,13 +30,13 @@
      ]
   ];
   fhir:Composition.subject [
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Bart>;
      fhir:Reference.reference [ fhir:value "Patient/Bart" ]
   ];
   fhir:Composition.date [ fhir:value "2021-02-10"^^xsd:date];
   fhir:Composition.author [
      fhir:index 0;
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Practitioner/DrNick>;
      fhir:Reference.reference [ fhir:value "Practitioner/DrNick" ]
   ];
   fhir:Composition.title [ fhir:value "Pedigree"];
@@ -46,13 +46,13 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "proband" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Bart>;
        fhir:Reference.reference [ fhir:value "Patient/Bart" ]
      ]
   ], [
@@ -61,13 +61,13 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "reason" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/BartsCondition>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Condition/BartsCondition>;
        fhir:Reference.reference [ fhir:value "Condition/BartsCondition" ]
      ]
   ], [
@@ -76,25 +76,25 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "individuals" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Bart>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Bart>;
        fhir:Reference.reference [ fhir:value "Patient/Bart" ]
      ], [
        fhir:index 1;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Marge>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Marge>;
        fhir:Reference.reference [ fhir:value "Patient/Marge" ]
      ], [
        fhir:index 2;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Homer>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Homer>;
        fhir:Reference.reference [ fhir:value "Patient/Homer" ]
      ], [
        fhir:index 3;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Abe>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Abe>;
        fhir:Reference.reference [ fhir:value "Patient/Abe" ]
      ]
   ], [
@@ -103,21 +103,21 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "relationships" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/BartMargeRelationship>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/BartMargeRelationship>;
        fhir:Reference.reference [ fhir:value "FamilyMemberHistory/BartMargeRelationship" ]
      ], [
        fhir:index 1;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/BartHomerRelationship>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/BartHomerRelationship>;
        fhir:Reference.reference [ fhir:value "FamilyMemberHistory/BartHomerRelationship" ]
      ], [
        fhir:index 2;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/HomerAbeRelationship>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/HomerAbeRelationship>;
        fhir:Reference.reference [ fhir:value "FamilyMemberHistory/HomerAbeRelationship" ]
      ]
   ], [
@@ -126,20 +126,20 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType" ];
+         fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType" ];
          fhir:Coding.code [ fhir:value "other" ]
        ]
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Practitioner/DrNick>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Practitioner/DrNick>;
        fhir:Reference.reference [ fhir:value "Practitioner/DrNick" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Composition/SimpsonsPedigree.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Composition/SimpsonsPedigree.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

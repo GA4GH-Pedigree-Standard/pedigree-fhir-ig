@@ -5,25 +5,25 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-2> a fhir:FamilyMemberHistory;
+<http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-2> a fhir:FamilyMemberHistory;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "pedigree-1-relationship-example-2"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+       fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-pedigree-1-individual-example-12.html\">Generated Summary: id: pedigree-1-12; gender: male</a></p><p><b>identifier</b>: id: pedigree-1-2</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-pedigree-1-individual-example-11.html\">Generated Summary: id: pedigree-1-11; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-pedigree-1-individual-example-12.html\">Generated Summary: id: pedigree-1-12; gender: male</a></p><p><b>identifier</b>: id: pedigree-1-2</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-pedigree-1-individual-example-11.html\">Generated Summary: id: pedigree-1-11; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record" ];
      fhir:Extension.valueReference [
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-12>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/pedigree-1-individual-example-12>;
        fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-12" ]
      ]
   ];
@@ -34,13 +34,13 @@
   ];
   fhir:FamilyMemberHistory.status [ fhir:value "completed"];
   fhir:FamilyMemberHistory.patient [
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-11>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/pedigree-1-individual-example-11>;
      fhir:Reference.reference [ fhir:value "Patient/pedigree-1-individual-example-11" ]
   ];
   fhir:FamilyMemberHistory.relationship [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships" ];
+       fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships" ];
        fhir:Coding.code [ fhir:value "REL:003" ];
        fhir:Coding.display [ fhir:value "Biological parent" ]
      ]
@@ -48,7 +48,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-2.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/pedigree-1-relationship-example-2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

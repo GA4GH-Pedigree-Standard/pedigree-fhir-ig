@@ -5,25 +5,25 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/ProbandFatherRelationship> a fhir:FamilyMemberHistory;
+<http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/ProbandFatherRelationship> a fhir:FamilyMemberHistory;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "ProbandFatherRelationship"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
+       fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-Father.html\">Generated Summary: id: 2; gender: male</a></p><p><b>identifier</b>: id: proband_father</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-Proband.html\">Generated Summary: id: 3; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-Father.html\">Generated Summary: id: 2; gender: male</a></p><p><b>identifier</b>: id: proband_father</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-Proband.html\">Generated Summary: id: 3; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record" ];
      fhir:Extension.valueReference [
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Father>;
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Father>;
        fhir:Reference.reference [ fhir:value "Patient/Father" ]
      ]
   ];
@@ -34,20 +34,20 @@
   ];
   fhir:FamilyMemberHistory.status [ fhir:value "completed"];
   fhir:FamilyMemberHistory.patient [
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Proband>;
      fhir:Reference.reference [ fhir:value "Patient/Proband" ]
   ];
   fhir:FamilyMemberHistory.relationship [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships" ];
+       fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships" ];
        fhir:Coding.code [ fhir:value "REL:003" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/FamilyMemberHistory/ProbandFatherRelationship.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/FamilyMemberHistory/ProbandFatherRelationship.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

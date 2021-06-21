@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1> a fhir:Patient;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "pedigree-1-individual-example-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
+       fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual";
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual>
      ]
   ];
   fhir:DomainResource.text [
@@ -39,7 +39,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Patient/pedigree-1-individual-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

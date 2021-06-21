@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="SectionType"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">proband<a name="SectionType-proband"> </a></td><td>Proband</td></tr><tr><td style="white-space:nowrap">reason<a name="SectionType-reason"> </a></td><td>Reason</td></tr><tr><td style="white-space:nowrap">individuals<a name="SectionType-individuals"> </a></td><td>Individuals</td></tr><tr><td style="white-space:nowrap">relationships<a name="SectionType-relationships"> </a></td><td>Relationships</td></tr><tr><td style="white-space:nowrap">other<a name="SectionType-other"> </a></td><td>Other</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">proband<a name="SectionType-proband"> </a></td><td>Proband</td></tr><tr><td style="white-space:nowrap">reason<a name="SectionType-reason"> </a></td><td>Reason</td></tr><tr><td style="white-space:nowrap">individuals<a name="SectionType-individuals"> </a></td><td>Individuals</td></tr><tr><td style="white-space:nowrap">relationships<a name="SectionType-relationships"> </a></td><td>Relationships</td></tr><tr><td style="white-space:nowrap">other<a name="SectionType-other"> </a></td><td>Other</td></tr></table></div>
   </text>
-  <url value="http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType"/>
+  <url value="http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType"/>
   <version value="0.1.0"/>
   <name value="SectionType"/>
   <title value="Section Type"/>
   <status value="active"/>
-  <date value="2021-05-20T22:05:16+00:00"/>
+  <date value="2021-06-21T22:34:31+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>

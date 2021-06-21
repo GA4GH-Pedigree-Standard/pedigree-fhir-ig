@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/ProbandCondition> a fhir:Condition;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Condition/ProbandCondition> a fhir:Condition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "ProbandCondition"];
   fhir:DomainResource.text [
@@ -20,13 +20,13 @@
      ]
   ];
   fhir:Condition.subject [
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Proband>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Proband>;
      fhir:Reference.reference [ fhir:value "Patient/Proband" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Condition/ProbandCondition.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Condition/ProbandCondition.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

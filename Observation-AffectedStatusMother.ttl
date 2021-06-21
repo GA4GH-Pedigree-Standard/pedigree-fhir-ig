@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Observation/AffectedStatusMother> a fhir:Observation;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Observation/AffectedStatusMother> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "AffectedStatusMother"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus";
+       fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus";
        fhir:index 0;
-       fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus>
+       fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus>
      ]
   ];
   fhir:DomainResource.text [
@@ -30,14 +30,14 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://ga4gh-cp.github.io/pedigree-fhir-ig/Patient/Mother>;
+     fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/Patient/Mother>;
      fhir:Reference.reference [ fhir:value "Patient/Mother" ]
   ];
   fhir:Observation.valueBoolean [ fhir:value "false"^^xsd:boolean] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://ga4gh-cp.github.io/pedigree-fhir-ig/Observation/AffectedStatusMother.ttl> a owl:Ontology;
+<http://purl.org/ga4gh/pedigree-fhir-ig/Observation/AffectedStatusMother.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

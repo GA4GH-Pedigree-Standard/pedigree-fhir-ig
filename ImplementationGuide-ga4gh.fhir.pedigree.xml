@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ga4gh.fhir.pedigree"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>GA4GHPedigreeIG</h2><p>The official URL for this implementation guide is: </p><pre>http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree</pre><div><p>FHIR implementation guide for the Global Alliance for Genomics and Health Pedigree standard.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>GA4GHPedigreeIG</h2><p>The official URL for this implementation guide is: </p><pre>http://purl.org/ga4gh/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree</pre><div><p>FHIR implementation guide for the Global Alliance for Genomics and Health Pedigree standard.</p>
 </div></div>
   </text>
-  <url value="http://ga4gh-cp.github.io/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree"/>
+  <url value="http://purl.org/ga4gh/pedigree-fhir-ig/ImplementationGuide/ga4gh.fhir.pedigree"/>
   <version value="0.1.0"/>
   <name value="GA4GHPedigreeIG"/>
   <title value="GA4GH Pedigree FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-05-20T22:05:16+00:00"/>
+  <date value="2021-06-21T22:34:31+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -95,7 +95,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://ga4gh-cp.github.io/pedigree-fhir-ig/history.html"/>
+        <valueString value="http://purl.org/ga4gh/pedigree-fhir-ig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -264,7 +264,7 @@
       </reference>
       <name value="Abe"/>
       <description value="Abe is Homer&#39;s father."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -275,7 +275,7 @@
       </reference>
       <name value="Affected Status Father"/>
       <description value="The affected status of the father."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -286,7 +286,7 @@
       </reference>
       <name value="Affected Status Mother"/>
       <description value="The affected status of the mother."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -297,7 +297,7 @@
       </reference>
       <name value="Affected Status Proband"/>
       <description value="The affected status of the proband."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -308,7 +308,7 @@
       </reference>
       <name value="Bart"/>
       <description value="Bart is the proband and consultand."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -319,7 +319,7 @@
       </reference>
       <name value="Bart-Homer Relationship"/>
       <description value="The relationship between Bart and his father."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -330,7 +330,7 @@
       </reference>
       <name value="Bart-Marge Relationship"/>
       <description value="The relationship between Bart and his mother."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -363,7 +363,7 @@
       </reference>
       <name value="Father"/>
       <description value="The father in the trio."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -396,7 +396,7 @@
       </reference>
       <name value="Homer"/>
       <description value="Homer is Bart&#39;s father and Marge&#39;s husband."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -407,7 +407,7 @@
       </reference>
       <name value="Homer-Abe Relationship"/>
       <description value="The relationship between Homer and his father."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -418,7 +418,7 @@
       </reference>
       <name value="Marge"/>
       <description value="Marge is Bart&#39;s mother and Homer&#39;s wife."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -429,7 +429,7 @@
       </reference>
       <name value="Marge-Homer Relationship"/>
       <description value="The relationship between Marge and her husband."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -451,7 +451,7 @@
       </reference>
       <name value="Mother"/>
       <description value="The mother in the trio."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -462,7 +462,7 @@
       </reference>
       <name value="Proband"/>
       <description value="The proband in the trio."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -484,7 +484,7 @@
       </reference>
       <name value="Proband Father Relationship"/>
       <description value="The relationship between the proband and her father."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -495,7 +495,7 @@
       </reference>
       <name value="Proband Mother Relationship"/>
       <description value="The relationship between the proband and her mother."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -506,7 +506,7 @@
       </reference>
       <name value="Simpson&#39;s pedigree"/>
       <description value="A pedigree of the Simpson&#39;s family."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -517,7 +517,7 @@
       </reference>
       <name value="The trio&#39;s pedigree"/>
       <description value="A pedigree of the trio."/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -527,7 +527,7 @@
         <reference value="Observation/pedigree-1-affected-status-example-1"/>
       </reference>
       <name value="Pedigree 1 Affected Status Example 1"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/AffectedStatus"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -547,7 +547,7 @@
         <reference value="Patient/pedigree-1-individual-example-1"/>
       </reference>
       <name value="Pedigree 1 Individual Example 1"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -557,7 +557,7 @@
         <reference value="Patient/pedigree-1-individual-example-10"/>
       </reference>
       <name value="Pedigree 1 Individual Example 10"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -567,7 +567,7 @@
         <reference value="Patient/pedigree-1-individual-example-11"/>
       </reference>
       <name value="Pedigree 1 Individual Example 11"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -577,7 +577,7 @@
         <reference value="Patient/pedigree-1-individual-example-12"/>
       </reference>
       <name value="Pedigree 1 Individual Example 12"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -587,7 +587,7 @@
         <reference value="Patient/pedigree-1-individual-example-13"/>
       </reference>
       <name value="Pedigree 1 Individual Example 13"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -597,7 +597,7 @@
         <reference value="Patient/pedigree-1-individual-example-2"/>
       </reference>
       <name value="Pedigree 1 Individual Example 2"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -607,7 +607,7 @@
         <reference value="Patient/pedigree-1-individual-example-3"/>
       </reference>
       <name value="Pedigree 1 Individual Example 3"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -617,7 +617,7 @@
         <reference value="Patient/pedigree-1-individual-example-4"/>
       </reference>
       <name value="Pedigree 1 Individual Example 4"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -627,7 +627,7 @@
         <reference value="Patient/pedigree-1-individual-example-5"/>
       </reference>
       <name value="Pedigree 1 Individual Example 5"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -637,7 +637,7 @@
         <reference value="Patient/pedigree-1-individual-example-6"/>
       </reference>
       <name value="Pedigree 1 Individual Example 6"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -647,7 +647,7 @@
         <reference value="Patient/pedigree-1-individual-example-7"/>
       </reference>
       <name value="Pedigree 1 Individual Example 7"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -657,7 +657,7 @@
         <reference value="Patient/pedigree-1-individual-example-8"/>
       </reference>
       <name value="Pedigree 1 Individual Example 8"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -667,7 +667,7 @@
         <reference value="Patient/pedigree-1-individual-example-9"/>
       </reference>
       <name value="Pedigree 1 Individual Example 9"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -687,7 +687,7 @@
         <reference value="Composition/pedigree-1-pedigree-example-1"/>
       </reference>
       <name value="Pedigree 1 Pedigree Example 1"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -697,7 +697,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-1"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 1"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -707,7 +707,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-10"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 10"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -717,7 +717,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-11"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 11"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -727,7 +727,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-12"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 12"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -737,7 +737,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-13"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 13"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -747,7 +747,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-14"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 14"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -757,7 +757,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-15"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 15"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -767,7 +767,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-16"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 16"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -777,7 +777,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-2"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 2"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -787,7 +787,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-3"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 3"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -797,7 +797,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-4"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 4"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -807,7 +807,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-5"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 5"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -817,7 +817,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-6"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 6"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -827,7 +827,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-7"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 7"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -837,7 +837,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-8"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 8"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -847,7 +847,7 @@
         <reference value="FamilyMemberHistory/pedigree-1-relationship-example-9"/>
       </reference>
       <name value="Pedigree 1 Relationship Example 9"/>
-      <exampleCanonical value="http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
+      <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

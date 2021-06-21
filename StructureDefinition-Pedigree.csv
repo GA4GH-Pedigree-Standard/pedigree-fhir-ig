@@ -244,7 +244,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType""/>
+    <system value=""http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType""/>
     <code value=""proband""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -265,7 +265,7 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section.entry","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual]]}
+"Composition.section.entry","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -300,7 +300,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType""/>
+    <system value=""http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType""/>
     <code value=""reason""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -356,7 +356,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType""/>
+    <system value=""http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType""/>
     <code value=""individuals""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -377,7 +377,7 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section.entry","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual]]}
+"Composition.section.entry","","","",1,*,"","","","Reference {[]} {[CanonicalType[http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -412,7 +412,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType""/>
+    <system value=""http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType""/>
     <code value=""relationships""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -433,7 +433,7 @@ If the section has content (instead of sub-sections), the section.code does not 
 "Composition.section.orderedBy","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Order of section entries","Specifies the order applied to the items in the section entries.","Applications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.","Important for presentation and rendering.  Lists may be sorted to place more important information first or to group related entries.","","","","","","","",,"preferred","What order applies to the items in the entry.","http://hl7.org/fhir/ValueSet/list-order","",,,,"Composition.section.orderedBy",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP].sequenceNumber > 1","n/a"
-"Composition.section.entry","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://ga4gh-cp.github.io/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship]]}
+"Composition.section.entry","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship]]}
 ","A reference to data that supports this section","A reference to the actual resource from which the narrative in the section is derived.","If there are no entries in the list, an emptyReason SHOULD be provided.","","","","","","","","",,,,,"",,,,"Composition.section.entry",0,*,"cmp-2
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]",".entry"
@@ -468,7 +468,7 @@ labelcaption","",0,1,"","","","string {[]} {[]}
 
 If the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code.","Provides computable standardized labels to topics within the document.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/SectionType""/>
+    <system value=""http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType""/>
     <code value=""other""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of a section of a composition/document.","http://hl7.org/fhir/ValueSet/doc-section-codes","",,,,"Composition.section.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

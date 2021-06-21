@@ -1,25 +1,25 @@
 {
   "resourceType" : "Bundle",
-  "id" : "7865c78c-2fe4-4ffd-80f7-7c779b920f55",
+  "id" : "031cf817-7725-4252-94a8-f8721df76f37",
   "meta" : {
-    "lastUpdated" : "2021-05-20T22:05:16.174+00:00"
+    "lastUpdated" : "2021-06-21T22:34:31.548+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes",
+    "fullUrl" : "http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "PedigreeRelationshipTypes",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 26 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-PedigreeRelationships.html\">Pedigree Relationships v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-PedigreeRelationships.html\"><code>http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-001\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58001\">REL:001</a></td><td>Relative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-002\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58002\">REL:002</a></td><td>Biological relative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-003\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58003\">REL:003</a></td><td>Biological parent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-004\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58004\">REL:004</a></td><td>Sperm / ovum donor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-005\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58005\">REL:005</a></td><td>Gestational carrier</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-006\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58006\">REL:006</a></td><td>Surrogate ovum donor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-007\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58007\">REL:007</a></td><td>Biological sibling</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-008\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58008\">REL:008</a></td><td>Full sibling</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-009\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58009\">REL:009</a></td><td>Twin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-010\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58010\">REL:010</a></td><td>Monozygotic twin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-011\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58011\">REL:011</a></td><td>Polyzygotic twin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-012\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58012\">REL:012</a></td><td>Half-sibling</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-013\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58013\">REL:013</a></td><td>Uncle</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-014\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58014\">REL:014</a></td><td>Cousin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-015\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58015\">REL:015</a></td><td>Maternal cousin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-016\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58016\">REL:016</a></td><td>Paternal cousin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-017\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58017\">REL:017</a></td><td>Grandparent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-018\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58018\">REL:018</a></td><td>Great-grandparent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-019\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58019\">REL:019</a></td><td>Social / legal relative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-020\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58020\">REL:020</a></td><td>Parent figure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-021\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58021\">REL:021</a></td><td>Foster parent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-022\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58022\">REL:022</a></td><td>Adoptive parent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-023\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58023\">REL:023</a></td><td>Step-parent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-024\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58024\">REL:024</a></td><td>Sibling figure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-025\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58025\">REL:025</a></td><td>Step-sibling</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ga4gh-cp.github.io-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-026\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58026\">REL:026</a></td><td>Significant other</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 26 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-PedigreeRelationships.html\">Pedigree Relationships v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-PedigreeRelationships.html\"><code>http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-001\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58001\">REL:001</a></td><td>Relative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-002\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58002\">REL:002</a></td><td>Biological relative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-003\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58003\">REL:003</a></td><td>Biological parent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-004\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58004\">REL:004</a></td><td>Sperm / ovum donor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-005\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58005\">REL:005</a></td><td>Gestational carrier</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-006\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58006\">REL:006</a></td><td>Surrogate ovum donor</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-007\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58007\">REL:007</a></td><td>Biological sibling</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-008\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58008\">REL:008</a></td><td>Full sibling</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-009\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58009\">REL:009</a></td><td>Twin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-010\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58010\">REL:010</a></td><td>Monozygotic twin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-011\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58011\">REL:011</a></td><td>Polyzygotic twin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-012\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58012\">REL:012</a></td><td>Half-sibling</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-013\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58013\">REL:013</a></td><td>Uncle</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-014\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58014\">REL:014</a></td><td>Cousin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-015\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58015\">REL:015</a></td><td>Maternal cousin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-016\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58016\">REL:016</a></td><td>Paternal cousin</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-017\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58017\">REL:017</a></td><td>Grandparent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-018\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58018\">REL:018</a></td><td>Great-grandparent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-019\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58019\">REL:019</a></td><td>Social / legal relative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-020\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58020\">REL:020</a></td><td>Parent figure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-021\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58021\">REL:021</a></td><td>Foster parent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-022\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58022\">REL:022</a></td><td>Adoptive parent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-023\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58023\">REL:023</a></td><td>Step-parent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-024\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58024\">REL:024</a></td><td>Sibling figure</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-025\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58025\">REL:025</a></td><td>Step-sibling</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-pedigree-fhir-ig-CodeSystem-PedigreeRelationships-REL-026\"> </a><a href=\"CodeSystem-PedigreeRelationships.html#PedigreeRelationships-REL.58026\">REL:026</a></td><td>Significant other</td><td/></tr></table></div>"
       },
-      "url" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes",
+      "url" : "http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes",
       "version" : "0.1.0",
       "name" : "PedigreeRelationshipTypes",
       "title" : "Pedigree Relationship Types",
       "status" : "active",
-      "date" : "2021-05-20T22:05:16+00:00",
+      "date" : "2021-06-21T22:34:31+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -31,8 +31,8 @@
       "description" : "The types of relationships between individuals in a pedigree.",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:0cda8e57-1536-4321-9fd3-87dcf0df4436",
-        "timestamp" : "2021-05-20T22:05:29+00:00",
+        "identifier" : "urn:uuid:8016f717-3207-40d8-a49f-1fe8c7bb73d5",
+        "timestamp" : "2021-06-21T22:34:45+00:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",
@@ -40,135 +40,135 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships|0.1.0"
+          "valueUri" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships|0.1.0"
         }],
         "contains" : [{
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:001",
           "display" : "Relative"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:002",
           "display" : "Biological relative"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:003",
           "display" : "Biological parent"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:004",
           "display" : "Sperm / ovum donor"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:005",
           "display" : "Gestational carrier"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:006",
           "display" : "Surrogate ovum donor"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:007",
           "display" : "Biological sibling"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:008",
           "display" : "Full sibling"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:009",
           "display" : "Twin"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:010",
           "display" : "Monozygotic twin"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:011",
           "display" : "Polyzygotic twin"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:012",
           "display" : "Half-sibling"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:013",
           "display" : "Uncle"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:014",
           "display" : "Cousin"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:015",
           "display" : "Maternal cousin"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:016",
           "display" : "Paternal cousin"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:017",
           "display" : "Grandparent"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:018",
           "display" : "Great-grandparent"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:019",
           "display" : "Social / legal relative"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:020",
           "display" : "Parent figure"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:021",
           "display" : "Foster parent"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:022",
           "display" : "Adoptive parent"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:023",
           "display" : "Step-parent"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:024",
           "display" : "Sibling figure"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:025",
           "display" : "Step-sibling"
         },
         {
-          "system" : "http://ga4gh-cp.github.io/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
+          "system" : "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
           "code" : "REL:026",
           "display" : "Significant other"
         }]
