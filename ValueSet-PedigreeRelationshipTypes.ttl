@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "PedigreeRelationshipTypes"];
   fhir:ValueSet.title [ fhir:value "Pedigree Relationship Types"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-06-23T22:50:11+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-06-23T22:50:15+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:ValueSet.contact [
      fhir:index 0;
