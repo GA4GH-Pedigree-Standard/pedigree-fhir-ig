@@ -11,7 +11,7 @@
   <name value="GA4GHPedigreeIG"/>
   <title value="GA4GH Pedigree FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-06-21T23:30:41+00:00"/>
+  <date value="2021-06-23T02:18:13+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -848,17 +848,6 @@
       </reference>
       <name value="Pedigree 1 Relationship Example 9"/>
       <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/PedigreeRelationships"/>
-      </reference>
-      <name value="Pedigree Relationships"/>
-      <description value="Code system for pedigree realtionship types."/>
-      <exampleBoolean value="false"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

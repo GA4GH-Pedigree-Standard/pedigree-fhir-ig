@@ -3,14 +3,14 @@
   "id": "PedigreeRelationshipTypes",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-PedigreeRelationships.html\"><code>http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://purl.org/ga4gh/rel.fhir</code></li></ul></div>"
   },
   "url": "http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes",
   "version": "0.1.0",
   "name": "PedigreeRelationshipTypes",
   "title": "Pedigree Relationship Types",
   "status": "active",
-  "date": "2021-06-21T23:30:41+00:00",
+  "date": "2021-06-23T02:18:13+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -28,7 +28,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships"
+        "system": "http://purl.org/ga4gh/rel.fhir"
       }
     ]
   }

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "PedigreeRelationshipTypes"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-PedigreeRelationships.html\"><code>http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://purl.org/ga4gh/rel.fhir</code></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "PedigreeRelationshipTypes"];
   fhir:ValueSet.title [ fhir:value "Pedigree Relationship Types"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-06-21T23:30:41+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-06-23T02:18:13+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -33,7 +33,7 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.org/ga4gh/rel.fhir" ]
      ]
   ] .
 

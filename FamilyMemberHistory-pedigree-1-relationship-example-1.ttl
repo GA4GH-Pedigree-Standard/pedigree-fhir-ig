@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-pedigree-1-individual-example-13.html\">Generated Summary: id: pedigree-1-13; gender: female</a></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-pedigree-1-individual-example-11.html\">Generated Summary: id: pedigree-1-11; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships REL:003}\">Biological parent</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-pedigree-1-individual-example-13.html\">Generated Summary: id: pedigree-1-13; gender: female</a></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-pedigree-1-individual-example-11.html\">Generated Summary: id: pedigree-1-11; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://purl.org/ga4gh/rel.fhir REL:003}\">Biological parent</span></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -40,7 +40,7 @@
   fhir:FamilyMemberHistory.relationship [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships" ];
+       fhir:Coding.system [ fhir:value "http://purl.org/ga4gh/rel.fhir" ];
        fhir:Coding.code [ fhir:value "REL:003" ];
        fhir:Coding.display [ fhir:value "Biological parent" ]
      ]

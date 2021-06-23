@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GA4GHPedigreeIG"];
   fhir:ImplementationGuide.title [ fhir:value "GA4GH Pedigree FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-21T23:30:41+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-23T02:18:13+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1276,20 +1276,6 @@
          fhir:value "http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship";
          fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship>
        ]
-     ], [
-       fhir:index 64;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/PedigreeRelationships" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedigree Relationships" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Code system for pedigree realtionship types." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

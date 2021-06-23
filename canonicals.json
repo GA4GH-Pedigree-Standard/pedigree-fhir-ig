@@ -1,12 +1,5 @@
 [
   {
-    "id": "PedigreeRelationships",
-    "type": "CodeSystem",
-    "url": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/PedigreeRelationships",
-    "version": "0.1.0",
-    "name": "PedigreeRelationships"
-  },
-  {
     "id": "SectionType",
     "type": "CodeSystem",
     "url": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType",
