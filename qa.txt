@@ -3,7 +3,7 @@
 
 err = 0, warn = 69, info = 27
 IG Publisher Version: 1.1.75
-Generated Wed Jun 23 02:18:36 UTC 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigree#0.1.0 (canonical = http://purl.org/ga4gh/pedigree-fhir-ig)
+Generated Wed Jun 23 02:20:23 UTC 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigree#0.1.0 (canonical = http://purl.org/ga4gh/pedigree-fhir-ig)
 
  Build Errors : 0 / 33 / 0
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/CodeSystem-SectionType : 0 / 0 / 1
