@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "FatherFirstCondition"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/hp.fhir HP:0001640}\">HP:0001640</span></p><p><b>subject</b>: <a href=\"Patient-Father.html\">Generated Summary: id: 2; gender: male</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/hp.fhir HP:0001640}\">Cardiomegaly</span></p><p><b>subject</b>: <a href=\"Patient-Father.html\">Generated Summary: id: 2; gender: male</a></p></div>"
   ];
   fhir:Condition.code [
      fhir:CodeableConcept.coding [

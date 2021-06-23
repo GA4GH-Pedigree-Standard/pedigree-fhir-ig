@@ -1,9 +1,525 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="a973533e-7614-4a87-ae94-96e400364081"/>
+  <id value="a77a797d-c818-417d-8bf7-b4869c7f436c"/>
   <meta>
-    <lastUpdated value="2021-06-23T02:19:56.290+00:00"/>
+    <lastUpdated value="2021-06-23T22:50:11.496+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes"/>
+    <resource>
+      <ValueSet>
+        <id value="PedigreeRelationshipTypes"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 41 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on http://purl.org/ga4gh/rel.fhir version 20210528</p>
+            <p>All codes from system 
+              <code>http://purl.org/ga4gh/rel.fhir</code>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-022"> </a>REL:022
+                </td>
+                <td>adoptive parent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-032"> </a>REL:032
+                </td>
+                <td>biological child</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-028"> </a>REL:028
+                </td>
+                <td>biological father</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-027"> </a>REL:027
+                </td>
+                <td>biological mother</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-003"> </a>REL:003
+                </td>
+                <td>biological parent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-002"> </a>REL:002
+                </td>
+                <td>biological relative</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-007"> </a>REL:007
+                </td>
+                <td>biological sibling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-030"> </a>REL:030
+                </td>
+                <td>consanguineous partner</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-014"> </a>REL:014
+                </td>
+                <td>cousin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-999"> </a>REL:999
+                </td>
+                <td>Domain Entity</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-995"> </a>REL:995
+                </td>
+                <td>Female</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-021"> </a>REL:021
+                </td>
+                <td>foster parent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-008"> </a>REL:008
+                </td>
+                <td>full sibling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-005"> </a>REL:005
+                </td>
+                <td>gestational carrier</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-017"> </a>REL:017
+                </td>
+                <td>grandparent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-018"> </a>REL:018
+                </td>
+                <td>great-grandparent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-012"> </a>REL:012
+                </td>
+                <td>half-sibling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-031"> </a>REL:031
+                </td>
+                <td>hasSex</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-996"> </a>REL:996
+                </td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-994"> </a>REL:994
+                </td>
+                <td>Man</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-015"> </a>REL:015
+                </td>
+                <td>maternal cousin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-029"> </a>REL:029
+                </td>
+                <td>mitochondrial donor</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-010"> </a>REL:010
+                </td>
+                <td>monozygotic twin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-020"> </a>REL:020
+                </td>
+                <td>parent figure</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-013"> </a>REL:013
+                </td>
+                <td>parental-sibling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-026"> </a>REL:026
+                </td>
+                <td>partner</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-016"> </a>REL:016
+                </td>
+                <td>paternal cousin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-998"> </a>REL:998
+                </td>
+                <td>Person</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-011"> </a>REL:011
+                </td>
+                <td>polyzygotic twin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-001"> </a>REL:001
+                </td>
+                <td>relative</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-997"> </a>REL:997
+                </td>
+                <td>Sex</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-024"> </a>REL:024
+                </td>
+                <td>sibling figure</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-019"> </a>REL:019
+                </td>
+                <td>social/legal relative</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-004"> </a>REL:004
+                </td>
+                <td>sperm/ovum donor</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-023"> </a>REL:023
+                </td>
+                <td>step parent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-025"> </a>REL:025
+                </td>
+                <td>step-sibling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-006"> </a>REL:006
+                </td>
+                <td>surrogate ovum donor</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-Thing"> </a>Thing
+                </td>
+                <td>Thing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-topObjectProperty"> </a>topObjectProperty
+                </td>
+                <td>topObjectProperty</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-009"> </a>REL:009
+                </td>
+                <td>twin</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---purl.org-ga4gh-rel.fhir-REL-993"> </a>REL:993
+                </td>
+                <td>Woman</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes"/>
+        <version value="0.1.0"/>
+        <name value="PedigreeRelationshipTypes"/>
+        <title value="Pedigree Relationship Types"/>
+        <status value="active"/>
+        <date value="2021-06-23T22:50:11+00:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="The types of relationships between individuals in a pedigree."/>
+        <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+        <expansion>
+          <identifier value="urn:uuid:f8491861-1c37-4c28-81d4-42b3494ac0ab"/>
+          <timestamp value="2021-06-23T22:50:29+00:00"/>
+          <total value="41"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://purl.org/ga4gh/rel.fhir|20210528"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="2147483647"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:022"/>
+            <display value="adoptive parent"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:032"/>
+            <display value="biological child"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:028"/>
+            <display value="biological father"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:027"/>
+            <display value="biological mother"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:003"/>
+            <display value="biological parent"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:002"/>
+            <display value="biological relative"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:007"/>
+            <display value="biological sibling"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:030"/>
+            <display value="consanguineous partner"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:014"/>
+            <display value="cousin"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:999"/>
+            <display value="Domain Entity"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:995"/>
+            <display value="Female"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:021"/>
+            <display value="foster parent"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:008"/>
+            <display value="full sibling"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:005"/>
+            <display value="gestational carrier"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:017"/>
+            <display value="grandparent"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:018"/>
+            <display value="great-grandparent"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:012"/>
+            <display value="half-sibling"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:031"/>
+            <display value="hasSex"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:996"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:994"/>
+            <display value="Man"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:015"/>
+            <display value="maternal cousin"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:029"/>
+            <display value="mitochondrial donor"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:010"/>
+            <display value="monozygotic twin"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:020"/>
+            <display value="parent figure"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:013"/>
+            <display value="parental-sibling"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:026"/>
+            <display value="partner"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:016"/>
+            <display value="paternal cousin"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:998"/>
+            <display value="Person"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:011"/>
+            <display value="polyzygotic twin"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:001"/>
+            <display value="relative"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:997"/>
+            <display value="Sex"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:024"/>
+            <display value="sibling figure"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:019"/>
+            <display value="social/legal relative"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:004"/>
+            <display value="sperm/ovum donor"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:023"/>
+            <display value="step parent"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:025"/>
+            <display value="step-sibling"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:006"/>
+            <display value="surrogate ovum donor"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="Thing"/>
+            <display value="Thing"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="topObjectProperty"/>
+            <display value="topObjectProperty"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:009"/>
+            <display value="twin"/>
+          </contains>
+          <contains>
+            <system value="http://purl.org/ga4gh/rel.fhir"/>
+            <code value="REL:993"/>
+            <display value="Woman"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

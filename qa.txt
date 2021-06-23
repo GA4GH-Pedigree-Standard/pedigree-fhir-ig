@@ -1,9 +1,9 @@
 ﻿GA4GHPedigreeIG : Validation Results
 =========================================
 
-err = 0, warn = 69, info = 27
+err = 0, warn = 46, info = 27
 IG Publisher Version: 1.1.75
-Generated Wed Jun 23 02:20:23 UTC 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigree#0.1.0 (canonical = http://purl.org/ga4gh/pedigree-fhir-ig)
+Generated Wed Jun 23 22:50:41 UTC 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigree#0.1.0 (canonical = http://purl.org/ga4gh/pedigree-fhir-ig)
 
  Build Errors : 0 / 33 / 0
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/CodeSystem-SectionType : 0 / 0 / 1
@@ -15,28 +15,28 @@ Generated Wed Jun 23 02:20:23 UTC 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigr
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-FatherSecondCondition : 0 / 0 / 2
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-ProbandCondition : 0 / 0 / 2
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-pedigree-1-condition-example-1 : 0 / 0 / 3
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartHomerRelationship : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartMargeRelationship : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-HomerAbeRelationship : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-MargeHomerRelationship : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-ProbandFatherRelationship : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-ProbandMotherRelationship : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-1 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-10 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-11 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-12 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-13 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-14 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-15 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-16 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-2 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-3 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-4 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-5 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-6 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-7 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-8 : 0 / 1 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-9 : 0 / 1 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartHomerRelationship : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartMargeRelationship : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-HomerAbeRelationship : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-MargeHomerRelationship : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-ProbandFatherRelationship : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-ProbandMotherRelationship : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-1 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-10 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-11 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-12 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-13 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-14 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-15 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-16 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-2 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-3 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-4 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-5 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-6 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-7 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-8 : 0 / 0 / 2
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-9 : 0 / 0 / 2
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/ImplementationGuide-ga4gh.fhir.pedigree : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Observation-AffectedStatusFather : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Observation-AffectedStatusMother : 0 / 0 / 1
@@ -70,7 +70,7 @@ Generated Wed Jun 23 02:20:23 UTC 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigr
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-PedigreeIndividual : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-PedigreeRelationship : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-patient-unborn : 0 / 0 / 1
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/ValueSet-PedigreeRelationshipTypes : 0 / 1 / 1
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/ValueSet-PedigreeRelationshipTypes : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/pedigree-1-affected-status-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -131,91 +131,69 @@ INFORMATION: Condition/pedigree-1-condition-example-1: Condition.code.coding[0]:
 INFORMATION: Condition/pedigree-1-condition-example-1: Condition.bodySite[0].coding[0]: Code System URI 'http://purl.obolibrary.org/obo/uberon.owl' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartHomerRelationship.json ==
 INFORMATION: FamilyMemberHistory/BartHomerRelationship: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/BartHomerRelationship: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/BartHomerRelationship: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartMargeRelationship.json ==
 INFORMATION: FamilyMemberHistory/BartMargeRelationship: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/BartMargeRelationship: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/BartMargeRelationship: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-HomerAbeRelationship.json ==
 INFORMATION: FamilyMemberHistory/HomerAbeRelationship: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/HomerAbeRelationship: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/HomerAbeRelationship: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-MargeHomerRelationship.json ==
 INFORMATION: FamilyMemberHistory/MargeHomerRelationship: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/MargeHomerRelationship: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/MargeHomerRelationship: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-ProbandFatherRelationship.json ==
 INFORMATION: FamilyMemberHistory/ProbandFatherRelationship: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/ProbandFatherRelationship: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/ProbandFatherRelationship: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-ProbandMotherRelationship.json ==
 INFORMATION: FamilyMemberHistory/ProbandMotherRelationship: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/ProbandMotherRelationship: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/ProbandMotherRelationship: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-1.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-1: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-1: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-1: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-10.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-10: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-10: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-10: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-11.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-11: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-11: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-11: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-12.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-12: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-12: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-12: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-13.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-13: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-13: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-13: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-14.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-14: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-14: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-14: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-15.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-15: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-15: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-15: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-16.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-16: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-16: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-16: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-2.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-2: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-2: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-2: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-3.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-3: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-3: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-3: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-4.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-4: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-4: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-4: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-5.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-5: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-5: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-5: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-6.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-6: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-6: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-6: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-7.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-7: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-7: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-7: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-8.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-8: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-8: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-8: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-pedigree-1-relationship-example-9.json ==
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-9: FamilyMemberHistory: Validate resource against profile http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship
-WARNING: FamilyMemberHistory/pedigree-1-relationship-example-9: FamilyMemberHistory.relationship: [Unable to determine whether the provided codes are in the value set http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes because the value set or code system is not known to the validator]
 INFORMATION: FamilyMemberHistory/pedigree-1-relationship-example-9: FamilyMemberHistory.relationship.coding[0]: Code System URI 'http://purl.org/ga4gh/rel.fhir' is unknown so the code cannot be validated
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/ImplementationGuide-ga4gh.fhir.pedigree.json ==
 INFORMATION: ImplementationGuide/ga4gh.fhir.pedigree: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
@@ -298,4 +276,3 @@ INFORMATION: StructureDefinition/PedigreeRelationship: StructureDefinition: Vali
 INFORMATION: StructureDefinition/patient-unborn: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/ValueSet-PedigreeRelationshipTypes.json ==
 INFORMATION: ValueSet/PedigreeRelationshipTypes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-WARNING: ValueSet.where(id = 'PedigreeRelationshipTypes'): Error from server: Unable to provide support for code system http://purl.org/ga4gh/rel.fhir

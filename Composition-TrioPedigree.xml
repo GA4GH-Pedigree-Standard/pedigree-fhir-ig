@@ -6,7 +6,7 @@
     <profile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 422432008}">Family history section (record artifact)</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href="Organization-MelbourneGenomics.html">Generated Summary: name: Melbourne Genomics</a></p><p><b>title</b>: Pedigree</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 422432008}">Family history section</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href="Organization-MelbourneGenomics.html">Generated Summary: name: Melbourne Genomics</a></p><p><b>title</b>: Pedigree</p></div>
   </text>
   <status value="final"/>
   <type>

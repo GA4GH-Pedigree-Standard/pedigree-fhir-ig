@@ -3,7 +3,7 @@
   "id": "ProbandCondition",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/hp.fhir HP:0007240}\">HP:0007240</span></p><p><b>subject</b>: <a href=\"Patient-Proband.html\">Generated Summary: id: 3; gender: female</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/hp.fhir HP:0007240}\">Progressive gait ataxia</span></p><p><b>subject</b>: <a href=\"Patient-Proband.html\">Generated Summary: id: 3; gender: female</a></p></div>"
   },
   "code": {
     "coding": [
