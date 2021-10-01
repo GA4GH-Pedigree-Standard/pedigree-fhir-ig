@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "6be29f84-cdff-4045-b55d-82b53b883852",
+  "id" : "3f327a34-bf94-4412-a89d-bffe7bbe71c0",
   "meta" : {
-    "lastUpdated" : "2021-06-23T22:50:15.331+00:00"
+    "lastUpdated" : "2021-10-01T03:36:07.176+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -12,14 +12,14 @@
       "id" : "PedigreeRelationshipTypes",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 41 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on http://purl.org/ga4gh/rel.fhir version 20210528</p><p>All codes from system <code>http://purl.org/ga4gh/rel.fhir</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-022\"> </a>REL:022</td><td>adoptive parent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-032\"> </a>REL:032</td><td>biological child</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-028\"> </a>REL:028</td><td>biological father</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-027\"> </a>REL:027</td><td>biological mother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-003\"> </a>REL:003</td><td>biological parent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-002\"> </a>REL:002</td><td>biological relative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-007\"> </a>REL:007</td><td>biological sibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-030\"> </a>REL:030</td><td>consanguineous partner</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-014\"> </a>REL:014</td><td>cousin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-999\"> </a>REL:999</td><td>Domain Entity</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-995\"> </a>REL:995</td><td>Female</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-021\"> </a>REL:021</td><td>foster parent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-008\"> </a>REL:008</td><td>full sibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-005\"> </a>REL:005</td><td>gestational carrier</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-017\"> </a>REL:017</td><td>grandparent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-018\"> </a>REL:018</td><td>great-grandparent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-012\"> </a>REL:012</td><td>half-sibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-031\"> </a>REL:031</td><td>hasSex</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-996\"> </a>REL:996</td><td>Male</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-994\"> </a>REL:994</td><td>Man</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-015\"> </a>REL:015</td><td>maternal cousin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-029\"> </a>REL:029</td><td>mitochondrial donor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-010\"> </a>REL:010</td><td>monozygotic twin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-020\"> </a>REL:020</td><td>parent figure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-013\"> </a>REL:013</td><td>parental-sibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-026\"> </a>REL:026</td><td>partner</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-016\"> </a>REL:016</td><td>paternal cousin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-998\"> </a>REL:998</td><td>Person</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-011\"> </a>REL:011</td><td>polyzygotic twin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-001\"> </a>REL:001</td><td>relative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-997\"> </a>REL:997</td><td>Sex</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-024\"> </a>REL:024</td><td>sibling figure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-019\"> </a>REL:019</td><td>social/legal relative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-004\"> </a>REL:004</td><td>sperm/ovum donor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-023\"> </a>REL:023</td><td>step parent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-025\"> </a>REL:025</td><td>step-sibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-006\"> </a>REL:006</td><td>surrogate ovum donor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-Thing\"> </a>Thing</td><td>Thing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-topObjectProperty\"> </a>topObjectProperty</td><td>topObjectProperty</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-009\"> </a>REL:009</td><td>twin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-rel.fhir-REL-993\"> </a>REL:993</td><td>Woman</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 55 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on http://purl.org/ga4gh/kin.fhir version 20210805</p><p>All codes in this table are from the system <code>http://purl.org/ga4gh/kin.fhir</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-999\"> </a>KIN:999</td><td>Domain Entity</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-995\"> </a>KIN:995</td><td>Female</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-033\"> </a>KIN:033</td><td>hasBiologicalChild</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-040\"> </a>KIN:040</td><td>hasBiologicalFather</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-041\"> </a>KIN:041</td><td>hasBiologicalMother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-034\"> </a>KIN:034</td><td>hasBiologicalParent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-039\"> </a>KIN:039</td><td>hasGestationalCarrier</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-037\"> </a>KIN:037</td><td>hasGrandchild</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-035\"> </a>KIN:035</td><td>hasGrandparent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-045\"> </a>KIN:045</td><td>hasGreatGrandParent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-042\"> </a>KIN:042</td><td>hasOvumDonor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-046\"> </a>KIN:046</td><td>hasParentalSibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-031\"> </a>KIN:031</td><td>hasSex</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-044\"> </a>KIN:044</td><td>hasSpermDonor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-043\"> </a>KIN:043</td><td>hasSurrogateOvumDonor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-022\"> </a>KIN:022</td><td>isAdoptiveParent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-032\"> </a>KIN:032</td><td>isBiologicalChild</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-028\"> </a>KIN:028</td><td>isBiologicalFather</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-027\"> </a>KIN:027</td><td>isBiologicalMother</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-003\"> </a>KIN:003</td><td>isBiologicalParent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-002\"> </a>KIN:002</td><td>isBiologicalRelative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-007\"> </a>KIN:007</td><td>isBiologicalSibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-030\"> </a>KIN:030</td><td>isConsanguineousPartner</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-014\"> </a>KIN:014</td><td>isCousin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-021\"> </a>KIN:021</td><td>isFosterParent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-008\"> </a>KIN:008</td><td>isFullsibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-005\"> </a>KIN:005</td><td>isGestationalCarrier</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-036\"> </a>KIN:036</td><td>isGrandchild</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-017\"> </a>KIN:017</td><td>isGrandparent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-018\"> </a>KIN:018</td><td>isGreatGrandparent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-012\"> </a>KIN:012</td><td>isHalfSibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-015\"> </a>KIN:015</td><td>isMaternalCousin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-029\"> </a>KIN:029</td><td>isMitochondrialDonor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-010\"> </a>KIN:010</td><td>isMonozygoticTwin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-038\"> </a>KIN:038</td><td>isOvumDonor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-013\"> </a>KIN:013</td><td>isParentalSibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-020\"> </a>KIN:020</td><td>isParentFigure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-026\"> </a>KIN:026</td><td>isPartner</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-016\"> </a>KIN:016</td><td>isPaternalCousin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-011\"> </a>KIN:011</td><td>isPolyzygoticTwin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-001\"> </a>KIN:001</td><td>isRelative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-024\"> </a>KIN:024</td><td>isSiblingFigure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-019\"> </a>KIN:019</td><td>isSocialLegalRelative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-004\"> </a>KIN:004</td><td>isSpermDonor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-023\"> </a>KIN:023</td><td>isStepParent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-025\"> </a>KIN:025</td><td>isStepSibling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-006\"> </a>KIN:006</td><td>isSurrogateOvumDonor</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-009\"> </a>KIN:009</td><td>isTwin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-996\"> </a>KIN:996</td><td>Male</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-994\"> </a>KIN:994</td><td>Man</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-998\"> </a>KIN:998</td><td>Person</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-997\"> </a>KIN:997</td><td>Sex</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-Thing\"> </a>Thing</td><td>Thing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-topObjectProperty\"> </a>topObjectProperty</td><td>topObjectProperty</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---purl.org-ga4gh-kin.fhir-KIN-993\"> </a>KIN:993</td><td>Woman</td></tr></table></div>"
       },
       "url" : "http://purl.org/ga4gh/pedigree-fhir-ig/ValueSet/PedigreeRelationshipTypes",
       "version" : "0.1.0",
       "name" : "PedigreeRelationshipTypes",
       "title" : "Pedigree Relationship Types",
       "status" : "active",
-      "date" : "2021-06-23T22:50:15+00:00",
+      "date" : "2021-10-01T03:36:07+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -31,16 +31,16 @@
       "description" : "The types of relationships between individuals in a pedigree.",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:693ea65d-e689-4ffc-b4da-3fb7ed4e92c2",
-        "timestamp" : "2021-06-23T22:50:33+00:00",
-        "total" : 41,
+        "identifier" : "urn:uuid:1cc2aa4f-7c34-4e17-856a-97de975b38c9",
+        "timestamp" : "2021-10-01T03:36:24+00:00",
+        "total" : 55,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
         },
         {
           "name" : "version",
-          "valueUri" : "http://purl.org/ga4gh/rel.fhir|20210528"
+          "valueUri" : "http://purl.org/ga4gh/kin.fhir|20210805"
         },
         {
           "name" : "count",
@@ -51,208 +51,278 @@
           "valueInteger" : 0
         }],
         "contains" : [{
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:022",
-          "display" : "adoptive parent"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:032",
-          "display" : "biological child"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:028",
-          "display" : "biological father"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:027",
-          "display" : "biological mother"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:003",
-          "display" : "biological parent"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:002",
-          "display" : "biological relative"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:007",
-          "display" : "biological sibling"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:030",
-          "display" : "consanguineous partner"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:014",
-          "display" : "cousin"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:999",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:999",
           "display" : "Domain Entity"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:995",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:995",
           "display" : "Female"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:021",
-          "display" : "foster parent"
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:033",
+          "display" : "hasBiologicalChild"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:008",
-          "display" : "full sibling"
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:040",
+          "display" : "hasBiologicalFather"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:005",
-          "display" : "gestational carrier"
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:041",
+          "display" : "hasBiologicalMother"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:017",
-          "display" : "grandparent"
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:034",
+          "display" : "hasBiologicalParent"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:018",
-          "display" : "great-grandparent"
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:039",
+          "display" : "hasGestationalCarrier"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:012",
-          "display" : "half-sibling"
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:037",
+          "display" : "hasGrandchild"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:031",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:035",
+          "display" : "hasGrandparent"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:045",
+          "display" : "hasGreatGrandParent"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:042",
+          "display" : "hasOvumDonor"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:046",
+          "display" : "hasParentalSibling"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:031",
           "display" : "hasSex"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:996",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:044",
+          "display" : "hasSpermDonor"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:043",
+          "display" : "hasSurrogateOvumDonor"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:022",
+          "display" : "isAdoptiveParent"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:032",
+          "display" : "isBiologicalChild"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:028",
+          "display" : "isBiologicalFather"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:027",
+          "display" : "isBiologicalMother"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:003",
+          "display" : "isBiologicalParent"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:002",
+          "display" : "isBiologicalRelative"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:007",
+          "display" : "isBiologicalSibling"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:030",
+          "display" : "isConsanguineousPartner"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:014",
+          "display" : "isCousin"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:021",
+          "display" : "isFosterParent"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:008",
+          "display" : "isFullsibling"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:005",
+          "display" : "isGestationalCarrier"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:036",
+          "display" : "isGrandchild"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:017",
+          "display" : "isGrandparent"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:018",
+          "display" : "isGreatGrandparent"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:012",
+          "display" : "isHalfSibling"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:015",
+          "display" : "isMaternalCousin"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:029",
+          "display" : "isMitochondrialDonor"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:010",
+          "display" : "isMonozygoticTwin"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:038",
+          "display" : "isOvumDonor"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:013",
+          "display" : "isParentalSibling"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:020",
+          "display" : "isParentFigure"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:026",
+          "display" : "isPartner"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:016",
+          "display" : "isPaternalCousin"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:011",
+          "display" : "isPolyzygoticTwin"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:001",
+          "display" : "isRelative"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:024",
+          "display" : "isSiblingFigure"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:019",
+          "display" : "isSocialLegalRelative"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:004",
+          "display" : "isSpermDonor"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:023",
+          "display" : "isStepParent"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:025",
+          "display" : "isStepSibling"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:006",
+          "display" : "isSurrogateOvumDonor"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:009",
+          "display" : "isTwin"
+        },
+        {
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:996",
           "display" : "Male"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:994",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:994",
           "display" : "Man"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:015",
-          "display" : "maternal cousin"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:029",
-          "display" : "mitochondrial donor"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:010",
-          "display" : "monozygotic twin"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:020",
-          "display" : "parent figure"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:013",
-          "display" : "parental-sibling"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:026",
-          "display" : "partner"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:016",
-          "display" : "paternal cousin"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:998",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:998",
           "display" : "Person"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:011",
-          "display" : "polyzygotic twin"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:001",
-          "display" : "relative"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:997",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:997",
           "display" : "Sex"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:024",
-          "display" : "sibling figure"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:019",
-          "display" : "social/legal relative"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:004",
-          "display" : "sperm/ovum donor"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:023",
-          "display" : "step parent"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:025",
-          "display" : "step-sibling"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:006",
-          "display" : "surrogate ovum donor"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
           "code" : "Thing",
           "display" : "Thing"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
           "code" : "topObjectProperty",
           "display" : "topObjectProperty"
         },
         {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:009",
-          "display" : "twin"
-        },
-        {
-          "system" : "http://purl.org/ga4gh/rel.fhir",
-          "code" : "REL:993",
+          "system" : "http://purl.org/ga4gh/kin.fhir",
+          "code" : "KIN:993",
           "display" : "Woman"
         }]
       }

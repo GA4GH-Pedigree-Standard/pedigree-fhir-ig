@@ -3,9 +3,9 @@
   "name": "GA4GHPedigreeIG",
   "package-id": "ga4gh.fhir.pedigree",
   "ig-ver": "0.1.0",
-  "date": "Wed, 23 Jun, 2021 22:50:15 +0000",
+  "date": "Fri, 01 Oct, 2021 03:36:07 +0000",
   "errs": 0,
-  "warnings": 46,
+  "warnings": 68,
   "hints": 27,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
