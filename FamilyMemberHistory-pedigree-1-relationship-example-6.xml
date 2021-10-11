@@ -6,7 +6,7 @@
     <profile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeRelationship"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href="Patient-pedigree-1-individual-example-10.html">Generated Summary: id: pedigree-1-10; gender: male</a></p><p><b>identifier</b>: id: pedigree-1-6</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-pedigree-1-individual-example-6.html">Generated Summary: id: pedigree-1-6; gender: male</a></p><p><b>relationship</b>: <span title="Codes: {http://purl.org/ga4gh/kin.fhir REL:003}">Biological parent</span></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href="Patient-pedigree-1-individual-example-10.html">Generated Summary: id: pedigree-1-10; gender: male</a></p><p><b>identifier</b>: id: pedigree-1-6</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-pedigree-1-individual-example-6.html">Generated Summary: id: pedigree-1-6; gender: male</a></p><p><b>relationship</b>: <span title="Codes: {http://purl.org/ga4gh/kin.fhir KIN:003}">isBiologicalParent</span></p></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/familymemberhistory-patient-record">
     <valueReference>
@@ -24,8 +24,8 @@
   <relationship>
     <coding>
       <system value="http://purl.org/ga4gh/kin.fhir"/>
-      <code value="REL:003"/>
-      <display value="Biological parent"/>
+      <code value="KIN:003"/>
+      <display value="isBiologicalParent"/>
     </coding>
   </relationship>
 </FamilyMemberHistory>

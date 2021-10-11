@@ -1,0 +1,1288 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/kin> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "kin"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Description</b></td><td><b>Type</b></td></tr><tr><td>parent</td><td/><td>Parent codes.</td><td>code</td></tr><tr><td>imported</td><td/><td>Indicates if the concept is imported from another code system.</td><td>boolean</td></tr><tr><td>root</td><td/><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)</td><td>boolean</td></tr><tr><td>deprecated</td><td/><td>Indicates if this concept is deprecated.</td><td>boolean</td></tr></table><p><b>Filters</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>operator</b></td><td><b>Value</b></td></tr><tr><td>root</td><td/><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td/><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td/><td>= </td><td>True or false</td></tr></table><p>This code system http://purl.org/ga4gh/kin.fhir defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">KIN:994<a name=\"kin-KIN.58994\"> </a></td><td>Man</td></tr><tr><td style=\"white-space:nowrap\">KIN:993<a name=\"kin-KIN.58993\"> </a></td><td>Woman</td></tr><tr><td style=\"white-space:nowrap\">KIN:996<a name=\"kin-KIN.58996\"> </a></td><td>Male</td></tr><tr><td style=\"white-space:nowrap\">KIN:995<a name=\"kin-KIN.58995\"> </a></td><td>Female</td></tr><tr><td style=\"white-space:nowrap\">KIN:998<a name=\"kin-KIN.58998\"> </a></td><td>Person</td></tr><tr><td style=\"white-space:nowrap\">KIN:997<a name=\"kin-KIN.58997\"> </a></td><td>Sex</td></tr><tr><td style=\"white-space:nowrap\">KIN:999<a name=\"kin-KIN.58999\"> </a></td><td>Domain Entity</td></tr><tr><td style=\"white-space:nowrap\">Thing<a name=\"kin-Thing\"> </a></td><td>Thing</td></tr><tr><td style=\"white-space:nowrap\">KIN:001<a name=\"kin-KIN.58001\"> </a></td><td>isRelative</td></tr><tr><td style=\"white-space:nowrap\">KIN:002<a name=\"kin-KIN.58002\"> </a></td><td>isBiologicalRelative</td></tr><tr><td style=\"white-space:nowrap\">KIN:003<a name=\"kin-KIN.58003\"> </a></td><td>isBiologicalParent</td></tr><tr><td style=\"white-space:nowrap\">KIN:004<a name=\"kin-KIN.58004\"> </a></td><td>isSpermDonor</td></tr><tr><td style=\"white-space:nowrap\">KIN:005<a name=\"kin-KIN.58005\"> </a></td><td>isGestationalCarrier</td></tr><tr><td style=\"white-space:nowrap\">KIN:006<a name=\"kin-KIN.58006\"> </a></td><td>isSurrogateOvumDonor</td></tr><tr><td style=\"white-space:nowrap\">KIN:007<a name=\"kin-KIN.58007\"> </a></td><td>isBiologicalSibling</td></tr><tr><td style=\"white-space:nowrap\">KIN:008<a name=\"kin-KIN.58008\"> </a></td><td>isFullsibling</td></tr><tr><td style=\"white-space:nowrap\">KIN:009<a name=\"kin-KIN.58009\"> </a></td><td>isTwin</td></tr><tr><td style=\"white-space:nowrap\">KIN:010<a name=\"kin-KIN.58010\"> </a></td><td>isMonozygoticTwin</td></tr><tr><td style=\"white-space:nowrap\">KIN:011<a name=\"kin-KIN.58011\"> </a></td><td>isPolyzygoticTwin</td></tr><tr><td style=\"white-space:nowrap\">KIN:012<a name=\"kin-KIN.58012\"> </a></td><td>isHalfSibling</td></tr><tr><td style=\"white-space:nowrap\">KIN:013<a name=\"kin-KIN.58013\"> </a></td><td>isParentalSibling</td></tr><tr><td style=\"white-space:nowrap\">KIN:014<a name=\"kin-KIN.58014\"> </a></td><td>isCousin</td></tr><tr><td style=\"white-space:nowrap\">KIN:015<a name=\"kin-KIN.58015\"> </a></td><td>isMaternalCousin</td></tr><tr><td style=\"white-space:nowrap\">KIN:016<a name=\"kin-KIN.58016\"> </a></td><td>isPaternalCousin</td></tr><tr><td style=\"white-space:nowrap\">KIN:017<a name=\"kin-KIN.58017\"> </a></td><td>isGrandparent</td></tr><tr><td style=\"white-space:nowrap\">KIN:018<a name=\"kin-KIN.58018\"> </a></td><td>isGreatGrandparent</td></tr><tr><td style=\"white-space:nowrap\">KIN:019<a name=\"kin-KIN.58019\"> </a></td><td>isSocialLegalRelative</td></tr><tr><td style=\"white-space:nowrap\">KIN:020<a name=\"kin-KIN.58020\"> </a></td><td>isParentFigure</td></tr><tr><td style=\"white-space:nowrap\">KIN:021<a name=\"kin-KIN.58021\"> </a></td><td>isFosterParent</td></tr><tr><td style=\"white-space:nowrap\">KIN:022<a name=\"kin-KIN.58022\"> </a></td><td>isAdoptiveParent</td></tr><tr><td style=\"white-space:nowrap\">KIN:023<a name=\"kin-KIN.58023\"> </a></td><td>isStepParent</td></tr><tr><td style=\"white-space:nowrap\">KIN:024<a name=\"kin-KIN.58024\"> </a></td><td>isSiblingFigure</td></tr><tr><td style=\"white-space:nowrap\">KIN:025<a name=\"kin-KIN.58025\"> </a></td><td>isStepSibling</td></tr><tr><td style=\"white-space:nowrap\">KIN:026<a name=\"kin-KIN.58026\"> </a></td><td>isPartner</td></tr><tr><td style=\"white-space:nowrap\">KIN:027<a name=\"kin-KIN.58027\"> </a></td><td>isBiologicalMother</td></tr><tr><td style=\"white-space:nowrap\">KIN:028<a name=\"kin-KIN.58028\"> </a></td><td>isBiologicalFather</td></tr><tr><td style=\"white-space:nowrap\">KIN:029<a name=\"kin-KIN.58029\"> </a></td><td>isMitochondrialDonor</td></tr><tr><td style=\"white-space:nowrap\">KIN:030<a name=\"kin-KIN.58030\"> </a></td><td>isConsanguineousPartner</td></tr><tr><td style=\"white-space:nowrap\">KIN:031<a name=\"kin-KIN.58031\"> </a></td><td>hasSex</td></tr><tr><td style=\"white-space:nowrap\">KIN:032<a name=\"kin-KIN.58032\"> </a></td><td>isBiologicalChild</td></tr><tr><td style=\"white-space:nowrap\">KIN:033<a name=\"kin-KIN.58033\"> </a></td><td>hasBiologicalChild</td></tr><tr><td style=\"white-space:nowrap\">KIN:034<a name=\"kin-KIN.58034\"> </a></td><td>hasBiologicalParent</td></tr><tr><td style=\"white-space:nowrap\">KIN:035<a name=\"kin-KIN.58035\"> </a></td><td>hasGrandparent</td></tr><tr><td style=\"white-space:nowrap\">KIN:036<a name=\"kin-KIN.58036\"> </a></td><td>isGrandchild</td></tr><tr><td style=\"white-space:nowrap\">KIN:037<a name=\"kin-KIN.58037\"> </a></td><td>hasGrandchild</td></tr><tr><td style=\"white-space:nowrap\">KIN:038<a name=\"kin-KIN.58038\"> </a></td><td>isOvumDonor</td></tr><tr><td style=\"white-space:nowrap\">KIN:039<a name=\"kin-KIN.58039\"> </a></td><td>hasGestationalCarrier</td></tr><tr><td style=\"white-space:nowrap\">KIN:040<a name=\"kin-KIN.58040\"> </a></td><td>hasBiologicalFather</td></tr><tr><td style=\"white-space:nowrap\">KIN:041<a name=\"kin-KIN.58041\"> </a></td><td>hasBiologicalMother</td></tr><tr><td style=\"white-space:nowrap\">KIN:042<a name=\"kin-KIN.58042\"> </a></td><td>hasOvumDonor</td></tr><tr><td style=\"white-space:nowrap\">KIN:043<a name=\"kin-KIN.58043\"> </a></td><td>hasSurrogateOvumDonor</td></tr><tr><td style=\"white-space:nowrap\">KIN:044<a name=\"kin-KIN.58044\"> </a></td><td>hasSpermDonor</td></tr><tr><td style=\"white-space:nowrap\">KIN:045<a name=\"kin-KIN.58045\"> </a></td><td>hasGreatGrandParent</td></tr><tr><td style=\"white-space:nowrap\">KIN:046<a name=\"kin-KIN.58046\"> </a></td><td>hasParentalSibling</td></tr><tr><td style=\"white-space:nowrap\">topObjectProperty<a name=\"kin-topObjectProperty\"> </a></td><td>topObjectProperty</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://purl.org/ga4gh/kin.fhir"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "FamilyHistoryRelationsOntology"];
+  fhir:CodeSystem.title [ fhir:value "Family History Relations Ontology"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2021-10-11T05:18:50+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A family relationships ontology."];
+  fhir:CodeSystem.copyright [ fhir:value "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"];
+  fhir:CodeSystem.valueSet [
+     fhir:value "http://purl.org/ga4gh/kin.fhir?vs";
+     fhir:link <http://purl.org/ga4gh/kin.fhir?vs>
+  ];
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"];
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.versionNeeded [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "55"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.filter [
+     fhir:index 0;
+     fhir:CodeSystem.filter.code [ fhir:value "root" ];
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=";
+       fhir:index 0
+     ];
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.filter.code [ fhir:value "deprecated" ];
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=";
+       fhir:index 0
+     ];
+     fhir:CodeSystem.filter.value [ fhir:value "True or false." ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.filter.code [ fhir:value "imported" ];
+     fhir:CodeSystem.filter.operator [
+       fhir:value "=";
+       fhir:index 0
+     ];
+     fhir:CodeSystem.filter.value [ fhir:value "True or false" ]
+  ];
+  fhir:CodeSystem.property [
+     fhir:index 0;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ];
+     fhir:CodeSystem.property.description [ fhir:value "Parent codes." ];
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.property.code [ fhir:value "imported" ];
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if the concept is imported from another code system." ];
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.property.code [ fhir:value "root" ];
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)" ];
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.property.code [ fhir:value "deprecated" ];
+     fhir:CodeSystem.property.description [ fhir:value "Indicates if this concept is deprecated." ];
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:994" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Man" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:998" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:993" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Woman" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:998" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:996" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Male" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:997" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:995" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Female" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:997" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:998" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Person" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "Thing" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:997" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sex" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:999" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:999" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Domain Entity" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "Thing" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "Thing" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Thing" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:001" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isRelative" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "topObjectProperty" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:002" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isBiologicalRelative" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:001" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isBiologicalParent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:004" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isSpermDonor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:033" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:003" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:005" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isGestationalCarrier" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:001" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:006" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isSurrogateOvumDonor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:038" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:005" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:007" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isBiologicalSibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:008" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isFullsibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:007" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:009" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isTwin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:008" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:010" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isMonozygoticTwin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:009" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:011" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isPolyzygoticTwin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:010" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:012" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isHalfSibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:007" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:013" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isParentalSibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:014" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isCousin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:015" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isMaternalCousin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:014" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:016" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isPaternalCousin" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:014" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:017" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isGrandparent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:018" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isGreatGrandparent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:019" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isSocialLegalRelative" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:001" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 27;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:020" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isParentFigure" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:019" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 28;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:021" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isFosterParent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:020" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 29;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:022" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isAdoptiveParent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:020" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 30;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:023" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isStepParent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:020" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 31;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:024" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isSiblingFigure" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:019" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 32;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:025" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isStepSibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:024" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 33;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:026" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isPartner" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:019" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 34;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:027" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isBiologicalMother" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:033" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:003" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 35;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:028" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isBiologicalFather" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:033" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:003" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 36;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:029" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isMitochondrialDonor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:001" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 37;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:030" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isConsanguineousPartner" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:026" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 38;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:031" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasSex" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "topObjectProperty" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 39;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:032" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isBiologicalChild" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 40;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:033" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasBiologicalChild" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 41;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:034" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasBiologicalParent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 42;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:035" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasGrandparent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 43;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:036" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isGrandchild" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 44;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:037" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasGrandchild" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 45;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:038" ];
+     fhir:CodeSystem.concept.display [ fhir:value "isOvumDonor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:033" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:003" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 46;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:039" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasGestationalCarrier" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:001" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 47;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:040" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasBiologicalFather" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:034" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:032" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 48;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:041" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasBiologicalMother" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:034" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:032" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 49;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:042" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasOvumDonor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:034" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:032" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 50;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:043" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasSurrogateOvumDonor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:042" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:039" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 51;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:044" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasSpermDonor" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:034" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:032" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 52;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:045" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasGreatGrandParent" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 53;
+     fhir:CodeSystem.concept.code [ fhir:value "KIN:046" ];
+     fhir:CodeSystem.concept.display [ fhir:value "hasParentalSibling" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "parent" ];
+       fhir:CodeSystem.concept.property.valueCode [ fhir:value "KIN:002" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 54;
+     fhir:CodeSystem.concept.code [ fhir:value "topObjectProperty" ];
+     fhir:CodeSystem.concept.display [ fhir:value "topObjectProperty" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "imported" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.property.code [ fhir:value "root" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.property.code [ fhir:value "deprecated" ];
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/kin.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

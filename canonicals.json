@@ -1,5 +1,12 @@
 [
   {
+    "id": "kin",
+    "type": "CodeSystem",
+    "url": "http://purl.org/ga4gh/kin.fhir",
+    "version": "0.1.0",
+    "name": "FamilyHistoryRelationsOntology"
+  },
+  {
     "id": "SectionType",
     "type": "CodeSystem",
     "url": "http://purl.org/ga4gh/pedigree-fhir-ig/CodeSystem/SectionType",

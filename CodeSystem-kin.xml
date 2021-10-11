@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="kin"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Description</b></td><td><b>Type</b></td></tr><tr><td>parent</td><td/><td>Parent codes.</td><td>code</td></tr><tr><td>imported</td><td/><td>Indicates if the concept is imported from another code system.</td><td>boolean</td></tr><tr><td>root</td><td/><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)</td><td>boolean</td></tr><tr><td>deprecated</td><td/><td>Indicates if this concept is deprecated.</td><td>boolean</td></tr></table><p><b>Filters</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>operator</b></td><td><b>Value</b></td></tr><tr><td>root</td><td/><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td/><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td/><td>= </td><td>True or false</td></tr></table><p>This code system http://purl.org/ga4gh/kin.fhir defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">KIN:994<a name="kin-KIN.58994"> </a></td><td>Man</td></tr><tr><td style="white-space:nowrap">KIN:993<a name="kin-KIN.58993"> </a></td><td>Woman</td></tr><tr><td style="white-space:nowrap">KIN:996<a name="kin-KIN.58996"> </a></td><td>Male</td></tr><tr><td style="white-space:nowrap">KIN:995<a name="kin-KIN.58995"> </a></td><td>Female</td></tr><tr><td style="white-space:nowrap">KIN:998<a name="kin-KIN.58998"> </a></td><td>Person</td></tr><tr><td style="white-space:nowrap">KIN:997<a name="kin-KIN.58997"> </a></td><td>Sex</td></tr><tr><td style="white-space:nowrap">KIN:999<a name="kin-KIN.58999"> </a></td><td>Domain Entity</td></tr><tr><td style="white-space:nowrap">Thing<a name="kin-Thing"> </a></td><td>Thing</td></tr><tr><td style="white-space:nowrap">KIN:001<a name="kin-KIN.58001"> </a></td><td>isRelative</td></tr><tr><td style="white-space:nowrap">KIN:002<a name="kin-KIN.58002"> </a></td><td>isBiologicalRelative</td></tr><tr><td style="white-space:nowrap">KIN:003<a name="kin-KIN.58003"> </a></td><td>isBiologicalParent</td></tr><tr><td style="white-space:nowrap">KIN:004<a name="kin-KIN.58004"> </a></td><td>isSpermDonor</td></tr><tr><td style="white-space:nowrap">KIN:005<a name="kin-KIN.58005"> </a></td><td>isGestationalCarrier</td></tr><tr><td style="white-space:nowrap">KIN:006<a name="kin-KIN.58006"> </a></td><td>isSurrogateOvumDonor</td></tr><tr><td style="white-space:nowrap">KIN:007<a name="kin-KIN.58007"> </a></td><td>isBiologicalSibling</td></tr><tr><td style="white-space:nowrap">KIN:008<a name="kin-KIN.58008"> </a></td><td>isFullsibling</td></tr><tr><td style="white-space:nowrap">KIN:009<a name="kin-KIN.58009"> </a></td><td>isTwin</td></tr><tr><td style="white-space:nowrap">KIN:010<a name="kin-KIN.58010"> </a></td><td>isMonozygoticTwin</td></tr><tr><td style="white-space:nowrap">KIN:011<a name="kin-KIN.58011"> </a></td><td>isPolyzygoticTwin</td></tr><tr><td style="white-space:nowrap">KIN:012<a name="kin-KIN.58012"> </a></td><td>isHalfSibling</td></tr><tr><td style="white-space:nowrap">KIN:013<a name="kin-KIN.58013"> </a></td><td>isParentalSibling</td></tr><tr><td style="white-space:nowrap">KIN:014<a name="kin-KIN.58014"> </a></td><td>isCousin</td></tr><tr><td style="white-space:nowrap">KIN:015<a name="kin-KIN.58015"> </a></td><td>isMaternalCousin</td></tr><tr><td style="white-space:nowrap">KIN:016<a name="kin-KIN.58016"> </a></td><td>isPaternalCousin</td></tr><tr><td style="white-space:nowrap">KIN:017<a name="kin-KIN.58017"> </a></td><td>isGrandparent</td></tr><tr><td style="white-space:nowrap">KIN:018<a name="kin-KIN.58018"> </a></td><td>isGreatGrandparent</td></tr><tr><td style="white-space:nowrap">KIN:019<a name="kin-KIN.58019"> </a></td><td>isSocialLegalRelative</td></tr><tr><td style="white-space:nowrap">KIN:020<a name="kin-KIN.58020"> </a></td><td>isParentFigure</td></tr><tr><td style="white-space:nowrap">KIN:021<a name="kin-KIN.58021"> </a></td><td>isFosterParent</td></tr><tr><td style="white-space:nowrap">KIN:022<a name="kin-KIN.58022"> </a></td><td>isAdoptiveParent</td></tr><tr><td style="white-space:nowrap">KIN:023<a name="kin-KIN.58023"> </a></td><td>isStepParent</td></tr><tr><td style="white-space:nowrap">KIN:024<a name="kin-KIN.58024"> </a></td><td>isSiblingFigure</td></tr><tr><td style="white-space:nowrap">KIN:025<a name="kin-KIN.58025"> </a></td><td>isStepSibling</td></tr><tr><td style="white-space:nowrap">KIN:026<a name="kin-KIN.58026"> </a></td><td>isPartner</td></tr><tr><td style="white-space:nowrap">KIN:027<a name="kin-KIN.58027"> </a></td><td>isBiologicalMother</td></tr><tr><td style="white-space:nowrap">KIN:028<a name="kin-KIN.58028"> </a></td><td>isBiologicalFather</td></tr><tr><td style="white-space:nowrap">KIN:029<a name="kin-KIN.58029"> </a></td><td>isMitochondrialDonor</td></tr><tr><td style="white-space:nowrap">KIN:030<a name="kin-KIN.58030"> </a></td><td>isConsanguineousPartner</td></tr><tr><td style="white-space:nowrap">KIN:031<a name="kin-KIN.58031"> </a></td><td>hasSex</td></tr><tr><td style="white-space:nowrap">KIN:032<a name="kin-KIN.58032"> </a></td><td>isBiologicalChild</td></tr><tr><td style="white-space:nowrap">KIN:033<a name="kin-KIN.58033"> </a></td><td>hasBiologicalChild</td></tr><tr><td style="white-space:nowrap">KIN:034<a name="kin-KIN.58034"> </a></td><td>hasBiologicalParent</td></tr><tr><td style="white-space:nowrap">KIN:035<a name="kin-KIN.58035"> </a></td><td>hasGrandparent</td></tr><tr><td style="white-space:nowrap">KIN:036<a name="kin-KIN.58036"> </a></td><td>isGrandchild</td></tr><tr><td style="white-space:nowrap">KIN:037<a name="kin-KIN.58037"> </a></td><td>hasGrandchild</td></tr><tr><td style="white-space:nowrap">KIN:038<a name="kin-KIN.58038"> </a></td><td>isOvumDonor</td></tr><tr><td style="white-space:nowrap">KIN:039<a name="kin-KIN.58039"> </a></td><td>hasGestationalCarrier</td></tr><tr><td style="white-space:nowrap">KIN:040<a name="kin-KIN.58040"> </a></td><td>hasBiologicalFather</td></tr><tr><td style="white-space:nowrap">KIN:041<a name="kin-KIN.58041"> </a></td><td>hasBiologicalMother</td></tr><tr><td style="white-space:nowrap">KIN:042<a name="kin-KIN.58042"> </a></td><td>hasOvumDonor</td></tr><tr><td style="white-space:nowrap">KIN:043<a name="kin-KIN.58043"> </a></td><td>hasSurrogateOvumDonor</td></tr><tr><td style="white-space:nowrap">KIN:044<a name="kin-KIN.58044"> </a></td><td>hasSpermDonor</td></tr><tr><td style="white-space:nowrap">KIN:045<a name="kin-KIN.58045"> </a></td><td>hasGreatGrandParent</td></tr><tr><td style="white-space:nowrap">KIN:046<a name="kin-KIN.58046"> </a></td><td>hasParentalSibling</td></tr><tr><td style="white-space:nowrap">topObjectProperty<a name="kin-topObjectProperty"> </a></td><td>topObjectProperty</td></tr></table></div>
+  </text>
+  <url value="http://purl.org/ga4gh/kin.fhir"/>
+  <version value="0.1.0"/>
+  <name value="FamilyHistoryRelationsOntology"/>
+  <title value="Family History Relations Ontology"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-10-11T05:18:50+00:00"/>
+  <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+  <contact>
+    <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+    </telecom>
+  </contact>
+  <description value="A family relationships ontology."/>
+  <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+  <valueSet value="http://purl.org/ga4gh/kin.fhir?vs"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <count value="55"/>
+  <filter>
+    <code value="root"/>
+    <operator value="="/>
+    <value value="True or false."/>
+  </filter>
+  <filter>
+    <code value="deprecated"/>
+    <operator value="="/>
+    <value value="True or false."/>
+  </filter>
+  <filter>
+    <code value="imported"/>
+    <operator value="="/>
+    <value value="True or false"/>
+  </filter>
+  <property>
+    <code value="parent"/>
+    <description value="Parent codes."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="imported"/>
+    <description value="Indicates if the concept is imported from another code system."/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="root"/>
+    <description value="Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <description value="Indicates if this concept is deprecated."/>
+    <type value="boolean"/>
+  </property>
+  <concept>
+    <code value="KIN:994"/>
+    <display value="Man"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:998"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:993"/>
+    <display value="Woman"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:998"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:996"/>
+    <display value="Male"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:997"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:995"/>
+    <display value="Female"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:997"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:998"/>
+    <display value="Person"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="Thing"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:997"/>
+    <display value="Sex"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:999"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:999"/>
+    <display value="Domain Entity"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="Thing"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="Thing"/>
+    <display value="Thing"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:001"/>
+    <display value="isRelative"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="topObjectProperty"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:002"/>
+    <display value="isBiologicalRelative"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:001"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:003"/>
+    <display value="isBiologicalParent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:004"/>
+    <display value="isSpermDonor"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:033"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:003"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:005"/>
+    <display value="isGestationalCarrier"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:001"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:006"/>
+    <display value="isSurrogateOvumDonor"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:038"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:005"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:007"/>
+    <display value="isBiologicalSibling"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:008"/>
+    <display value="isFullsibling"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:007"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:009"/>
+    <display value="isTwin"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:008"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:010"/>
+    <display value="isMonozygoticTwin"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:009"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:011"/>
+    <display value="isPolyzygoticTwin"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:010"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:012"/>
+    <display value="isHalfSibling"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:007"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:013"/>
+    <display value="isParentalSibling"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:014"/>
+    <display value="isCousin"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:015"/>
+    <display value="isMaternalCousin"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:014"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:016"/>
+    <display value="isPaternalCousin"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:014"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:017"/>
+    <display value="isGrandparent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:018"/>
+    <display value="isGreatGrandparent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:019"/>
+    <display value="isSocialLegalRelative"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:001"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:020"/>
+    <display value="isParentFigure"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:019"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:021"/>
+    <display value="isFosterParent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:020"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:022"/>
+    <display value="isAdoptiveParent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:020"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:023"/>
+    <display value="isStepParent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:020"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:024"/>
+    <display value="isSiblingFigure"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:019"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:025"/>
+    <display value="isStepSibling"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:024"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:026"/>
+    <display value="isPartner"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:019"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:027"/>
+    <display value="isBiologicalMother"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:033"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:003"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:028"/>
+    <display value="isBiologicalFather"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:033"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:003"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:029"/>
+    <display value="isMitochondrialDonor"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:001"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:030"/>
+    <display value="isConsanguineousPartner"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:026"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:031"/>
+    <display value="hasSex"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="topObjectProperty"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:032"/>
+    <display value="isBiologicalChild"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:033"/>
+    <display value="hasBiologicalChild"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:034"/>
+    <display value="hasBiologicalParent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:035"/>
+    <display value="hasGrandparent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:036"/>
+    <display value="isGrandchild"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:037"/>
+    <display value="hasGrandchild"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:038"/>
+    <display value="isOvumDonor"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:033"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:003"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:039"/>
+    <display value="hasGestationalCarrier"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:001"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:040"/>
+    <display value="hasBiologicalFather"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:034"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:032"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:041"/>
+    <display value="hasBiologicalMother"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:034"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:032"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:042"/>
+    <display value="hasOvumDonor"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:034"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:032"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:043"/>
+    <display value="hasSurrogateOvumDonor"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:042"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:039"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:044"/>
+    <display value="hasSpermDonor"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:034"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:032"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:045"/>
+    <display value="hasGreatGrandParent"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="KIN:046"/>
+    <display value="hasParentalSibling"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="parent"/>
+      <valueCode value="KIN:002"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="topObjectProperty"/>
+    <display value="topObjectProperty"/>
+    <property>
+      <code value="imported"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="root"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueBoolean value="false"/>
+    </property>
+  </concept>
+</CodeSystem>
