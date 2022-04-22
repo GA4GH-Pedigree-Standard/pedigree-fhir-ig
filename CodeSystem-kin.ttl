@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "Family History Relations Ontology"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-04-22T03:07:53+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-04-22T03:08:28+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:CodeSystem.contact [
      fhir:index 0;

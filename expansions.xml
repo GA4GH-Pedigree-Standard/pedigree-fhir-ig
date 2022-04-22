@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="d1e0a691-4ed3-45b9-920a-61be1f9b68c1"/>
+  <id value="4c15867f-058e-4e4f-9ee9-8b7c31d8b62c"/>
   <meta>
-    <lastUpdated value="2022-04-22T03:07:53.193+00:00"/>
+    <lastUpdated value="2022-04-22T03:08:28.981+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -425,7 +425,7 @@
         <name value="PedigreeRelationshipTypes"/>
         <title value="Pedigree Relationship Types"/>
         <status value="active"/>
-        <date value="2022-04-22T03:07:53+00:00"/>
+        <date value="2022-04-22T03:08:28+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -437,8 +437,8 @@
         <description value="The types of relationships between individuals in a pedigree."/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:5c7b612a-6de5-48a2-a197-835997809b23"/>
-          <timestamp value="2022-04-22T03:08:12+00:00"/>
+          <identifier value="urn:uuid:0453a0bb-7d71-48dd-813f-0d4f15f4d02d"/>
+          <timestamp value="2022-04-22T03:08:50+00:00"/>
           <total value="55"/>
           <parameter>
             <name value="excludeNested"/>
