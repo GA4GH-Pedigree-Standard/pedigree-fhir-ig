@@ -11,7 +11,7 @@
   <name value="GA4GHPedigreeIG"/>
   <title value="GA4GH Pedigree FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-10-11T05:19:03+00:00"/>
+  <date value="2022-04-22T03:07:53+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -178,6 +178,30 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
@@ -230,7 +254,7 @@
         <reference value="StructureDefinition/patient-unborn"/>
       </reference>
       <name value="Unborn"/>
-      <description value="Indicates if an individual in a pedigree hasn&#39;t been born yet."/>
+      <description value="Indicates if an individual in a pedigree hasn't been born yet."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -263,7 +287,7 @@
         <reference value="Patient/Abe"/>
       </reference>
       <name value="Abe"/>
-      <description value="Abe is Homer&#39;s father."/>
+      <description value="Abe is Homer's father."/>
       <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
@@ -339,7 +363,7 @@
       <reference>
         <reference value="Condition/BartsCondition"/>
       </reference>
-      <name value="Bart&#39;s condition"/>
+      <name value="Bart's condition"/>
       <description value="Attention deficit hyperactivity disorder, the condition that triggered the collection of this pedigree."/>
       <exampleBoolean value="true"/>
     </resource>
@@ -395,7 +419,7 @@
         <reference value="Patient/Homer"/>
       </reference>
       <name value="Homer"/>
-      <description value="Homer is Bart&#39;s father and Marge&#39;s husband."/>
+      <description value="Homer is Bart's father and Marge's husband."/>
       <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
@@ -417,7 +441,7 @@
         <reference value="Patient/Marge"/>
       </reference>
       <name value="Marge"/>
-      <description value="Marge is Bart&#39;s mother and Homer&#39;s wife."/>
+      <description value="Marge is Bart's mother and Homer's wife."/>
       <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
     </resource>
     <resource>
@@ -504,8 +528,8 @@
       <reference>
         <reference value="Composition/SimpsonsPedigree"/>
       </reference>
-      <name value="Simpson&#39;s pedigree"/>
-      <description value="A pedigree of the Simpson&#39;s family."/>
+      <name value="Simpson's pedigree"/>
+      <description value="A pedigree of the Simpson's family."/>
       <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
     </resource>
     <resource>
@@ -515,7 +539,7 @@
       <reference>
         <reference value="Composition/TrioPedigree"/>
       </reference>
-      <name value="The trio&#39;s pedigree"/>
+      <name value="The trio's pedigree"/>
       <description value="A pedigree of the trio."/>
       <exampleCanonical value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/Pedigree"/>
     </resource>

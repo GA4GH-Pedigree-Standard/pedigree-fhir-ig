@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 422432008}\">Family history section</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href=\"Practitioner-DrNick.html\">Generated Summary: Nick Riviera ; gender: male</a></p><p><b>title</b>: Pedigree</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"SimpsonsPedigree\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Pedigree.html\">Pedigree</a></p></div><p><b>status</b>: final</p><p><b>type</b>: Family history section <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#422432008)</span></p><p><b>date</b>: 2021-02-10</p><p><b>author</b>: <a href=\"Practitioner-DrNick.html\">Practitioner/DrNick</a> \" RIVIERA\"</p><p><b>title</b>: Pedigree</p></div>"
   ];
   fhir:Composition.status [ fhir:value "final"];
   fhir:Composition.type [

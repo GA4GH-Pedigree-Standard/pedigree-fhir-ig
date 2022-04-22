@@ -1,6 +1,8 @@
 {
   "version": "0.1.0",
-  "fhirVersion": "[4.0.1]",
-  "date": "20211011051837",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "date": "20220422030729",
   "name": "ga4gh.fhir.pedigree"
 }

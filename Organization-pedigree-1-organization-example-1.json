@@ -3,7 +3,7 @@
   "id": "pedigree-1-organization-example-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}\">Hospital</span></p><p><b>name</b>: Amazing Children's Hospital</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"pedigree-1-organization-example-1\" </p></div><p><b>identifier</b>: id: pedigree-1-1</p><p><b>active</b>: true</p><p><b>type</b>: Hospital <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-organization-type.html\">Organization type</a>#prov \"Healthcare Provider\")</span></p><p><b>name</b>: Amazing Children's Hospital</p></div>"
   },
   "identifier": [
     {

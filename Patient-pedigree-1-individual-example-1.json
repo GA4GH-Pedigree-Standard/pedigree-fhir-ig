@@ -7,8 +7,8 @@
     ]
   },
   "text": {
-    "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>genderIdentity</b>: <span title=\"Codes: \">female</span></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2019-06-15</p></div>"
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Anonymous Patient</b> female, DoB: 2019-06-15 ( id: pedigree-1-1)</p></div>"
   },
   "extension": [
     {

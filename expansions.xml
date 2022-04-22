@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8376df44-4120-4e2d-8946-5d84fcfbd772"/>
+  <id value="d1e0a691-4ed3-45b9-920a-61be1f9b68c1"/>
   <meta>
-    <lastUpdated value="2021-10-11T05:19:03.410+00:00"/>
+    <lastUpdated value="2022-04-22T03:07:53.193+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -31,449 +31,391 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-994"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-994"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58994">KIN:994</a>
                 </td>
                 <td>Man</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-993"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-993"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58993">KIN:993</a>
                 </td>
                 <td>Woman</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-996"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-996"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58996">KIN:996</a>
                 </td>
                 <td>Male</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-995"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-995"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58995">KIN:995</a>
                 </td>
                 <td>Female</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-998"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-998"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58998">KIN:998</a>
                 </td>
                 <td>Person</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-997"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-997"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58997">KIN:997</a>
                 </td>
                 <td>Sex</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-999"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-999"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58999">KIN:999</a>
                 </td>
                 <td>Domain Entity</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-Thing"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-Thing"> </a>  
                   <a href="CodeSystem-kin.html#kin-Thing">Thing</a>
                 </td>
                 <td>Thing</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-001"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-001"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58001">KIN:001</a>
                 </td>
                 <td>isRelative</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-002"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-002"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58002">KIN:002</a>
                 </td>
                 <td>isBiologicalRelative</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-003"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-003"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58003">KIN:003</a>
                 </td>
                 <td>isBiologicalParent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-004"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-004"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58004">KIN:004</a>
                 </td>
                 <td>isSpermDonor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-005"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-005"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58005">KIN:005</a>
                 </td>
                 <td>isGestationalCarrier</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-006"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-006"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58006">KIN:006</a>
                 </td>
                 <td>isSurrogateOvumDonor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-007"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-007"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58007">KIN:007</a>
                 </td>
                 <td>isBiologicalSibling</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-008"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-008"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58008">KIN:008</a>
                 </td>
                 <td>isFullsibling</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-009"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-009"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58009">KIN:009</a>
                 </td>
                 <td>isTwin</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-010"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-010"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58010">KIN:010</a>
                 </td>
                 <td>isMonozygoticTwin</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-011"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-011"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58011">KIN:011</a>
                 </td>
                 <td>isPolyzygoticTwin</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-012"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-012"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58012">KIN:012</a>
                 </td>
                 <td>isHalfSibling</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-013"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-013"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58013">KIN:013</a>
                 </td>
                 <td>isParentalSibling</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-014"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-014"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58014">KIN:014</a>
                 </td>
                 <td>isCousin</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-015"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-015"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58015">KIN:015</a>
                 </td>
                 <td>isMaternalCousin</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-016"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-016"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58016">KIN:016</a>
                 </td>
                 <td>isPaternalCousin</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-017"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-017"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58017">KIN:017</a>
                 </td>
                 <td>isGrandparent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-018"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-018"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58018">KIN:018</a>
                 </td>
                 <td>isGreatGrandparent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-019"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-019"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58019">KIN:019</a>
                 </td>
                 <td>isSocialLegalRelative</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-020"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-020"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58020">KIN:020</a>
                 </td>
                 <td>isParentFigure</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-021"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-021"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58021">KIN:021</a>
                 </td>
                 <td>isFosterParent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-022"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-022"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58022">KIN:022</a>
                 </td>
                 <td>isAdoptiveParent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-023"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-023"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58023">KIN:023</a>
                 </td>
                 <td>isStepParent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-024"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-024"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58024">KIN:024</a>
                 </td>
                 <td>isSiblingFigure</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-025"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-025"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58025">KIN:025</a>
                 </td>
                 <td>isStepSibling</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-026"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-026"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58026">KIN:026</a>
                 </td>
                 <td>isPartner</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-027"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-027"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58027">KIN:027</a>
                 </td>
                 <td>isBiologicalMother</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-028"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-028"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58028">KIN:028</a>
                 </td>
                 <td>isBiologicalFather</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-029"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-029"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58029">KIN:029</a>
                 </td>
                 <td>isMitochondrialDonor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-030"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-030"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58030">KIN:030</a>
                 </td>
                 <td>isConsanguineousPartner</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-031"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-031"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58031">KIN:031</a>
                 </td>
                 <td>hasSex</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-032"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-032"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58032">KIN:032</a>
                 </td>
                 <td>isBiologicalChild</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-033"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-033"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58033">KIN:033</a>
                 </td>
                 <td>hasBiologicalChild</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-034"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-034"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58034">KIN:034</a>
                 </td>
                 <td>hasBiologicalParent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-035"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-035"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58035">KIN:035</a>
                 </td>
                 <td>hasGrandparent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-036"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-036"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58036">KIN:036</a>
                 </td>
                 <td>isGrandchild</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-037"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-037"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58037">KIN:037</a>
                 </td>
                 <td>hasGrandchild</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-038"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-038"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58038">KIN:038</a>
                 </td>
                 <td>isOvumDonor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-039"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-039"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58039">KIN:039</a>
                 </td>
                 <td>hasGestationalCarrier</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-040"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-040"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58040">KIN:040</a>
                 </td>
                 <td>hasBiologicalFather</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-041"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-041"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58041">KIN:041</a>
                 </td>
                 <td>hasBiologicalMother</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-042"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-042"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58042">KIN:042</a>
                 </td>
                 <td>hasOvumDonor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-043"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-043"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58043">KIN:043</a>
                 </td>
                 <td>hasSurrogateOvumDonor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-044"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-044"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58044">KIN:044</a>
                 </td>
                 <td>hasSpermDonor</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-045"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-045"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58045">KIN:045</a>
                 </td>
                 <td>hasGreatGrandParent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-046"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-KIN-046"> </a>  
                   <a href="CodeSystem-kin.html#kin-KIN.58046">KIN:046</a>
                 </td>
                 <td>hasParentalSibling</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---purl.org-ga4gh-kin.fhir-topObjectProperty"> </a>
+                  <a name="http---purl.org-ga4gh-kin.fhir-topObjectProperty"> </a>  
                   <a href="CodeSystem-kin.html#kin-topObjectProperty">topObjectProperty</a>
                 </td>
                 <td>topObjectProperty</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -483,7 +425,7 @@
         <name value="PedigreeRelationshipTypes"/>
         <title value="Pedigree Relationship Types"/>
         <status value="active"/>
-        <date value="2021-10-11T05:19:03+00:00"/>
+        <date value="2022-04-22T03:07:53+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -495,8 +437,8 @@
         <description value="The types of relationships between individuals in a pedigree."/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:50fd147c-7394-49b8-a162-55a3a6bec741"/>
-          <timestamp value="2021-10-11T05:19:23+00:00"/>
+          <identifier value="urn:uuid:5c7b612a-6de5-48a2-a197-835997809b23"/>
+          <timestamp value="2022-04-22T03:08:12+00:00"/>
           <total value="55"/>
           <parameter>
             <name value="excludeNested"/>

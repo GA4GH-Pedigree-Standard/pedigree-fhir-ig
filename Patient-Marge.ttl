@@ -16,8 +16,8 @@
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Unborn</b>: false</p><p><b>identifier</b>: id: 3</p><p><b>gender</b>: female</p><p><b>deceased</b>: false</p></div>"
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Anonymous Patient</b> female, DoB Unknown ( id: 3)</p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;

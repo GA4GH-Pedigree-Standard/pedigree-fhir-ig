@@ -47,7 +47,13 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">GA4GH Pedigree FHIR Implementation Guide</span><br/>0.1.0 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold">GA4GH Pedigree FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -115,6 +121,8 @@
 
 
 
+
+
 <ul class="nav nav-tabs">
 
   <li class="active">
@@ -147,33 +155,60 @@
 </ul>
 
   <a name="root"> </a>
-  <h2 id="root">CodeSystem: Family History Relations Ontology</h2>
+  <h2 id="root">CodeSystem: Family History Relations Ontology
+
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://purl.org/ga4gh/kin.fhir<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://purl.org/ga4gh/kin.fhir"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://purl.org/ga4gh/kin.fhir|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2022-04-22
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">FamilyHistoryRelationsOntology</span></td>
+    </tr>
+
+
+
+
+    <tr>
+      <td colspan="5"><p><em>Copyright/Legal</em>: <a href="https://www.ga4gh.org">Global Alliance for Genomics and Health</a></p>
+</td>
+    </tr>
+
+  </table>
+
+<p>
+<p>A family relationships ontology.</p>
+
+</p>
 
   <!-- insert intro if present -->
   
 
-
-
-  <p>
-    <b>Summary</b>
-  </p>
-
-  <table class="grid">
-<tbody>
-<tr><td>Defining URL:</td><td>http://purl.org/ga4gh/kin.fhir</td></tr>
- <tr><td>Version:</td><td>0.1.0</td></tr>
- <tr><td>Name:</td><td>FamilyHistoryRelationsOntology</td></tr>
- <tr><td>Title:</td><td>Family History Relations Ontology</td></tr>
- <tr><td>Status:</td><td>Draft as of 2021-10-11T05:19:03+00:00</td></tr>
- <tr><td>Definition:</td><td><p>A family relationships ontology.</p>
-</td></tr>
- <tr><td>Publisher:</td><td>Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</td></tr>
- <tr><td>Copyright:</td><td><p><a href="https://www.ga4gh.org">Global Alliance for Genomics and Health</a></p>
-</td></tr>
- <tr><td>Content:</td><td>Complete: All the concepts defined by the code system are included in the code system resource</td></tr>
- <tr><td>Value Set:</td><td>http://purl.org/ga4gh/kin.fhir?vs ( is the value set for all codes in this code system)</td></tr>
- <tr><td>Source Resource:</td><td><a href="CodeSystem-kin.xml.html">XML</a> / <a href="CodeSystem-kin.json.html">JSON</a> / <a href="CodeSystem-kin.ttl.html">Turtle</a></td></tr>
-</tbody></table>
 
 
   <p>
@@ -186,7 +221,9 @@
 </ul>
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Description</b></td><td><b>Type</b></td></tr><tr><td>parent</td><td></td><td>Parent codes.</td><td>code</td></tr><tr><td>imported</td><td></td><td>Indicates if the concept is imported from another code system.</td><td>boolean</td></tr><tr><td>root</td><td></td><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)</td><td>boolean</td></tr><tr><td>deprecated</td><td></td><td>Indicates if this concept is deprecated.</td><td>boolean</td></tr></table><p><b>Filters</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>operator</b></td><td><b>Value</b></td></tr><tr><td>root</td><td></td><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td></td><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td></td><td>= </td><td>True or false</td></tr></table><p>This code system http://purl.org/ga4gh/kin.fhir defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">KIN:994<a name="kin-KIN.58994"> </a></td><td>Man</td></tr><tr><td style="white-space:nowrap">KIN:993<a name="kin-KIN.58993"> </a></td><td>Woman</td></tr><tr><td style="white-space:nowrap">KIN:996<a name="kin-KIN.58996"> </a></td><td>Male</td></tr><tr><td style="white-space:nowrap">KIN:995<a name="kin-KIN.58995"> </a></td><td>Female</td></tr><tr><td style="white-space:nowrap">KIN:998<a name="kin-KIN.58998"> </a></td><td>Person</td></tr><tr><td style="white-space:nowrap">KIN:997<a name="kin-KIN.58997"> </a></td><td>Sex</td></tr><tr><td style="white-space:nowrap">KIN:999<a name="kin-KIN.58999"> </a></td><td>Domain Entity</td></tr><tr><td style="white-space:nowrap">Thing<a name="kin-Thing"> </a></td><td>Thing</td></tr><tr><td style="white-space:nowrap">KIN:001<a name="kin-KIN.58001"> </a></td><td>isRelative</td></tr><tr><td style="white-space:nowrap">KIN:002<a name="kin-KIN.58002"> </a></td><td>isBiologicalRelative</td></tr><tr><td style="white-space:nowrap">KIN:003<a name="kin-KIN.58003"> </a></td><td>isBiologicalParent</td></tr><tr><td style="white-space:nowrap">KIN:004<a name="kin-KIN.58004"> </a></td><td>isSpermDonor</td></tr><tr><td style="white-space:nowrap">KIN:005<a name="kin-KIN.58005"> </a></td><td>isGestationalCarrier</td></tr><tr><td style="white-space:nowrap">KIN:006<a name="kin-KIN.58006"> </a></td><td>isSurrogateOvumDonor</td></tr><tr><td style="white-space:nowrap">KIN:007<a name="kin-KIN.58007"> </a></td><td>isBiologicalSibling</td></tr><tr><td style="white-space:nowrap">KIN:008<a name="kin-KIN.58008"> </a></td><td>isFullsibling</td></tr><tr><td style="white-space:nowrap">KIN:009<a name="kin-KIN.58009"> </a></td><td>isTwin</td></tr><tr><td style="white-space:nowrap">KIN:010<a name="kin-KIN.58010"> </a></td><td>isMonozygoticTwin</td></tr><tr><td style="white-space:nowrap">KIN:011<a name="kin-KIN.58011"> </a></td><td>isPolyzygoticTwin</td></tr><tr><td style="white-space:nowrap">KIN:012<a name="kin-KIN.58012"> </a></td><td>isHalfSibling</td></tr><tr><td style="white-space:nowrap">KIN:013<a name="kin-KIN.58013"> </a></td><td>isParentalSibling</td></tr><tr><td style="white-space:nowrap">KIN:014<a name="kin-KIN.58014"> </a></td><td>isCousin</td></tr><tr><td style="white-space:nowrap">KIN:015<a name="kin-KIN.58015"> </a></td><td>isMaternalCousin</td></tr><tr><td style="white-space:nowrap">KIN:016<a name="kin-KIN.58016"> </a></td><td>isPaternalCousin</td></tr><tr><td style="white-space:nowrap">KIN:017<a name="kin-KIN.58017"> </a></td><td>isGrandparent</td></tr><tr><td style="white-space:nowrap">KIN:018<a name="kin-KIN.58018"> </a></td><td>isGreatGrandparent</td></tr><tr><td style="white-space:nowrap">KIN:019<a name="kin-KIN.58019"> </a></td><td>isSocialLegalRelative</td></tr><tr><td style="white-space:nowrap">KIN:020<a name="kin-KIN.58020"> </a></td><td>isParentFigure</td></tr><tr><td style="white-space:nowrap">KIN:021<a name="kin-KIN.58021"> </a></td><td>isFosterParent</td></tr><tr><td style="white-space:nowrap">KIN:022<a name="kin-KIN.58022"> </a></td><td>isAdoptiveParent</td></tr><tr><td style="white-space:nowrap">KIN:023<a name="kin-KIN.58023"> </a></td><td>isStepParent</td></tr><tr><td style="white-space:nowrap">KIN:024<a name="kin-KIN.58024"> </a></td><td>isSiblingFigure</td></tr><tr><td style="white-space:nowrap">KIN:025<a name="kin-KIN.58025"> </a></td><td>isStepSibling</td></tr><tr><td style="white-space:nowrap">KIN:026<a name="kin-KIN.58026"> </a></td><td>isPartner</td></tr><tr><td style="white-space:nowrap">KIN:027<a name="kin-KIN.58027"> </a></td><td>isBiologicalMother</td></tr><tr><td style="white-space:nowrap">KIN:028<a name="kin-KIN.58028"> </a></td><td>isBiologicalFather</td></tr><tr><td style="white-space:nowrap">KIN:029<a name="kin-KIN.58029"> </a></td><td>isMitochondrialDonor</td></tr><tr><td style="white-space:nowrap">KIN:030<a name="kin-KIN.58030"> </a></td><td>isConsanguineousPartner</td></tr><tr><td style="white-space:nowrap">KIN:031<a name="kin-KIN.58031"> </a></td><td>hasSex</td></tr><tr><td style="white-space:nowrap">KIN:032<a name="kin-KIN.58032"> </a></td><td>isBiologicalChild</td></tr><tr><td style="white-space:nowrap">KIN:033<a name="kin-KIN.58033"> </a></td><td>hasBiologicalChild</td></tr><tr><td style="white-space:nowrap">KIN:034<a name="kin-KIN.58034"> </a></td><td>hasBiologicalParent</td></tr><tr><td style="white-space:nowrap">KIN:035<a name="kin-KIN.58035"> </a></td><td>hasGrandparent</td></tr><tr><td style="white-space:nowrap">KIN:036<a name="kin-KIN.58036"> </a></td><td>isGrandchild</td></tr><tr><td style="white-space:nowrap">KIN:037<a name="kin-KIN.58037"> </a></td><td>hasGrandchild</td></tr><tr><td style="white-space:nowrap">KIN:038<a name="kin-KIN.58038"> </a></td><td>isOvumDonor</td></tr><tr><td style="white-space:nowrap">KIN:039<a name="kin-KIN.58039"> </a></td><td>hasGestationalCarrier</td></tr><tr><td style="white-space:nowrap">KIN:040<a name="kin-KIN.58040"> </a></td><td>hasBiologicalFather</td></tr><tr><td style="white-space:nowrap">KIN:041<a name="kin-KIN.58041"> </a></td><td>hasBiologicalMother</td></tr><tr><td style="white-space:nowrap">KIN:042<a name="kin-KIN.58042"> </a></td><td>hasOvumDonor</td></tr><tr><td style="white-space:nowrap">KIN:043<a name="kin-KIN.58043"> </a></td><td>hasSurrogateOvumDonor</td></tr><tr><td style="white-space:nowrap">KIN:044<a name="kin-KIN.58044"> </a></td><td>hasSpermDonor</td></tr><tr><td style="white-space:nowrap">KIN:045<a name="kin-KIN.58045"> </a></td><td>hasGreatGrandParent</td></tr><tr><td style="white-space:nowrap">KIN:046<a name="kin-KIN.58046"> </a></td><td>hasParentalSibling</td></tr><tr><td style="white-space:nowrap">topObjectProperty<a name="kin-topObjectProperty"> </a></td><td>topObjectProperty</td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>parent</td><td>code</td><td>Parent codes.</td></tr><tr><td>imported</td><td>boolean</td><td>Indicates if the concept is imported from another code system.</td></tr><tr><td>root</td><td>boolean</td><td>Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)</td></tr><tr><td>deprecated</td><td>boolean</td><td>Indicates if this concept is deprecated.</td></tr></table><p><b>Filters</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>operator</b></td><td><b>Value</b></td></tr><tr><td>root</td><td></td><td>= </td><td>True or false.</td></tr><tr><td>deprecated</td><td></td><td>= </td><td>True or false.</td></tr><tr><td>imported</td><td></td><td>= </td><td>True or false</td></tr></table><p>This code system http://purl.org/ga4gh/kin.fhir defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>parent</b></td><td><b>imported</b></td><td><b>root</b></td><td><b>deprecated</b></td></tr><tr><td style="white-space:nowrap">KIN:994<a name="kin-KIN.58994"> </a></td><td>Man</td><td>KIN:998</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:993<a name="kin-KIN.58993"> </a></td><td>Woman</td><td>KIN:998</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:996<a name="kin-KIN.58996"> </a></td><td>Male</td><td>KIN:997</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:995<a name="kin-KIN.58995"> </a></td><td>Female</td><td>KIN:997</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:998<a name="kin-KIN.58998"> </a></td><td>Person</td><td>Thing</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:997<a name="kin-KIN.58997"> </a></td><td>Sex</td><td>KIN:999</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:999<a name="kin-KIN.58999"> </a></td><td>Domain Entity</td><td>Thing</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">Thing<a name="kin-Thing"> </a></td><td>Thing</td><td></td><td>false</td><td>true</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:001<a name="kin-KIN.58001"> </a></td><td>isRelative</td><td>topObjectProperty</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:002<a name="kin-KIN.58002"> </a></td><td>isBiologicalRelative</td><td>KIN:001</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:003<a name="kin-KIN.58003"> </a></td><td>isBiologicalParent</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:004<a name="kin-KIN.58004"> </a></td><td>isSpermDonor</td><td>KIN:033, KIN:003</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:005<a name="kin-KIN.58005"> </a></td><td>isGestationalCarrier</td><td>KIN:001</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:006<a name="kin-KIN.58006"> </a></td><td>isSurrogateOvumDonor</td><td>KIN:038, KIN:005</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:007<a name="kin-KIN.58007"> </a></td><td>isBiologicalSibling</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:008<a name="kin-KIN.58008"> </a></td><td>isFullsibling</td><td>KIN:007</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:009<a name="kin-KIN.58009"> </a></td><td>isTwin</td><td>KIN:008</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:010<a name="kin-KIN.58010"> </a></td><td>isMonozygoticTwin</td><td>KIN:009</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:011<a name="kin-KIN.58011"> </a></td><td>isPolyzygoticTwin</td><td>KIN:010</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:012<a name="kin-KIN.58012"> </a></td><td>isHalfSibling</td><td>KIN:007</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:013<a name="kin-KIN.58013"> </a></td><td>isParentalSibling</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:014<a name="kin-KIN.58014"> </a></td><td>isCousin</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:015<a name="kin-KIN.58015"> </a></td><td>isMaternalCousin</td><td>KIN:014</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:016<a name="kin-KIN.58016"> </a></td><td>isPaternalCousin</td><td>KIN:014</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:017<a name="kin-KIN.58017"> </a></td><td>isGrandparent</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:018<a name="kin-KIN.58018"> </a></td><td>isGreatGrandparent</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:019<a name="kin-KIN.58019"> </a></td><td>isSocialLegalRelative</td><td>KIN:001</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:020<a name="kin-KIN.58020"> </a></td><td>isParentFigure</td><td>KIN:019</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:021<a name="kin-KIN.58021"> </a></td><td>isFosterParent</td><td>KIN:020</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:022<a name="kin-KIN.58022"> </a></td><td>isAdoptiveParent</td><td>KIN:020</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:023<a name="kin-KIN.58023"> </a></td><td>isStepParent</td><td>KIN:020</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:024<a name="kin-KIN.58024"> </a></td><td>isSiblingFigure</td><td>KIN:019</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:025<a name="kin-KIN.58025"> </a></td><td>isStepSibling</td><td>KIN:024</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:026<a name="kin-KIN.58026"> </a></td><td>isPartner</td><td>KIN:019</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:027<a name="kin-KIN.58027"> </a></td><td>isBiologicalMother</td><td>KIN:033, KIN:003</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:028<a name="kin-KIN.58028"> </a></td><td>isBiologicalFather</td><td>KIN:033, KIN:003</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:029<a name="kin-KIN.58029"> </a></td><td>isMitochondrialDonor</td><td>KIN:001</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:030<a name="kin-KIN.58030"> </a></td><td>isConsanguineousPartner</td><td>KIN:002, KIN:026</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:031<a name="kin-KIN.58031"> </a></td><td>hasSex</td><td>topObjectProperty</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:032<a name="kin-KIN.58032"> </a></td><td>isBiologicalChild</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:033<a name="kin-KIN.58033"> </a></td><td>hasBiologicalChild</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:034<a name="kin-KIN.58034"> </a></td><td>hasBiologicalParent</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:035<a name="kin-KIN.58035"> </a></td><td>hasGrandparent</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:036<a name="kin-KIN.58036"> </a></td><td>isGrandchild</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:037<a name="kin-KIN.58037"> </a></td><td>hasGrandchild</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:038<a name="kin-KIN.58038"> </a></td><td>isOvumDonor</td><td>KIN:033, KIN:003</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:039<a name="kin-KIN.58039"> </a></td><td>hasGestationalCarrier</td><td>KIN:001</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:040<a name="kin-KIN.58040"> </a></td><td>hasBiologicalFather</td><td>KIN:034, KIN:032</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:041<a name="kin-KIN.58041"> </a></td><td>hasBiologicalMother</td><td>KIN:034, KIN:032</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:042<a name="kin-KIN.58042"> </a></td><td>hasOvumDonor</td><td>KIN:034, KIN:032</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:043<a name="kin-KIN.58043"> </a></td><td>hasSurrogateOvumDonor</td><td>KIN:042, KIN:039</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:044<a name="kin-KIN.58044"> </a></td><td>hasSpermDonor</td><td>KIN:034, KIN:032</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:045<a name="kin-KIN.58045"> </a></td><td>hasGreatGrandParent</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">KIN:046<a name="kin-KIN.58046"> </a></td><td>hasParentalSibling</td><td>KIN:002</td><td>false</td><td>false</td><td>false</td></tr><tr><td style="white-space:nowrap">topObjectProperty<a name="kin-topObjectProperty"> </a></td><td>topObjectProperty</td><td></td><td>false</td><td>true</td><td>false</td></tr></table></div>
+
+  
 
   <!-- insert notes if present -->
   
@@ -217,7 +254,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</a>.  Package ga4gh.fhir.pedigree#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 11, 2021 05:19+0000">2021-10-11</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</a>.  Package ga4gh.fhir.pedigree#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 22, 2022 03:07+0000">2022-04-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -242,6 +279,8 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   

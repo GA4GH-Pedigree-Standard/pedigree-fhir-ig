@@ -7,8 +7,8 @@
     ]
   },
   "text": {
-    "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Unborn</b>: false</p><p><b>identifier</b>: id: 4</p><p><b>gender</b>: female</p><p><b>deceased</b>: false</p></div>"
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Anonymous Patient</b> female, DoB Unknown ( id: 4)</p></div>"
   },
   "extension": [
     {

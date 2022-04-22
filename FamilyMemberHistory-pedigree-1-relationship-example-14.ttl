@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href=\"Patient-pedigree-1-individual-example-8.html\">Generated Summary: id: pedigree-1-8; gender: male</a></p><p><b>identifier</b>: id: pedigree-1-14</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-pedigree-1-individual-example-2.html\">Generated Summary: id: pedigree-1-2; gender: female</a></p><p><b>relationship</b>: <span title=\"Codes: {http://purl.org/ga4gh/kin.fhir KIN:003}\">isBiologicalParent</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"pedigree-1-relationship-example-14\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PedigreeRelationship.html\">Pedigree Relationship</a></p></div><p><b>Patient Record</b>: <a href=\"Patient-pedigree-1-individual-example-8.html\">Patient/pedigree-1-individual-example-8</a></p><p><b>identifier</b>: id: pedigree-1-14</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href=\"Patient-pedigree-1-individual-example-2.html\">Patient/pedigree-1-individual-example-2</a></p><p><b>relationship</b>: isBiologicalParent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-kin.html\">Family History Relations Ontology</a>#KIN:003)</span></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;

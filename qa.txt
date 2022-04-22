@@ -1,19 +1,19 @@
 ﻿GA4GHPedigreeIG : Validation Results
 =========================================
 
-err = 0, warn = 46, info = 5
-IG Publisher Version: 1.1.81
-Generated Mon Oct 11 05:19:34 UTC 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigree#0.1.0 (canonical = http://purl.org/ga4gh/pedigree-fhir-ig)
+err = 0, warn = 46, info = 3
+IG Publisher Version: 1.1.115
+Generated Fri Apr 22 03:08:21 UTC 2022. FHIR version 4.0.1 for ga4gh.fhir.pedigree#0.1.0 (canonical = http://purl.org/ga4gh/pedigree-fhir-ig)
  Build Errors : 0 / 33 / 0
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/CodeSystem-SectionType : 0 / 0 / 1
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/CodeSystem-SectionType : 0 / 0 / 2
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Composition-SimpsonsPedigree : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Composition-TrioPedigree : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Composition-pedigree-1-pedigree-example-1 : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-BartsCondition : 0 / 0 / 1
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-FatherFirstCondition : 0 / 0 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-FatherSecondCondition : 0 / 0 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-ProbandCondition : 0 / 0 / 2
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-pedigree-1-condition-example-1 : 0 / 0 / 3
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-FatherFirstCondition : 0 / 0 / 1
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-FatherSecondCondition : 0 / 0 / 1
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-ProbandCondition : 0 / 0 / 1
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/Condition-pedigree-1-condition-example-1 : 0 / 0 / 2
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartHomerRelationship : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-BartMargeRelationship : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/FamilyMemberHistory-HomerAbeRelationship : 0 / 0 / 1
@@ -70,7 +70,7 @@ Generated Mon Oct 11 05:19:34 UTC 2021. FHIR version 4.0.1 for ga4gh.fhir.pedigr
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-PedigreeRelationship : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/StructureDefinition-patient-unborn : 0 / 0 / 1
  /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/fsh-generated/resources/ValueSet-PedigreeRelationshipTypes : 0 / 0 / 1
- /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/input/vocabulary/CodeSystem-kin : 0 / 0 / 1
+ /home/runner/work/pedigree-fhir-ig/pedigree-fhir-ig/input/vocabulary/CodeSystem-kin : 0 / 0 / 2
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/pedigree-1-affected-status-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -107,18 +107,15 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource FamilyMemberHistory/pedigree-1-relationship-example-8.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource FamilyMemberHistory/pedigree-1-relationship-example-9.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/CodeSystem-SectionType.json ==
+INFORMATION: CodeSystem/SectionType: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/Composition-SimpsonsPedigree.json ==
 == fsh-generated/resources/Composition-TrioPedigree.json ==
 == fsh-generated/resources/Composition-pedigree-1-pedigree-example-1.json ==
 == fsh-generated/resources/Condition-BartsCondition.json ==
 == fsh-generated/resources/Condition-FatherFirstCondition.json ==
-INFORMATION: Condition/FatherFirstCondition: Condition.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.fhir' is unknown so the code cannot be validated
 == fsh-generated/resources/Condition-FatherSecondCondition.json ==
-INFORMATION: Condition/FatherSecondCondition: Condition.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.fhir' is unknown so the code cannot be validated
 == fsh-generated/resources/Condition-ProbandCondition.json ==
-INFORMATION: Condition/ProbandCondition: Condition.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.fhir' is unknown so the code cannot be validated
 == fsh-generated/resources/Condition-pedigree-1-condition-example-1.json ==
-INFORMATION: Condition/pedigree-1-condition-example-1: Condition.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.fhir' is unknown so the code cannot be validated
 INFORMATION: Condition/pedigree-1-condition-example-1: Condition.bodySite[0].coding[0]: Code System URI 'http://purl.obolibrary.org/obo/uberon.owl' is unknown so the code cannot be validated
 == fsh-generated/resources/FamilyMemberHistory-BartHomerRelationship.json ==
 == fsh-generated/resources/FamilyMemberHistory-BartMargeRelationship.json ==
@@ -190,3 +187,4 @@ WARNING: Patient/pedigree-1-individual-example-9: Patient.extension[0].value.ofT
 == fsh-generated/resources/StructureDefinition-patient-unborn.json ==
 == fsh-generated/resources/ValueSet-PedigreeRelationshipTypes.json ==
 == input/vocabulary/CodeSystem-kin.json ==
+INFORMATION: CodeSystem/kin: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly

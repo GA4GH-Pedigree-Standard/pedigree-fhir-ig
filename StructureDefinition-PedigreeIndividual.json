@@ -20,7 +20,7 @@
   "name": "PedigreeIndividual",
   "title": "Pedigree Individual",
   "status": "active",
-  "date": "2021-10-11T05:19:03+00:00",
+  "date": "2022-04-22T03:07:53+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -1151,7 +1151,8 @@
             "severity": "error",
             "human": "SHALL at least contain a contact's details or a reference to an organization",
             "expression": "name.exists() or telecom.exists() or address.exists() or organization.exists()",
-            "xpath": "exists(f:name) or exists(f:telecom) or exists(f:address) or exists(f:organization)"
+            "xpath": "exists(f:name) or exists(f:telecom) or exists(f:address) or exists(f:organization)",
+            "source": "http://hl7.org/fhir/StructureDefinition/Patient"
           }
         ],
         "isModifier": false,

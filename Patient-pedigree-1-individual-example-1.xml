@@ -6,7 +6,7 @@
     <profile value="http://purl.org/ga4gh/pedigree-fhir-ig/StructureDefinition/PedigreeIndividual"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>genderIdentity</b>: <span title="Codes: ">female</span></p><p><b>identifier</b>: id: pedigree-1-1</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2019-06-15</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Anonymous Patient</b> female, DoB: 2019-06-15 ( id: pedigree-1-1)</p></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/patient-genderIdentity">
     <valueCodeableConcept>

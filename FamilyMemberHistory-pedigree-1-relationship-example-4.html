@@ -47,7 +47,13 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">GA4GH Pedigree FHIR Implementation Guide</span><br/>0.1.0 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold">GA4GH Pedigree FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -116,6 +122,8 @@
 
 
 
+
+
 <ul class="nav nav-tabs">
 
   <li class="active">
@@ -153,6 +161,19 @@
 
   <h2 id="root">Example FamilyMemberHistory: Pedigree 1 Relationship Example 4</h2>
 
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
 
 
   <!-- insert intro if present -->
@@ -160,7 +181,9 @@
 
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Patient Record</b>: <a href="Patient-pedigree-1-individual-example-10.html">Generated Summary: id: pedigree-1-10; gender: male</a></p><p><b>identifier</b>: id: pedigree-1-4</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-pedigree-1-individual-example-7.html">Generated Summary: id: pedigree-1-7; gender: female</a></p><p><b>relationship</b>: <span title="Codes: {http://purl.org/ga4gh/kin.fhir KIN:003}">isBiologicalParent</span></p></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource &quot;pedigree-1-relationship-example-4&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PedigreeRelationship.html">Pedigree Relationship</a></p></div><p><b>Patient Record</b>: <a href="Patient-pedigree-1-individual-example-10.html">Patient/pedigree-1-individual-example-10</a></p><p><b>identifier</b>: id: pedigree-1-4</p><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-pedigree-1-individual-example-7.html">Patient/pedigree-1-individual-example-7</a></p><p><b>relationship</b>: isBiologicalParent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-kin.html">Family History Relations Ontology</a>#KIN:003)</span></p></div>
+
+  
 
   <!-- insert notes if present -->
   
@@ -189,7 +212,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</a>.  Package ga4gh.fhir.pedigree#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 11, 2021 05:19+0000">2021-10-11</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</a>.  Package ga4gh.fhir.pedigree#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 22, 2022 03:07+0000">2022-04-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -214,6 +237,8 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
