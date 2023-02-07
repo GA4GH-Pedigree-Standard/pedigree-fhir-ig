@@ -17,6 +17,7 @@ Alias: $OrganizationTypeCodeSystem = http://terminology.hl7.org/CodeSystem/organ
 Alias: $SNOMED = http://snomed.info/sct
 Alias: $UBERON = http://purl.obolibrary.org/obo/uberon.owl
 Alias: $PedigreeRelationshipsCodeSystem = http://purl.org/ga4gh/kin.fhir
+Alias: $HANCESTRO = http://purl.obolibrary.org/obo/hancestro/hancestro.owl
 
 /**
  Local aliases

@@ -17,6 +17,8 @@ releaseLabel: ci-build
 publisher:
   name: "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"
   url: https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/
+dependencies:
+  hl7.fhir.us.ga4gh.phenopacket: dev
 
 pages: 
   index.md:

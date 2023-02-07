@@ -23,7 +23,7 @@ This section describes how the elements in the conceptual model were mapped to F
 
 The main classes in the conceptual model are shown in the following diagram:
 
-<img src="https://user-images.githubusercontent.com/4251264/105409205-1c53b200-5bfe-11eb-9d77-ed5630138eaf.png" alt="Class model" style="float:none"/>
+<img src="https://user-images.githubusercontent.com/4251264/112600332-6ff1a000-8de7-11eb-9944-62304117ac4a.png" alt="Class model" style="float:none"/>
 
 The FHIR resources that were used to implement the conceptual model are shown in the following diagram:
 
@@ -73,7 +73,7 @@ There is no resource in FHIR that represents an entire pedigree. Therefore, this
 | Field           | Type    | Status   | Definition                                                                                                                                | FHIR Mapping            | Comments                                                                                                                           |
 | --------------- | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | proband         | ID      | optional | Id of Individual that is the index case for the family                                                                                    | proband section         | The composition has a section where a reference to the proband can be established.                                                 |
-| date     | Date    | optional | The date the pedigree was collected or last updated, as ISO full or partial date, i.e. YYYY, YYYY-MM, or YYYY-MM-DD                                       | date                    |                                                                                                                                    |
+| date     | Date    | optional | The date the pedigree was collected or last updated, as ISO full or partial date, i.e. YYYY, YYYY-MM, or YYYY-MM-DD                                       | date                    |
 | reason | Concept | optional | The health condition being investigated in the family; if any Individual has the `affected` property defined, it refers to this condition | reasonCollected section | The composition has a section where a reference to the condition that is the reason the pedigree was collected can be established. |
 
 ### Examples
